@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block judul %}Berita - APIFESTAT{% endblock %}
+
+{% block konten %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <div>
+    <h4 class="mb-0">Manajemen Berita</h4>
+    <small class="text-muted">{{ jumlah_baru }} berita menunggu verifikasi</small>
+  </div>
+  <form method="post" action="{% url 'berita:scraping' %}" class="d-flex gap-2">
+    {% csrf_token %}
+    <select name="portal" class="form-select form-select-sm" required>
+      <option value="">Pilih portal...</option>
+      {% for p in portal_aktif %}
+        <option value="{{ p.id }}">{{ p.nama_portal }}</option>
+      {% endfor %}
+    </select>
+    <button class="btn btn-primary btn-sm text-nowrap">Jalankan Scraping</button>
+  </form>
+</div>
+
+<div class="card shadow-sm mb-3">
+  <div class="card-body py-3">
+    <form method="get" class="row g-2 align-items-end">
+      <div class="col-md-3">
+        <label class="form-label small mb-1">Cari judul</label>
+        <input type="text" name="q" value="{{ f.q }}" class="form-control form-control-sm">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small mb-1">Tanggal dari</label>
+        <input type="date" name="dari" value="{{ f.dari }}" class="form-control form-control-sm">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small mb-1">Sampai</label>
+        <input type="date" name="sampai" value="{{ f.sampai }}" class="form-control form-control-sm">
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small mb-1">Kategori</label>
+        <select name="kategori" class="form-select form-select-sm">
+          <option value="">Semua</option>
+          {% for k in pilihan_kategori %}
+            <option value="{{ k.id }}" {% if f.kategori == k.id|stringformat:"s" %}selected{% endif %}>
+              {{ k.kode }} - {{ k.nama|truncatechars:28 }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label small mb-1">Dampak</label>
+        <select name="dampak" class="form-select form-select-sm">
+          <option value="">Semua</option>
+          {% for kode, label in pilihan_dampak %}
+            <option value="{{ kode }}" {% if f.dampak == kode %}selected{% endif %}>{{ label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small mb-1">Lingkup</label>
+        <select name="lingkup" class="form-select form-select-sm">
+          <option value="">Semua</option>
+          {% for kode, label in pilihan_lingkup %}
+            <option value="{{ kode }}" {% if f.lingkup == kode %}selected{% endif %}>{{ label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label small mb-1">Status</label>
+        <select name="status" class="form-select form-select-sm">
+          <option value="">Semua</option>
+          {% for kode, label in pilihan_status %}
+            <option value="{{ kode }}" {% if f.status == kode %}selected{% endif %}>{{ label }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary btn-sm">Terapkan Filter</button>
+        {% if ada_filter %}
+          <a href="{% url 'berita:daftar' %}" class="btn btn-outline-secondary btn-sm">Reset</a>
+        {% endif %}
+      </div>
+    </form>
+  </div>
+</div>
+
+<p class="small text-muted mb-2">Menampilkan {{ jumlah_hasil }} berita.</p>
+
+<div class="card shadow-sm">
+  <div class="table-responsive">
+    <table class="table table-sm table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th style="width:95px">Tanggal</th>
+          <th style="width:85px">Lingkup</th>
+          <th>Judul Berita</th>
+          <th style="width:90px">Kategori</th>
+          <th style="width:150px">Dampak</th>
+          <th style="width:110px">Periode</th>
+          <th style="width:110px">Status</th>
+          <th style="width:80px"></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for b in daftar %}
+        <tr>
+          <td class="small">{{ b.tanggal_berita|date:"d/m/Y" }}</td>
+          <td>
+            {% if b.lingkup == "malinau" %}<span class="badge bg-success">Malinau</span>
+            {% elif b.lingkup == "kaltara" %}<span class="badge bg-info text-dark">Kaltara</span>
+            {% else %}<span class="badge bg-light text-muted">Lainnya</span>{% endif %}
+          </td>
+          <td>
+            <div class="fw-semibold">{{ b.judul }}</div>
+            <a href="{{ b.url }}" target="_blank" class="small text-muted">{{ b.portal.nama_portal|default:"Manual" }}</a>
+          </td>
+          <td class="small">
+            {% for k in b.kategori.all %}<span class="badge bg-secondary">{{ k.kode }}</span> {% empty %}-{% endfor %}
+          </td>
+          <td class="small">{{ b.get_dampak_display|default:"-" }}</td>
+          <td class="small">{{ b.periode|default:"Lainnya" }}</td>
+          <td>
+            {% if b.status == "baru" %}<span class="badge bg-warning text-dark">Baru</span>
+            {% elif b.status == "terverifikasi" %}<span class="badge bg-success">Terverifikasi</span>
+            {% else %}<span class="badge bg-danger">Ditolak</span>{% endif %}
+          </td>
+          <td>
+            <a href="{% url 'berita:verifikasi' b.pk %}" class="btn btn-outline-primary btn-sm">Verifikasi</a>
+          </td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="8" class="text-center text-muted py-4">
+          Belum ada berita. Jalankan scraping terlebih dahulu.
+        </td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% if log_terakhir %}
+<p class="text-muted small mt-2">
+  Scraping terakhir: {{ log_terakhir.waktu_mulai|date:"d/m/Y H:i" }} —
+  {{ log_terakhir.portal }} ({{ log_terakhir.get_status_display }}),
+  disimpan {{ log_terakhir.jumlah_disimpan }}, duplikat {{ log_terakhir.jumlah_duplikat }}.
+</p>
+{% endif %}
+{% endblock %}
