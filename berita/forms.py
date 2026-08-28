@@ -24,7 +24,9 @@ class VerifikasiBeritaForm(forms.ModelForm):
         widgets = {
             "judul": forms.TextInput(attrs={"class": "form-control"}),
             "ringkasan": forms.Textarea(attrs={"class": "form-control", "rows": 5}),
-            "tanggal_berita": forms.DateInput(attrs={"class": "form-control", "type": "date"}),
+            "tanggal_berita": forms.DateInput(
+                attrs={"class": "form-control", "type": "date"}, format="%Y-%m-%d"
+            ),
             "periode": forms.Select(attrs={"class": "form-select"}),
             "dampak": forms.Select(attrs={"class": "form-select"}),
             "status": forms.Select(attrs={"class": "form-select"}),

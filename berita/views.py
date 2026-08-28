@@ -59,7 +59,8 @@ def proses_scraping(request):
 
     portal_id = request.POST.get("portal")
     portal = get_object_or_404(Portal, pk=portal_id, is_aktif=True)
-    log = jalankan_scraping(portal, batas=20)
+    batas = 5 if portal.tipe_sumber == Portal.TipeSumber.HTML else 20
+    log = jalankan_scraping(portal, batas=batas)
 
     if log.status == LogScraping.Status.SUKSES:
         messages.success(

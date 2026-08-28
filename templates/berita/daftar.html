@@ -7,15 +7,15 @@
     <h4 class="mb-0">Manajemen Berita</h4>
     <small class="text-muted">{{ jumlah_baru }} berita menunggu verifikasi</small>
   </div>
-  <form method="post" action="{% url 'berita:scraping' %}" class="d-flex gap-2">
+  <form method="post" action="{% url 'berita:scraping' %}" class="d-flex gap-2" id="form-scraping">
     {% csrf_token %}
-    <select name="portal" class="form-select form-select-sm" required>
+    <select name="portal" id="pilih-portal" class="form-select form-select-sm" required>
       <option value="">Pilih portal...</option>
       {% for p in portal_aktif %}
-        <option value="{{ p.id }}">{{ p.nama_portal }}</option>
+        <option value="{{ p.id }}" data-tipe="{{ p.tipe_sumber }}">{{ p.nama_portal }}</option>
       {% endfor %}
     </select>
-    <button class="btn btn-primary btn-sm text-nowrap">Jalankan Scraping</button>
+    <button class="btn btn-primary btn-sm text-nowrap" id="tombol-scraping">Jalankan Scraping</button>
   </form>
 </div>
 
@@ -110,7 +110,7 @@
           </td>
           <td>
             <div class="fw-semibold">{{ b.judul }}</div>
-            <a href="{{ b.url }}" target="_blank" class="small text-muted">{{ b.portal.nama_portal|default:"Manual" }}</a>
+            <a href="{{ b.url }}" target="_blank" class="small text-muted">{% firstof b.penerbit b.portal.nama_portal "Manual" %}</a>
           </td>
           <td class="small">
             {% for k in b.kategori.all %}<span class="badge bg-secondary">{{ k.kode }}</span> {% empty %}-{% endfor %}
@@ -143,4 +143,45 @@
   disimpan {{ log_terakhir.jumlah_disimpan }}, duplikat {{ log_terakhir.jumlah_duplikat }}.
 </p>
 {% endif %}
+
+<div class="modal fade" id="modal-scraping" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+    <div class="modal-content">
+      <div class="modal-body text-center py-4">
+        <div class="spinner-border text-primary mb-3"></div>
+        <div class="fw-semibold" id="teks-scraping">Menjalankan scraping...</div>
+        <div class="small text-muted mt-2" id="teks-durasi"></div>
+        <div class="progress mt-3" style="height:4px">
+          <div class="progress-bar progress-bar-striped progress-bar-animated w-100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById("form-scraping").addEventListener("submit", function (e) {
+  const pilih = document.getElementById("pilih-portal");
+  const opsi = pilih.options[pilih.selectedIndex];
+  if (!opsi || !opsi.value) return;
+
+  const tipe = opsi.dataset.tipe;
+  document.getElementById("teks-scraping").textContent =
+    "Mengambil berita dari " + opsi.textContent.trim();
+  document.getElementById("teks-durasi").textContent =
+    tipe === "html"
+      ? "Portal ini dibaca per artikel, perkiraan 20-40 detik. Mohon tunggu."
+      : "Perkiraan 5-15 detik.";
+
+  document.getElementById("tombol-scraping").disabled = true;
+  new bootstrap.Modal(document.getElementById("modal-scraping")).show();
+
+  let detik = 0;
+  setInterval(function () {
+    detik += 1;
+    document.getElementById("teks-scraping").textContent =
+      "Mengambil berita... (" + detik + " detik)";
+  }, 1000);
+});
+</script>
 {% endblock %}

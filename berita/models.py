@@ -72,6 +72,10 @@ class Berita(models.Model):
     )
     judul = models.CharField(max_length=300)
     url = models.URLField(max_length=500, unique=True)
+    penerbit = models.CharField(
+        max_length=100, blank=True,
+        help_text="Nama media asal, terisi otomatis untuk feed agregator"
+    )
     tanggal_berita = models.DateField(db_index=True)
     ringkasan = models.TextField(blank=True)
     dampak = models.CharField(max_length=25, choices=Dampak.choices, blank=True, db_index=True)

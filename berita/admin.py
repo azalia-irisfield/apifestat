@@ -16,7 +16,7 @@ class BeritaKategoriInline(admin.TabularInline):
 
 @admin.register(Berita)
 class BeritaAdmin(admin.ModelAdmin):
-    list_display = ("tanggal_berita", "judul", "lingkup", "portal", "periode", "dampak", "status")
+    list_display = ("tanggal_berita", "judul", "lingkup", "portal", "periode", "dampak", "status", "penerbit")
     list_filter = ("lingkup", "status", "periode", "portal", "dampak")
     search_fields = ("judul", "ringkasan")
     date_hierarchy = "tanggal_berita"
