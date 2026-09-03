@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+{% block judul %}{{ komponen.kode }} - Inventarisasi{% endblock %}
+
+{% block konten %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb small">
+    <li class="breadcrumb-item"><a href="{% url 'inventarisasi:pohon' %}">Inventarisasi</a></li>
+    {% for k in jalur %}
+      {% if forloop.last %}
+        <li class="breadcrumb-item active">{{ k.kode }} — {{ k.nama }}</li>
+      {% else %}
+        <li class="breadcrumb-item"><a href="{% url 'inventarisasi:detail' k.pk %}">{{ k.kode }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</nav>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h5 class="mb-0">{{ komponen.kode }} — {{ komponen.nama }}</h5>
+  <form method="get">
+    <select name="periode" class="form-select form-select-sm" onchange="this.form.submit()">
+      {% for p in pilihan_periode %}
+        <option value="{{ p.id }}" {% if periode.id == p.id %}selected{% endif %}>{{ p.nama_periode }}</option>
+      {% endfor %}
+    </select>
+  </form>
+</div>
+
+{% if anak %}
+<div class="card shadow-sm mb-4">
+  <div class="card-header bg-white fw-semibold">Subkomponen</div>
+  <div class="list-group list-group-flush">
+    {% for a in anak %}
+      <a href="{% url 'inventarisasi:detail' a.pk %}" class="list-group-item list-group-item-action">
+        <span class="badge bg-secondary me-2">{{ a.kode }}</span>{{ a.nama }}
+      </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if hasil %}
+<form method="post">
+  {% csrf_token %}
+  {% for opd, baris in per_opd %}
+  <div class="card shadow-sm mb-3">
+        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+      <span class="fw-semibold">Sumber: {{ opd.nama }}</span>
+            <span>
+        {% if opd.url_spreadsheet %}
+          <a href="{{ opd.url_spreadsheet }}" target="_blank" class="small me-2">Buka spreadsheet</a>
+        {% endif %}
+        {% if opd.id_spreadsheet %}
+          <a href="{% url 'inventarisasi:pratinjau' opd.pk %}" class="btn btn-outline-secondary btn-sm">Pratinjau Sheet</a>
+          <a href="{% url 'inventarisasi:tarik' opd.pk %}" class="btn btn-outline-success btn-sm">Tarik dari Sheet</a>
+        {% endif %}
+      </span>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-sm align-middle mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>Indikator</th>
+            <th style="width:80px">Satuan</th>
+            <th style="width:150px" class="text-end">Nilai {{ periode.nama_periode }}</th>
+            <th style="width:120px" class="text-end">TW lalu</th>
+            <th style="width:90px" class="text-end">q-to-q</th>
+            <th style="width:120px" class="text-end">TW yoy</th>
+            <th style="width:90px" class="text-end">y-on-y</th>
+            <th style="width:90px" class="text-end">c-to-c</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for h in baris %}
+          <tr>
+            <td>{{ h.indikator.nama }}</td>
+            <td class="small text-muted">{{ h.indikator.satuan }}</td>
+            <td>
+              <input type="text" name="nilai_{{ h.indikator.id }}"
+                     value="{{ h.nilai|default_if_none:'' }}"
+                     class="form-control form-control-sm text-end">
+            </td>
+            <td class="text-end small text-muted">{{ h.nilai_qtoq|default_if_none:"-" }}</td>
+            <td class="text-end small">
+              {% if h.qtoq is not None %}
+                <span class="{% if h.qtoq >= 0 %}text-success{% else %}text-danger{% endif %}">{{ h.qtoq|floatformat:2 }}%</span>
+              {% else %}-{% endif %}
+            </td>
+            <td class="text-end small text-muted">{{ h.nilai_yoy|default_if_none:"-" }}</td>
+            <td class="text-end small">
+              {% if h.yoy is not None %}
+                <span class="{% if h.yoy >= 0 %}text-success{% else %}text-danger{% endif %}">{{ h.yoy|floatformat:2 }}%</span>
+              {% else %}-{% endif %}
+            </td>
+            <td class="text-end small">
+              {% if h.ctoc is not None %}
+                <span class="{% if h.ctoc >= 0 %}text-success{% else %}text-danger{% endif %}">{{ h.ctoc|floatformat:2 }}%</span>
+              {% else %}-{% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endfor %}
+  <button class="btn btn-primary mb-4">Simpan Data {{ periode.nama_periode }}</button>
+</form>
+
+<div class="card shadow-sm">
+  <div class="card-header bg-white fw-semibold">Usulan Narasi Fenomena</div>
+  <div class="card-body">
+    <ul class="nav nav-tabs mb-3">
+      <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#t-qtoq">q-to-q</a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#t-yoy">y-on-y</a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#t-ctoc">c-to-c</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="t-qtoq">
+        <textarea class="form-control" rows="8">{{ narasi_qtoq }}</textarea>
+      </div>
+      <div class="tab-pane fade" id="t-yoy">
+        <textarea class="form-control" rows="8">{{ narasi_yoy }}</textarea>
+      </div>
+      <div class="tab-pane fade" id="t-ctoc">
+        <textarea class="form-control" rows="8">{{ narasi_ctoc }}</textarea>
+      </div>
+    </div>
+    <p class="form-text mt-2">Narasi ini usulan otomatis dari data indikator. Salin, lalu lengkapi dengan
+      informasi dari berita dan penjelasan kualitatif sebelum dimasukkan ke fenomena.</p>
+  </div>
+</div>
+{% elif komponen.catatan %}
+<div class="alert alert-secondary">{{ komponen.catatan }}</div>
+{% elif not anak %}
+<div class="alert alert-warning">
+  Komponen ini belum memiliki indikator. Tambahkan melalui menu admin: Inventarisasi &rarr; Indikator.
+</div>
+{% endif %}
+{% endblock %}

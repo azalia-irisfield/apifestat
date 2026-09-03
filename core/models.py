@@ -65,10 +65,18 @@ class Kategori(models.Model):
         PENGELUARAN = "pengeluaran", "Pengeluaran"
 
     jenis = models.CharField(max_length=15, choices=Jenis.choices)
+    induk = models.ForeignKey(
+            "self", on_delete=models.CASCADE, null=True, blank=True,
+            related_name="anak", verbose_name="Komponen induk"
+        )
     kode = models.CharField(max_length=10)
     nama = models.CharField(max_length=150)
     urutan = models.PositiveSmallIntegerField(default=0)
     is_aktif = models.BooleanField(default=True, verbose_name="Aktif")
+    catatan = models.TextField(
+        blank=True,
+        help_text="Ditampilkan bila komponen belum/tidak memiliki indikator"
+    )
 
     class Meta:
         db_table = "m_kategori"
@@ -81,6 +89,24 @@ class Kategori(models.Model):
 
     def __str__(self):
         return f"{self.kode} - {self.nama}"
+
+    @property
+    def is_daun(self):
+        return not self.anak.exists()
+
+    @property
+    def jalur(self):
+        simpul, hasil = self, []
+        while simpul:
+            hasil.insert(0, simpul)
+            simpul = simpul.induk
+        return hasil
+    def keturunan(self):
+        """Komponen ini beserta seluruh subkomponen di bawahnya."""
+        hasil = [self]
+        for a in self.anak.all():
+            hasil += a.keturunan()
+        return hasil
 
 
 class KataKunci(models.Model):
