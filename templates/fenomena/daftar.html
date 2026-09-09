@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block judul %}Fenomena — APIFESTAT{% endblock %}
+{% block halaman %}Fenomena{% endblock %}
+{% block subjudul %}{{ selesai }} dari {{ total }} komponen lengkap · {{ periode.nama_periode }}{% endblock %}
+{% block aksi %}
+  <div style="display:flex; gap:8px; align-items:center">
+    <form method="post" action="{% url 'fenomena:susun_massal' %}" style="display:flex; gap:6px"
+          onsubmit="return confirm('Susun usulan narasi untuk seluruh komponen? Narasi yang sudah terisi tidak diubah.')">
+      {% csrf_token %}
+      <input type="hidden" name="periode" value="{{ periode.id }}">
+      <input type="hidden" name="jenis" value="{{ jenis }}">
+      <button class="tbl tbl-garis">Susun semua</button>
+      <button name="timpa" value="1" class="tbl tbl-garis" style="color:var(--turun)"
+              onclick="return confirm('Timpa SELURUH narasi dengan susunan baru? Suntingan manual akan hilang.')">
+        Timpa semua
+      </button>
+    </form>
+    <a href="{% url 'fenomena:ekspor' %}" class="tbl tbl-hijau">Ekspor ke template provinsi</a>
+  </div>
+{% endblock %}
+
+{% block konten %}
+<div class="ringkas">
+  <div class="ringkas-item">
+    <div class="label">Komponen lengkap</div>
+    <div class="nilai naik">{{ selesai }}</div>
+  </div>
+  <div class="ringkas-item">
+    <div class="label">Belum lengkap</div>
+    <div class="nilai" style="color:var(--tunggu)">{{ belum }}</div>
+  </div>
+  <div class="ringkas-item" style="flex:2">
+    <div class="label">Kemajuan penyusunan</div>
+    <div class="nilai">{{ persen }}%</div>
+    <div class="bar"><span style="width:{{ persen }}%"></span></div>
+  </div>
+</div>
+
+<form method="get" class="saring">
+  <div>
+    <label>Periode</label>
+    <select name="periode" class="medan" onchange="this.form.submit()">
+      {% for p in pilihan_periode %}
+        <option value="{{ p.id }}" {% if periode.id == p.id %}selected{% endif %}>{{ p.nama_periode }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>Jenis PDRB</label>
+    <select name="jenis" class="medan" onchange="this.form.submit()">
+      <option value="sektoral" {% if jenis == "sektoral" %}selected{% endif %}>Lapangan Usaha</option>
+      <option value="pengeluaran" {% if jenis == "pengeluaran" %}selected{% endif %}>Pengeluaran</option>
+    </select>
+  </div>
+</form>
+
+<div class="panel">
+  <div style="overflow-x:auto">
+  <table class="data seragam">
+    <colgroup>
+      <col style="width:105px"><col><col style="width:210px">
+      <col style="width:100px"><col style="width:90px">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Kode</th>
+        <th>Komponen</th>
+        <th>Kelengkapan narasi</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for d in daftar %}
+      <tr class="{% if d.jumlah_narasi == 3 %}rel-selesai{% elif d.jumlah_narasi %}rel-tunggu{% else %}rel-kosong{% endif %}">
+        <td class="mono" style="font-size:12.5px">{{ d.kategori.kode_template|default:d.kategori.kode }}</td>
+        <td class="{% if d.kategori.induk %}sub{% endif %}">{{ d.kategori.nama }}</td>
+        <td>
+          {% if d.jumlah_narasi == 3 %}
+            <span class="tanda tanda-naik">Lengkap</span>
+          {% elif d.jumlah_narasi %}
+            <span class="tanda tanda-tunggu">{{ d.jumlah_narasi }} dari 3</span>
+          {% else %}
+            <span class="pudar">Belum ada</span>
+          {% endif %}
+        </td>
+        <td>
+          {% if d.fenomena.status == "final" %}<span class="tanda tanda-naik">Final</span>
+          {% elif d.fenomena %}<span class="tanda tanda-netral">Draft</span>
+          {% else %}<span class="pudar">—</span>{% endif %}
+        </td>
+        <td>
+          <a href="{% url 'fenomena:susun' d.kategori.pk %}?periode={{ periode.id }}"
+             class="tbl tbl-garis tbl-kecil">Susun</a>
+        </td>
+      </tr>
+      {% empty %}
+      <tr><td colspan="5">
+        <div class="kosong">
+          <p>Belum ada komponen untuk jenis ini.</p>
+          <p style="font-size:12.5px">Jalankan <span class="kode">impor_template</span> terlebih dahulu.</p>
+        </div>
+      </td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</div>
+{% endblock %}

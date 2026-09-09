@@ -26,8 +26,8 @@ def bersihkan_html(teks):
     """Membuang tag HTML dan boilerplate WordPress dari ringkasan."""
     if not teks:
         return ""
-    bersih = BeautifulSoup(teks, "html.parser").get_text(separator=" ")
-    bersih = re.sub(r"The post .*? first appeared on .*?\.?$", "", bersih, flags=re.I | re.S)
+    bersih = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", " ", bersih)
+    bersih = re.sub(r"\s+", " ", bersih).strip()
     bersih = re.sub(r"\s+", " ", bersih).strip()
     return bersih[:1500]
 
@@ -229,9 +229,8 @@ def ambil_artikel(url):
     if tanggal is None:
         tanggal = tanggal_dari_meta(html) or timezone.localdate()
 
-    ringkasan = re.sub(r"\s+", " ", isi).strip()
-    # Buang label kanal dan pengulangan judul di awal ekstraksi
-    ringkasan = re.sub(r"^Berita\s+\w+\s+Terkini\s*", "", ringkasan)
+    ringkasan = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", " ", isi)
+    ringkasan = re.sub(r"\s+", " ", ringkasan).strip()
     if ringkasan.lower().startswith(judul.lower()[:50]):
         ringkasan = ringkasan[len(judul):].strip()
 

@@ -30,7 +30,8 @@ def detail_komponen(request, pk):
 
     if request.method == "POST" and periode:
         for ind in Indikator.objects.filter(komponen=komponen, is_aktif=True):
-            raw = request.POST.get(f"nilai_{ind.id}", "").strip().replace(",", ".")
+            raw = request.POST.get(f"nilai_{ind.id}", "").strip()
+            raw = raw.replace(".", "").replace(",", ".")   # 10.898.434,34 -> 10898434.34
             nilai = None
             if raw:
                 try:

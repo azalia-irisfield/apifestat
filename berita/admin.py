@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+from .models import SheetODON
 from .models import Berita, BeritaKategori, LogScraping, Portal
 
 
@@ -16,7 +16,8 @@ class BeritaKategoriInline(admin.TabularInline):
 
 @admin.register(Berita)
 class BeritaAdmin(admin.ModelAdmin):
-    list_display = ("tanggal_berita", "judul", "lingkup", "portal", "periode", "dampak", "status", "penerbit")
+    list_display = ("tanggal_berita", "tanggal_peristiwa", "judul", "lingkup",
+                    "portal", "periode", "dampak", "status")
     list_filter = ("lingkup", "status", "periode", "portal", "dampak")
     search_fields = ("judul", "ringkasan")
     date_hierarchy = "tanggal_berita"
@@ -30,3 +31,5 @@ class LogScrapingAdmin(admin.ModelAdmin):
                     "jumlah_disimpan", "jumlah_duplikat", "jumlah_diabaikan")
     list_filter = ("status", "portal")
     readonly_fields = [f.name for f in LogScraping._meta.fields]
+
+admin.site.register(SheetODON)

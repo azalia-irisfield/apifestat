@@ -1,36 +1,44 @@
 {% extends "base.html" %}
-{% block judul %}Inventarisasi - APIFESTAT{% endblock %}
+{% block judul %}Inventarisasi — APIFESTAT{% endblock %}
+{% block halaman %}Inventarisasi{% endblock %}
+{% block subjudul %}Pilih komponen untuk mengisi data dari OPD, pelaku usaha, dan survei{% endblock %}
 
 {% block konten %}
-<h4 class="mb-3">Inventarisasi Data</h4>
-<p class="text-muted small">Pilih kategori untuk menelusuri komponen dan mengisi data sumber.</p>
+<div class="kisi-pohon">
 
-<div class="row g-3">
-  <div class="col-md-7">
-    <div class="card shadow-sm">
-      <div class="card-header bg-white fw-semibold">PDRB menurut Lapangan Usaha</div>
-      <div class="list-group list-group-flush">
-        {% for k in sektoral %}
-        <a href="{% url 'inventarisasi:detail' k.pk %}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-          <span><span class="badge bg-secondary me-2">{{ k.kode }}</span>{{ k.nama }}</span>
-          {% if k.anak.exists %}<span class="badge bg-light text-muted">{{ k.anak.count }} subkomponen</span>{% endif %}
-        </a>
-        {% endfor %}
+  <div class="panel">
+    <div class="panel-kepala">PDRB menurut Lapangan Usaha</div>
+    <div>
+      {% for k in sektoral %}
+      <a href="{% url 'inventarisasi:detail' k.pk %}" class="baris-tautan">
+        <span class="kode" style="min-width:44px; text-align:center">{{ k.kode }}</span>
+        <span style="flex:1">{{ k.nama }}</span>
+        {% if k.anak.exists %}
+          <span class="tanda tanda-netral">{{ k.anak.count }} subkomponen</span>
+        {% endif %}
+      </a>
+      {% empty %}
+      <div class="kosong">
+        <p>Belum ada komponen. Jalankan impor template provinsi terlebih dahulu.</p>
       </div>
+      {% endfor %}
     </div>
   </div>
-  <div class="col-md-5">
-    <div class="card shadow-sm">
-      <div class="card-header bg-white fw-semibold">PDRB menurut Pengeluaran</div>
-      <div class="list-group list-group-flush">
-        {% for k in pengeluaran %}
-        <a href="{% url 'inventarisasi:detail' k.pk %}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-          <span><span class="badge bg-secondary me-2">{{ k.kode }}</span>{{ k.nama }}</span>
-          {% if k.anak.exists %}<span class="badge bg-light text-muted">{{ k.anak.count }}</span>{% endif %}
-        </a>
-        {% endfor %}
-      </div>
+
+  <div class="panel" style="align-self:start">
+    <div class="panel-kepala">PDRB menurut Pengeluaran</div>
+    <div>
+      {% for k in pengeluaran %}
+      <a href="{% url 'inventarisasi:detail' k.pk %}" class="baris-tautan">
+        <span class="kode" style="min-width:44px; text-align:center">{{ k.kode }}</span>
+        <span style="flex:1">{{ k.nama }}</span>
+        {% if k.anak.exists %}
+          <span class="tanda tanda-netral">{{ k.anak.count }}</span>
+        {% endif %}
+      </a>
+      {% endfor %}
     </div>
   </div>
+
 </div>
 {% endblock %}

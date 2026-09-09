@@ -76,7 +76,13 @@ class Berita(models.Model):
         max_length=100, blank=True,
         help_text="Nama media asal, terisi otomatis untuk feed agregator"
     )
-    tanggal_berita = models.DateField(db_index=True)
+    tanggal_berita = models.DateField(db_index=True, verbose_name="Tanggal terbit")
+    tanggal_peristiwa = models.DateField(
+        null=True, blank=True, db_index=True,
+        verbose_name="Tanggal peristiwa",
+        help_text="Tanggal kejadian yang disebut di dalam berita. "
+                  "Kosongkan bila sama dengan tanggal terbit."
+    )
     ringkasan = models.TextField(blank=True)
     dampak = models.CharField(max_length=25, choices=Dampak.choices, blank=True, db_index=True)
     status = models.CharField(max_length=20, choices=Status.choices, default=Status.BARU, db_index=True)
@@ -104,6 +110,10 @@ class Berita(models.Model):
     @staticmethod
     def hitung_hash(judul, url):
         return hashlib.sha256(f"{judul.strip().lower()}|{url.strip()}".encode()).hexdigest()
+    @property
+    def tanggal_acuan(self):
+        """Tanggal yang dipakai untuk menentukan periode PDRB."""
+        return self.tanggal_peristiwa or self.tanggal_berita
 
     def save(self, *args, **kwargs):
         if not self.hash_konten:
@@ -177,3 +187,28 @@ class LogScraping(models.Model):
 
     def __str__(self):
         return f"{self.portal} - {self.waktu_mulai:%d/%m/%Y %H:%M}"
+
+class SheetODON(models.Model):
+    """Konfigurasi tujuan pencatatan One Day One News."""
+
+    nama = models.CharField(max_length=100, default="Sheet ODON")
+    id_spreadsheet = models.CharField(max_length=100)
+    gid_sheet = models.CharField(max_length=30, default="0", verbose_name="GID sheet")
+    nama_tab = models.CharField(max_length=50, help_text="Nama tab, contoh: 2026")
+    baris_pertama = models.PositiveSmallIntegerField(default=6)
+    kol_tanggal = models.PositiveSmallIntegerField(default=2, verbose_name="Kolom waktu input")
+    kol_judul = models.PositiveSmallIntegerField(default=3)
+    kol_kategori = models.PositiveSmallIntegerField(default=4)
+    kol_ringkasan = models.PositiveSmallIntegerField(default=5)
+    kol_dampak = models.PositiveSmallIntegerField(default=6)
+    kol_sumber = models.PositiveSmallIntegerField(default=7)
+    kol_periode = models.PositiveSmallIntegerField(default=8)
+    is_aktif = models.BooleanField(default=True, verbose_name="Aktif")
+
+    class Meta:
+        db_table = "m_sheet_odon"
+        verbose_name = "Sheet ODON"
+        verbose_name_plural = "Sheet ODON"
+
+    def __str__(self):
+        return f"{self.nama} ({self.nama_tab})"

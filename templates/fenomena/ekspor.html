@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block judul %}Ekspor fenomena — APIFESTAT{% endblock %}
+{% block halaman %}Ekspor ke template provinsi{% endblock %}
+{% block subjudul %}Isi template resmi dari BPS Provinsi dengan fenomena yang sudah disusun{% endblock %}
+{% block aksi %}<a href="{% url 'fenomena:daftar' %}" class="tbl tbl-garis">Kembali</a>{% endblock %}
+
+{% block konten %}
+<div class="panel" style="max-width:760px">
+  <div class="panel-isi">
+    <p style="margin-top:0; color:var(--teks-lembut)">
+      Unggah berkas template kosong dari BPS Provinsi. Sistem mengisi kolom Angka,
+      Data Dasar, Data Pendukung, Indikator, dan Fenomena berdasarkan id_komponen,
+      tanpa mengubah format berkas aslinya.
+    </p>
+
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="kisi-meta" style="margin-bottom:16px">
+        <div>
+          <label class="form-label">Periode</label>
+          <select name="periode" class="medan">
+            {% for p in pilihan_periode %}
+              <option value="{{ p.id }}" {% if periode.id == p.id %}selected{% endif %}>{{ p.nama_periode }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Jenis template</label>
+          <select name="jenis" class="medan">
+            <option value="sektoral">Lapangan Usaha</option>
+            <option value="pengeluaran">Pengeluaran</option>
+          </select>
+        </div>
+      </div>
+
+      <label class="form-label">Berkas template (.xlsx)</label>
+      <input type="file" name="template" accept=".xlsx" class="medan" style="width:100%" required>
+      <div class="bantuan" style="margin-bottom:16px">
+        Pastikan jenis template yang dipilih sesuai dengan berkas yang diunggah.
+      </div>
+
+      <button class="tbl tbl-hijau">Proses dan unduh</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

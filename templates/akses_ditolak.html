@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akses ditolak — APIFESTAT</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  {% load static %}
+  <link href="{% static 'css/apifestat.css' %}" rel="stylesheet">
+</head>
+<body class="laman-masuk">
+  <div class="kartu-masuk">
+    <div class="merek-masuk">
+      <b>APIFESTAT</b>
+      <span>Sistem Scraping Fenomena Statistik</span>
+      <span>BPS Kabupaten Malinau</span>
+    </div>
+
+    <div class="pesan pesan-error" style="margin-bottom:16px">{{ alasan }}</div>
+
+    <p style="font-size:13.5px; color:var(--teks-lembut)">
+      Sistem ini diperuntukkan bagi Tim Neraca Wilayah dan Analisis Statistik.
+      Bila Anda anggota tim dan belum memiliki tautan akses, hubungi pengelola sistem.
+    </p>
+    <p style="font-size:13px; color:var(--teks-lembut)">
+      Sudah punya tautan? Buka tautan tersebut, lalu simpan sebagai penanda pada peramban.
+    </p>
+
+    <a href="/admin/" class="tbl tbl-garis" style="width:100%; justify-content:center; margin-top:8px">
+      Masuk sebagai pengelola
+    </a>
+  </div>
+</body>
+</html>

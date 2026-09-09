@@ -18,6 +18,16 @@ class Pengguna(models.Model):
     jabatan = models.CharField(max_length=100, blank=True)
     role = models.CharField(max_length=20, choices=Role.choices, default=Role.PENGGUNA)
     token_akses = models.CharField(max_length=64, unique=True, default=buat_token)
+    akses_permanen = models.BooleanField(
+        default=False, verbose_name="Akses tanpa token",
+        help_text="Pengelola sistem yang dapat mengakses dari perangkat mana pun "
+                  "tanpa membuka tautan token. Berikan hanya kepada satu orang."
+    )
+    akun = models.OneToOneField(
+        "auth.User", on_delete=models.SET_NULL, null=True, blank=True,
+        related_name="profil", verbose_name="Akun pengelola",
+        help_text="Ditautkan hanya untuk pengguna berakses permanen"
+    )
     is_aktif = models.BooleanField(default=True, verbose_name="Aktif")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -76,6 +86,14 @@ class Kategori(models.Model):
     catatan = models.TextField(
         blank=True,
         help_text="Ditampilkan bila komponen belum/tidak memiliki indikator"
+    )
+    id_template = models.PositiveSmallIntegerField(
+        null=True, blank=True, verbose_name="id_komponen template",
+        help_text="Nilai kolom id_komponen pada template provinsi"
+    )
+    kode_template = models.CharField(
+        max_length=30, blank=True, verbose_name="Kode pada template",
+        help_text="Nilai kolom No pada template, contoh: A. 1. a."
     )
 
     class Meta:

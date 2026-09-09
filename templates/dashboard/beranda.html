@@ -1,54 +1,139 @@
 {% extends "base.html" %}
-
-{% block judul %}Beranda - APIFESTAT{% endblock %}
+{% block judul %}Beranda — APIFESTAT{% endblock %}
+{% block halaman %}Kesiapan fenomena{% endblock %}
+{% block subjudul %}{{ periode.nama_periode|default:"Periode belum ditetapkan" }}{% endblock %}
+{% block aksi %}
+  <form method="get">
+    <select name="periode" class="medan" onchange="this.form.submit()">
+      {% for p in pilihan_periode %}
+        <option value="{{ p.id }}" {% if periode.id == p.id %}selected{% endif %}>{{ p.nama_periode }}</option>
+      {% endfor %}
+    </select>
+  </form>
+{% endblock %}
 
 {% block konten %}
-<h4 class="mb-3">Beranda</h4>
+{% if not periode %}
+  <div class="panel"><div class="kosong">
+    <p>Belum ada periode penyusunan.</p>
+    <a href="/admin/core/periode/add/" class="tbl tbl-utama">Tambah periode</a>
+  </div></div>
+{% else %}
 
-<div class="row g-3 mb-4">
-  <div class="col-md-4">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <div class="text-muted small">Kategori Sektoral</div>
-        <div class="fs-3 fw-bold">{{ jumlah_sektoral }}</div>
-      </div>
-    </div>
+<div class="ringkas">
+  <div class="ringkas-item">
+    <div class="label">Berita menunggu verifikasi</div>
+    <div class="nilai" {% if menunggu %}style="color:var(--tunggu)"{% endif %}>{{ menunggu }}</div>
+    <a href="{% url 'berita:daftar' %}?status=baru&lingkup=malinau" class="sumber-baris">Buka daftar</a>
   </div>
-  <div class="col-md-4">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <div class="text-muted small">Komponen Pengeluaran</div>
-        <div class="fs-3 fw-bold">{{ jumlah_pengeluaran }}</div>
-      </div>
-    </div>
+
+  <div class="ringkas-item">
+    <div class="label">Fenomena lengkap</div>
+    <div class="nilai">{{ fenomena_lengkap }}<span class="dari">/ {{ total_komponen }}</span></div>
+    <div class="bar"><span style="width:{{ persen_fenomena }}%"></span></div>
   </div>
-  <div class="col-md-4">
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <div class="text-muted small">Periode Aktif</div>
-        <div class="fs-5 fw-bold">{{ periode_aktif|default:"Belum ada" }}</div>
-      </div>
-    </div>
+
+  <div class="ringkas-item">
+    <div class="label">Sumber data terisi</div>
+    <div class="nilai">{{ opd_terisi }}<span class="dari">/ {{ opd_total }}</span></div>
+    <div class="bar"><span style="width:{{ persen_opd }}%"></span></div>
+  </div>
+
+  <div class="ringkas-item">
+    <div class="label">Batas periode</div>
+    {% if sisa_hari > 0 %}
+      <div class="nilai">{{ sisa_hari }}<span class="dari">hari lagi</span></div>
+    {% else %}
+      <div class="nilai turun">Lewat</div>
+    {% endif %}
+    <div class="bantuan">{{ periode.tanggal_selesai|date:"d F Y" }}</div>
   </div>
 </div>
 
-<div class="card shadow-sm">
-  <div class="card-header bg-white fw-semibold">Daftar Kategori PDRB</div>
-  <table class="table table-sm table-hover mb-0">
-    <thead class="table-light">
-      <tr><th style="width:120px">Kode</th><th>Nama Kategori</th><th style="width:180px">Jenis</th></tr>
-    </thead>
-    <tbody>
-      {% for k in daftar_kategori %}
-      <tr>
-        <td>{{ k.kode }}</td>
-        <td>{{ k.nama }}</td>
-        <td>{{ k.get_jenis_display }}</td>
-      </tr>
+{% if belum_siap %}
+<div class="pesan pesan-warning">
+  {{ belum_siap }} komponen belum punya berita maupun data inventarisasi pada periode ini.
+</div>
+{% endif %}
+
+<div class="panel" style="margin-bottom:18px">
+  <div class="panel-kepala">
+    Kesiapan komponen PDRB
+    <span style="font-weight:400; font-size:12.5px; color:var(--teks-lembut)">
+      Berita terverifikasi · indikator inventarisasi terisi · narasi fenomena
+    </span>
+  </div>
+  <div style="overflow:auto">
+    <table class="data seragam">
+      <colgroup>
+        <col style="width:70px"><col><col style="width:150px">
+        <col style="width:150px"><col style="width:120px"><col style="width:80px">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Komponen</th>
+          <th class="ka">Berita</th>
+          <th class="ka">Inventarisasi</th>
+          <th class="ka">Narasi</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="pemisah"><td colspan="6">PDRB menurut Lapangan Usaha</td></tr>
+        {% for b in peta_sektoral %}{% include "dashboard/baris_peta.html" %}{% endfor %}
+
+        <tr class="pemisah"><td colspan="6">PDRB menurut Pengeluaran</td></tr>
+        {% for b in peta_pengeluaran %}{% include "dashboard/baris_peta.html" %}{% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="kisi-pohon">
+  <div class="panel">
+    <div class="panel-kepala">
+      Berita terbaru menunggu verifikasi
+      <a href="{% url 'berita:daftar' %}?status=baru" class="sumber-baris">Lihat semua</a>
+    </div>
+    <div>
+      {% for b in berita_terbaru %}
+      <a href="{% url 'berita:verifikasi' b.pk %}" class="baris-tautan">
+        <span style="flex:1">
+          <span class="judul-baris">{{ b.judul }}</span>
+          <span class="meta-berita">
+            {{ b.tanggal_berita|date:"d/m/Y" }} · {% firstof b.penerbit b.portal.nama_portal %}
+          </span>
+        </span>
+        {% if b.lingkup == "malinau" %}<span class="tanda tanda-naik">Malinau</span>{% endif %}
+      </a>
       {% empty %}
-      <tr><td colspan="3" class="text-center text-muted py-3">Belum ada data kategori.</td></tr>
+      <div class="kosong"><p>Semua berita periode ini sudah diverifikasi.</p></div>
       {% endfor %}
-    </tbody>
-  </table>
+    </div>
+  </div>
+
+  <div class="panel" style="align-self:start">
+    <div class="panel-kepala">Sumber data belum masuk</div>
+    <div>
+      {% for o in opd_belum %}
+      <div class="baris-tautan" style="cursor:default">
+        <span style="flex:1">
+          <span class="judul-baris">{{ o.nama }}</span>
+          <span class="meta-berita">
+            {{ o.get_jenis_display }}{% if o.petugas %} · petugas {{ o.petugas.nama }}{% endif %}
+          </span>
+        </span>
+        {% if o.id_spreadsheet %}
+          <a href="{% url 'inventarisasi:tarik' o.pk %}" class="tbl tbl-hijau tbl-kecil">Tarik</a>
+        {% endif %}
+      </div>
+      {% empty %}
+      <div class="kosong"><p>Semua sumber data sudah terisi.</p></div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
+
+{% endif %}
 {% endblock %}

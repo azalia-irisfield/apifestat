@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block judul %}Susun fenomena — APIFESTAT{% endblock %}
+{% block halaman %}{{ kategori.kode_template|default:kategori.kode }} — {{ kategori.nama }}{% endblock %}
+{% block subjudul %}{{ periode.nama_periode }}{% endblock %}
+{% block aksi %}
+  <form method="get">
+    <select name="periode" class="medan" onchange="this.form.submit()">
+      {% for p in pilihan_periode %}
+        <option value="{{ p.id }}" {% if periode.id == p.id %}selected{% endif %}>{{ p.nama_periode }}</option>
+      {% endfor %}
+    </select>
+  </form>
+{% endblock %}
+
+{% block konten %}
+<div class="remah">
+  <a href="{% url 'fenomena:daftar' %}?periode={{ periode.id }}">Fenomena</a>
+  {% for k in jalur %} / {{ k.kode }}{% endfor %}
+</div>
+
+<form method="post">
+  {% csrf_token %}
+
+  <div class="tab" style="margin-bottom:0">
+    {% for jenis, r in rincian.items %}
+      <a href="#" class="{% if forloop.first %}aktif{% endif %}" data-tab="{{ jenis }}">
+        {{ r.get_jenis_display }}
+        {% if r.narasi %}<span class="titik-isi"></span>{% endif %}
+      </a>
+    {% endfor %}
+  </div>
+
+  {% for jenis, r in rincian.items %}
+  <div class="panel isi-tab" data-isi="{{ jenis }}" style="border-top-left-radius:0" {% if not forloop.first %}hidden{% endif %}>
+    <div class="panel-isi">
+
+      <div class="kisi-meta">
+        <div>
+          <label class="form-label">Angka pertumbuhan (%)</label>
+          <input type="text" name="angka_{{ jenis }}" value="{{ r.angka|default_if_none:'' }}"
+                 class="medan angka" inputmode="decimal">
+        </div>
+        <div>
+          <label class="form-label">Data dasar</label>
+          <input type="text" name="dasar_{{ jenis }}" value="{{ r.data_dasar }}" class="medan">
+        </div>
+        <div>
+          <label class="form-label">Data pendukung</label>
+          <input type="text" name="pendukung_{{ jenis }}" value="{{ r.data_pendukung }}" class="medan">
+        </div>
+        <div>
+          <label class="form-label">Indikator</label>
+          <input type="text" name="indikator_{{ jenis }}" value="{{ r.indikator_teks }}" class="medan">
+        </div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; margin:16px 0 5px">
+        <label class="form-label" style="margin:0">Narasi fenomena</label>
+        <span style="display:flex; gap:6px">
+          <button type="submit" name="aksi" value="ganti_{{ jenis }}" class="tbl tbl-garis tbl-kecil"
+                  onclick="return confirm('Susun ulang narasi dari data terbaru? Isi yang sekarang diganti.')">
+            Susun ulang
+          </button>
+          <button type="submit" name="aksi" value="usulan_{{ jenis }}" class="tbl tbl-garis tbl-kecil">
+            Tambahkan di bawah
+          </button>
+        </span>
+      </div>
+      <textarea name="narasi_{{ jenis }}" rows="16" class="isi-narasi">{{ r.narasi }}</textarea>
+      <div class="bantuan">
+        Poin diambil dari indikator inventarisasi komponen ini dan berita yang dicentang di bawah.
+      </div>
+
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="panel" style="margin-top:18px">
+    <div class="panel-kepala">
+      Berita pendukung
+      <span style="font-weight:400; color:var(--teks-lembut); font-size:12.5px">
+        {{ berita_relevan|length }} berita terverifikasi pada komponen ini
+      </span>
+    </div>
+    <div style="max-height:300px; overflow:auto">
+      {% for b in berita_relevan %}
+      <label class="baris-berita">
+        <input type="checkbox" name="berita" value="{{ b.id }}" {% if b.id in terpilih %}checked{% endif %}>
+        <span style="flex:1">
+          <span class="judul-baris">{{ b.judul }}</span>
+          <span class="meta-berita">
+            {{ b.tanggal_berita|date:"d/m/Y" }} · {% firstof b.penerbit b.portal.nama_portal %}
+          </span>
+        </span>
+        {% if b.dampak %}
+          <span class="tanda {% if 'meningkatkan' in b.dampak %}tanda-naik{% else %}tanda-turun{% endif %}">
+            {{ b.get_dampak_display }}
+          </span>
+        {% endif %}
+      </label>
+      {% empty %}
+      <div class="kosong">
+        <p>Belum ada berita terverifikasi untuk komponen ini pada {{ periode.nama_periode }}.</p>
+        <a href="{% url 'berita:daftar' %}?status=baru" class="tbl tbl-garis">Buka daftar berita</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div style="display:flex; gap:8px; align-items:center; margin-top:18px">
+    <select name="status" class="medan" style="width:150px">
+      {% for kode, label in pilihan_status %}
+        <option value="{{ kode }}" {% if fenomena.status == kode %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+    <button type="submit" name="aksi" value="simpan" class="tbl tbl-utama">Simpan fenomena</button>
+    <a href="{% url 'fenomena:daftar' %}?periode={{ periode.id }}" class="tbl tbl-garis">Kembali</a>
+  </div>
+</form>
+{% endblock %}
+
+{% block skrip %}
+<script>
+document.querySelectorAll('.tab a[data-tab]').forEach(function (t) {
+  t.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelectorAll('.tab a[data-tab]').forEach(x => x.classList.remove('aktif'));
+    t.classList.add('aktif');
+    document.querySelectorAll('.isi-tab').forEach(function (b) {
+      b.hidden = b.dataset.isi !== t.dataset.tab;
+    });
+  });
+});
+</script>
+{% endblock %}

@@ -22,4 +22,9 @@ urlpatterns = [
     path("berita/", include("berita.urls")),
     path("", include("dashboard.urls")),
     path("inventarisasi/", include("inventarisasi.urls")),
+    path("fenomena/", include("fenomena.urls")),
 ]
+
+admin.site.site_header = "Administrasi APIFESTAT"
+admin.site.site_title = "APIFESTAT"
+admin.site.index_title = "Pengelolaan Sistem"

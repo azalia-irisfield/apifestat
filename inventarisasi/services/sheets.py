@@ -129,18 +129,22 @@ def tarik_orientasi_kolom(baris, cfg, indikator_list):
 
 
 def tarik_orientasi_baris(baris, cfg, indikator_list):
-    """Periode berada di baris, indikator di kolom (contoh: sheet sampah DLH)."""
-
+    """Periode berada di baris, indikator di kolom."""
     tahun = cfg.get("tahun")
-    k_periode = cfg["kolom_periode"]
-    r_awal = cfg.get("baris_pertama", 1)
-    r_akhir = cfg.get("baris_terakhir", r_awal + 20)
-
     if not tahun:
-            raise ValueError(
-                "Orientasi baris membutuhkan tahun. Isi kolom 'Tahun data' untuk sheet utama, "
-                "dan format gid:tahun pada 'GID sheet tahun lain'."
-            )
+        raise ValueError(
+            "Orientasi baris membutuhkan tahun. Isi kolom 'Tahun data' untuk sheet utama, "
+            "dan format gid:tahun pada 'GID sheet tahun lain'."
+        )
+
+    k_periode = cfg.get("kolom_periode")
+    r_awal = cfg.get("baris_pertama")
+    r_akhir = cfg.get("baris_terakhir")
+    if not k_periode or not r_awal or not r_akhir:
+        raise ValueError(
+            "Orientasi baris membutuhkan pengisian 'Kolom periode', 'Baris pertama', "
+            "dan 'Baris terakhir' pada Tata Letak Tabel."
+        )
 
     hasil = []
     for r in range(r_awal, r_akhir + 1):
@@ -161,7 +165,13 @@ def tarik_orientasi_baris(baris, cfg, indikator_list):
 
 def kolom_periode_sederhana(baris, cfg):
     """Memetakan kolom ke nomor triwulan, tanpa memperhatikan tahun."""
-    br = cfg["baris_periode"]
+    br = cfg.get("baris_periode")
+    if not br:
+        raise ValueError(
+            "Orientasi 'kolom bertahun' membutuhkan pengisian 'Baris periode' dan "
+            "'Kolom label'. Bila triwulan tersusun menurun di baris, gunakan "
+            "orientasi 'Periode di baris'."
+        )
     deret = baris[br - 1] if len(baris) >= br else []
     peta = {}
     for i, teks in enumerate(deret):

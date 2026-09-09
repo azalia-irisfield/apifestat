@@ -1,10 +1,23 @@
 {% extends "base.html" %}
 {% block judul %}Berita - APIFESTAT{% endblock %}
+{% block halaman %}Berita{% endblock %}
+{% block subjudul %}{{ jumlah_hasil }} berita · {{ jumlah_baru }} menunggu verifikasi{% endblock %}
+{% block aksi %}
+  <form method="post" action="{% url 'berita:scraping' %}" id="form-scraping" style="display:flex; gap:8px">
+    {% csrf_token %}
+    <select name="portal" id="pilih-portal" class="medan" required>
+      <option value="">Pilih portal</option>
+      {% for p in portal_aktif %}
+        <option value="{{ p.id }}" data-tipe="{{ p.tipe_sumber }}">{{ p.nama_portal }}</option>
+      {% endfor %}
+    </select>
+    <button class="tbl tbl-utama" id="tombol-scraping">Jalankan scraping</button>
+  </form>
+{% endblock %}
 
 {% block konten %}
-<div class="d-flex justify-content-between align-items-center mb-3">
+<!-- <div class="d-flex justify-content-between align-items-center mb-3">
   <div>
-    <h4 class="mb-0">Manajemen Berita</h4>
     <small class="text-muted">{{ jumlah_baru }} berita menunggu verifikasi</small>
   </div>
   <form method="post" action="{% url 'berita:scraping' %}" class="d-flex gap-2" id="form-scraping">
@@ -17,7 +30,7 @@
     </select>
     <button class="btn btn-primary btn-sm text-nowrap" id="tombol-scraping">Jalankan Scraping</button>
   </form>
-</div>
+</div> -->
 
 <div class="card shadow-sm mb-3">
   <div class="card-body py-3">
@@ -36,14 +49,13 @@
       </div>
       <div class="col-md-2">
         <label class="form-label small mb-1">Kategori</label>
-        <select name="kategori" class="form-select form-select-sm">
-          <option value="">Semua</option>
-          {% for k in pilihan_kategori %}
-            <option value="{{ k.id }}" {% if f.kategori == k.id|stringformat:"s" %}selected{% endif %}>
-              {{ k.kode }} - {{ k.nama|truncatechars:28 }}
-            </option>
-          {% endfor %}
-        </select>
+          <select name="kategori" class="medan" style="width:110px" title="Kategori PDRB">
+            <option value="">kategori</option>
+            {% for k in pilihan_kategori %}
+                <option value="{{ k.id }}" title="{{ k.nama }}"
+                  {% if k.id in b.id_kategori %}selected{% endif %}>{{ k.kode }}</option>
+            {% endfor %}
+          </select>
       </div>
       <div class="col-md-3">
         <label class="form-label small mb-1">Dampak</label>
@@ -84,56 +96,77 @@
 
 <p class="small text-muted mb-2">Menampilkan {{ jumlah_hasil }} berita.</p>
 
-<div class="card shadow-sm">
-  <div class="table-responsive">
-    <table class="table table-sm table-hover align-middle mb-0">
-      <thead class="table-light">
+<div class="panel">
+  <div style="overflow:auto">
+    <table class="data">
+      <thead>
         <tr>
-          <th style="width:95px">Tanggal</th>
-          <th style="width:85px">Lingkup</th>
-          <th>Judul Berita</th>
-          <th style="width:90px">Kategori</th>
-          <th style="width:150px">Dampak</th>
-          <th style="width:110px">Periode</th>
-          <th style="width:110px">Status</th>
+          <th style="width:110px">Tanggal</th>
+          <th style="width:90px">Lingkup</th>
+          <th>Judul berita</th>
+          <th style="width:330px">Kategori dan dampak</th>
+          <th style="width:120px">Periode</th>
+          <!-- <th style="width:120px">Input ODON</th> -->
           <th style="width:80px"></th>
         </tr>
       </thead>
       <tbody>
         {% for b in daftar %}
-        <tr>
-          <td class="small">{{ b.tanggal_berita|date:"d/m/Y" }}</td>
-          <td>
-            {% if b.lingkup == "malinau" %}<span class="badge bg-success">Malinau</span>
-            {% elif b.lingkup == "kaltara" %}<span class="badge bg-info text-dark">Kaltara</span>
-            {% else %}<span class="badge bg-light text-muted">Lainnya</span>{% endif %}
+        <tr class="{% if b.status == 'baru' %}rel-tunggu{% elif b.status == 'terverifikasi' %}rel-selesai{% else %}rel-tolak{% endif %}">
+          <td class="mono" style="font-size:12.5px">
+            {{ b.tanggal_berita|date:"d/m/Y" }}
+            {% if b.tanggal_peristiwa and b.tanggal_peristiwa != b.tanggal_berita %}
+              <div class="naik">{{ b.tanggal_peristiwa|date:"d/m/Y" }}</div>
+            {% endif %}
           </td>
           <td>
-            <div class="fw-semibold">{{ b.judul }}</div>
-            <a href="{{ b.url }}" target="_blank" class="small text-muted">{% firstof b.penerbit b.portal.nama_portal "Manual" %}</a>
-          </td>
-          <td class="small">
-            {% for k in b.kategori.all %}<span class="badge bg-secondary">{{ k.kode }}</span> {% empty %}-{% endfor %}
-          </td>
-          <td class="small">{{ b.get_dampak_display|default:"-" }}</td>
-          <td class="small">{{ b.periode|default:"Lainnya" }}</td>
-          <td>
-            {% if b.status == "baru" %}<span class="badge bg-warning text-dark">Baru</span>
-            {% elif b.status == "terverifikasi" %}<span class="badge bg-success">Terverifikasi</span>
-            {% else %}<span class="badge bg-danger">Ditolak</span>{% endif %}
+            {% if b.lingkup == "malinau" %}<span class="tanda tanda-naik">Malinau</span>
+            {% elif b.lingkup == "kaltara" %}<span class="tanda tanda-aksen">Kaltara</span>
+            {% else %}<span class="tanda tanda-netral">Lainnya</span>{% endif %}
           </td>
           <td>
-            <a href="{% url 'berita:verifikasi' b.pk %}" class="btn btn-outline-primary btn-sm">Verifikasi</a>
+            <div class="judul-baris">{{ b.judul }}</div>
+            <a href="{{ b.url }}" target="_blank" class="sumber-baris">{% firstof b.penerbit b.portal.nama_portal "Manual" %}</a>
+          </td>
+          <td>
+            <form method="post" action="{% url 'berita:ubah_cepat' b.pk %}" style="display:flex; gap:5px">
+              {% csrf_token %}
+              <input type="hidden" name="next" value="{{ request.get_full_path }}">
+              <select name="kategori" class="medan" style="width:110px">
+                <option value="">kategori</option>
+                {% for k in pilihan_kategori %}
+                  <option value="{{ k.id }}" {% if k.id in b.id_kategori %}selected{% endif %}>{{ k.kode }}</option>
+                {% endfor %}
+              </select>
+              <select name="dampak" class="medan" style="width:160px">
+                <option value="">dampak</option>
+                {% for kode, label in pilihan_dampak %}
+                  <option value="{{ kode }}" {% if b.dampak == kode %}selected{% endif %}>{{ label }}</option>
+                {% endfor %}
+              </select>
+              <button class="tbl tbl-utama tbl-kecil">Simpan</button>
+            </form>
+          </td>
+          <td style="font-size:12.5px">{{ b.periode|default:"Lainnya" }}</td>
+          <!-- <td><a href="{% url 'berita:verifikasi' b.pk %}" class="tbl tbl-garis tbl-kecil">Rinci</a></td> -->
+          <td style="white-space:nowrap">
+            <a href="{% url 'berita:verifikasi' b.pk %}" class="tbl tbl-garis tbl-kecil">Rinci</a>
+            <button type="button" class="tbl tbl-garis tbl-kecil tbl-odon"
+                    data-id="{{ b.pk }}" title="Catat ke sheet ODON">ODON</button>
           </td>
         </tr>
         {% empty %}
-        <tr><td colspan="8" class="text-center text-muted py-4">
-          Belum ada berita. Jalankan scraping terlebih dahulu.
+        <tr><td colspan="6">
+          <div class="kosong">
+            <p>Belum ada berita yang cocok dengan penyaringan ini.</p>
+            <a href="{% url 'berita:daftar' %}" class="tbl tbl-garis">Tampilkan semua</a>
+          </div>
         </td></tr>
         {% endfor %}
       </tbody>
     </table>
   </div>
+  {% include "partials/paginasi.html" with hal=hal satuan="berita" %}
 </div>
 
 {% if log_terakhir %}
@@ -182,6 +215,112 @@ document.getElementById("form-scraping").addEventListener("submit", function (e)
     document.getElementById("teks-scraping").textContent =
       "Mengambil berita... (" + detik + " detik)";
   }, 1000);
+});
+</script>
+
+<div class="tirai" id="tirai" hidden>
+  <div class="modal-odon">
+    <div class="panel-kepala">
+      Catat ke sheet ODON
+      <button type="button" class="tbl tbl-garis tbl-kecil" onclick="tutupOdon()">Tutup</button>
+    </div>
+    <div class="panel-isi">
+      <div id="odon-muat" class="pudar">Memuat data sheet…</div>
+
+      <div id="odon-isi" hidden>
+        <div class="judul-baris" id="odon-judul" style="margin-bottom:12px"></div>
+
+        <label class="form-label">Tempatkan pada baris</label>
+        <select id="odon-baris" class="medan" style="width:100%"></select>
+        <div class="bantuan">
+          Baris yang tanggalnya sudah terisi namun beritanya belum. Nama di sebelah
+          tanggal adalah petugas yang dijadwalkan, dan akan tertimpa oleh judul berita.
+        </div>
+
+        <div style="margin-top:14px">
+          <label class="form-label">Isi baris</label>
+          <textarea id="odon-teks" rows="4" class="isi-narasi" readonly></textarea>
+          <div class="bantuan">
+            Tempel di <span class="kode" id="odon-alamat"></span> menggunakan Ctrl+V.
+            Kolom terpisah otomatis.
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px; margin-top:14px">
+          <button type="button" class="tbl tbl-garis" onclick="salinOdon()">Salin baris</button>
+          <form method="post" id="odon-form" style="display:none">
+            {% csrf_token %}
+            <input type="hidden" name="baris" id="odon-baris-kirim">
+            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+            <button class="tbl tbl-hijau">Kirim langsung ke sheet</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="odon-galat" class="pesan pesan-error" hidden></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block skrip %}
+<script>
+let odonId = null;
+
+document.querySelectorAll('.tbl-odon').forEach(function (t) {
+  t.addEventListener('click', function () {
+    odonId = t.dataset.id;
+    document.getElementById('tirai').hidden = false;
+    document.getElementById('odon-isi').hidden = true;
+    document.getElementById('odon-galat').hidden = true;
+    document.getElementById('odon-muat').hidden = false;
+
+    fetch('/berita/' + odonId + '/odon/')
+      .then(r => r.json().then(d => ({ ok: r.ok, d })))
+      .then(function ({ ok, d }) {
+        document.getElementById('odon-muat').hidden = true;
+        if (!ok) {
+          const g = document.getElementById('odon-galat');
+          g.textContent = d.galat; g.hidden = false;
+          return;
+        }
+        document.getElementById('odon-judul').textContent = d.judul;
+        document.getElementById('odon-teks').value = d.teks_salin;
+
+        const pilih = document.getElementById('odon-baris');
+        pilih.innerHTML = '';
+        d.baris.forEach(function (b) {
+          const o = document.createElement('option');
+          o.value = b.nomor;
+          o.textContent = b.tanggal + (b.petugas ? '  · ' + b.petugas : '  · belum ada petugas') + '   (baris ' + b.nomor + ')';
+          pilih.appendChild(o);
+        });
+
+        const form = document.getElementById('odon-form');
+        form.action = '/berita/' + odonId + '/odon/catat/';
+        form.style.display = d.bisa_kirim ? 'block' : 'none';
+
+        perbaruiAlamat();
+        pilih.onchange = perbaruiAlamat;
+        document.getElementById('odon-isi').hidden = false;
+      });
+  });
+});
+
+function perbaruiAlamat() {
+  const pilih = document.getElementById('odon-baris');
+  document.getElementById('odon-baris-kirim').value = pilih.value;
+  document.getElementById('odon-alamat').textContent = 'C' + pilih.value;
+}
+
+function salinOdon() {
+  navigator.clipboard.writeText(document.getElementById('odon-teks').value);
+}
+
+function tutupOdon() { document.getElementById('tirai').hidden = true; }
+
+document.getElementById('tirai').addEventListener('click', function (e) {
+  if (e.target.id === 'tirai') tutupOdon();
 });
 </script>
 {% endblock %}

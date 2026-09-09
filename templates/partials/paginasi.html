@@ -1,0 +1,25 @@
+{% if hal.paginator.num_pages > 1 %}
+<div class="paginasi">
+  <span>
+    Menampilkan {{ hal.start_index }}–{{ hal.end_index }} dari
+    {{ hal.paginator.count }} {{ satuan|default:"baris" }}
+  </span>
+  <span class="halaman">
+    {% if hal.has_previous %}
+      <a href="{% querystring page=hal.previous_page_number %}">Sebelumnya</a>
+    {% else %}<span class="mati">Sebelumnya</span>{% endif %}
+
+    {% for n in hal.paginator.page_range %}
+      {% if n == hal.number %}
+        <span class="kini">{{ n }}</span>
+      {% elif n > hal.number|add:"-3" and n < hal.number|add:"3" %}
+        <a href="{% querystring page=n %}">{{ n }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if hal.has_next %}
+      <a href="{% querystring page=hal.next_page_number %}">Berikutnya</a>
+    {% else %}<span class="mati">Berikutnya</span>{% endif %}
+  </span>
+</div>
+{% endif %}

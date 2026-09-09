@@ -1,0 +1,25 @@
+<tr class="{% if b.keadaan == 'siap' %}rel-selesai{% elif b.keadaan == 'sebagian' %}rel-tunggu{% else %}rel-tolak{% endif %}">
+  <td class="mono" style="font-size:12.5px">{{ b.kategori.kode }}</td>
+  <td>{{ b.kategori.nama }}</td>
+  <td class="ka">
+    {% if b.n_berita %}
+      <span class="angka">{{ b.n_berita }}</span>
+      {% if b.n_malinau %}<span class="pudar" style="font-size:12px">({{ b.n_malinau }} Malinau)</span>{% endif %}
+    {% else %}<span class="pudar">tidak ada</span>{% endif %}
+  </td>
+  <td class="ka">
+    {% if b.n_indikator %}
+      <span class="angka {% if b.n_terisi < b.n_indikator %}turun{% endif %}">{{ b.n_terisi }}</span>
+      <span class="pudar">/ {{ b.n_indikator }}</span>
+    {% else %}<span class="pudar">belum ada sumber</span>{% endif %}
+  </td>
+  <td class="ka">
+    {% if b.n_narasi == 3 %}<span class="tanda tanda-naik">Lengkap</span>
+    {% elif b.n_narasi %}<span class="tanda tanda-tunggu">{{ b.n_narasi }} dari 3</span>
+    {% else %}<span class="pudar">belum</span>{% endif %}
+  </td>
+  <td>
+    <a href="{% url 'fenomena:susun' b.kategori.pk %}?periode={{ periode.id }}"
+       class="tbl tbl-garis tbl-kecil">Susun</a>
+  </td>
+</tr>

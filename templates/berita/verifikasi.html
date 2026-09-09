@@ -1,29 +1,93 @@
 {% extends "base.html" %}
-{% block judul %}Verifikasi Berita{% endblock %}
+{% block judul %}Verifikasi berita — APIFESTAT{% endblock %}
+{% block halaman %}Verifikasi berita{% endblock %}
+{% block subjudul %}{{ berita.tanggal_berita|date:"d F Y" }} · {% firstof berita.penerbit berita.portal.nama_portal "Input manual" %}{% endblock %}
+{% block aksi %}
+  <a href="{% url 'berita:daftar' %}" class="tbl tbl-garis">Kembali ke daftar</a>
+{% endblock %}
 
 {% block konten %}
-<h4 class="mb-3">Verifikasi &amp; Klasifikasi Berita</h4>
-
-<div class="card shadow-sm">
-  <div class="card-body">
-    <p class="small text-muted mb-3">
-      Sumber: <a href="{{ berita.url }}" target="_blank">{{ berita.url }}</a>
-    </p>
-
-    <form method="post">
-      {% csrf_token %}
-      {% for field in form %}
-        <div class="mb-3">
-          <label class="form-label fw-semibold">{{ field.label }}</label>
-          {{ field }}
-          {% if field.help_text %}<div class="form-text">{{ field.help_text }}</div>{% endif %}
-          {% for error in field.errors %}<div class="text-danger small">{{ error }}</div>{% endfor %}
+<form method="post">
+  {% csrf_token %}
+  <!-- <div style="display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:18px; align-items:start"> -->
+  <div class="kisi-verifikasi">
+    <!-- Kolom kiri: isi berita -->
+    <div class="panel panel-isi-berita">
+      <div class="panel-kepala">
+        Isi berita
+        <a href="{{ berita.url }}" target="_blank" class="sumber-baris">Buka sumber asli</a>
+      </div>
+      <div class="panel-isi">
+        <div style="margin-bottom:16px">
+          <label class="form-label">Judul</label>
+          {{ form.judul }}
+          {% for e in form.judul.errors %}<div class="turun" style="font-size:12.5px">{{ e }}</div>{% endfor %}
         </div>
-      {% endfor %}
 
-      <button class="btn btn-primary">Simpan</button>
-      <a href="{% url 'berita:daftar' %}" class="btn btn-outline-secondary">Batal</a>
-    </form>
+        <div class="medan-tumbuh">
+          <label class="form-label">Ringkasan</label>
+          {{ form.ringkasan }}
+          <div class="bantuan">Ringkasan inilah yang dipakai sebagai bahan narasi fenomena.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kolom kanan: penetapan -->
+    <div style="display:flex; flex-direction:column; gap:18px">
+
+      <div class="panel">
+        <div class="panel-kepala">Waktu</div>
+        <div class="panel-isi">
+          <div style="margin-bottom:14px">
+            <label class="form-label">Tanggal terbit</label>
+            {{ form.tanggal_berita }}
+          </div>
+          <div style="margin-bottom:14px">
+            <label class="form-label">Tanggal peristiwa</label>
+            {{ form.tanggal_peristiwa }}
+            <div class="bantuan">Isi bila kejadian yang diberitakan terjadi di triwulan lain.</div>
+          </div>
+          <div>
+            <label class="form-label">Periode PDRB</label>
+            {{ form.periode }}
+            <div class="bantuan">Kosongkan agar ditentukan otomatis dari tanggal.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-kepala">Penilaian</div>
+        <div class="panel-isi">
+          <div style="margin-bottom:14px">
+            <label class="form-label">Dampak terhadap PDRB</label>
+            {{ form.dampak }}
+          </div>
+          <div>
+            <label class="form-label">Status</label>
+            {{ form.status }}
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Kategori, melebar penuh -->
+    <div class="panel" style="grid-column:1 / -1">
+      <div class="panel-kepala">
+        Kategori PDRB
+        <span style="font-weight:400; color:var(--teks-lembut); font-size:12.5px">
+          Boleh lebih dari satu
+        </span>
+      </div>
+      <div class="panel-isi">
+        <div class="pilih-kategori">{{ form.kategori_pilihan }}</div>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div style="display:flex; gap:8px; margin-top:18px">
+    <button class="tbl tbl-utama">Simpan berita</button>
+    <a href="{% url 'berita:daftar' %}" class="tbl tbl-garis">Batal</a>
+  </div>
+</form>
 {% endblock %}

@@ -59,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "core.middleware.TokenAksesMiddleware",
 ]
 
 ROOT_URLCONF = 'apifestat.urls'
@@ -73,6 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "core.context_processors.ringkasan",
             ],
         },
     },
@@ -134,9 +136,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+GOOGLE_KREDENSIAL = env("GOOGLE_KREDENSIAL", default="")
+
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 180      # 180 hari
+SESSION_SAVE_EVERY_REQUEST = True            # perbarui masa berlaku tiap kunjungan
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
