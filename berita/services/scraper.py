@@ -23,11 +23,12 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "APIFESTAT/1.0 (+BPS Kabupaten Malinau)")
 
 def bersihkan_html(teks):
-    """Membuang tag HTML dan boilerplate WordPress dari ringkasan."""
+    """Membuang tag HTML, boilerplate WordPress, dan karakter kendali."""
     if not teks:
         return ""
+    bersih = BeautifulSoup(teks, "html.parser").get_text(separator=" ")
+    bersih = re.sub(r"The post .*? first appeared on .*?\.?$", "", bersih, flags=re.I | re.S)
     bersih = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]", " ", bersih)
-    bersih = re.sub(r"\s+", " ", bersih).strip()
     bersih = re.sub(r"\s+", " ", bersih).strip()
     return bersih[:1500]
 

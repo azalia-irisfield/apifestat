@@ -76,5 +76,76 @@
 })();
 </script>
 {% block skrip %}{% endblock %}
+<div class="tirai" id="tirai-muat" hidden>
+  <div class="kotak-muat">
+    <div class="pemutar"></div>
+    <div class="fw-semibold" id="teks-muat">Memproses…</div>
+    <div class="bantuan" id="durasi-muat"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const tirai = document.getElementById('tirai-muat');
+  const teks = document.getElementById('teks-muat');
+  const durasi = document.getElementById('durasi-muat');
+  let jam = null, detik = 0;
+
+    function mulai(pesan, perkiraan, unduhan) {
+    teks.textContent = pesan;
+    durasi.textContent = perkiraan || '';
+    tirai.hidden = false;
+    detik = 0;
+    jam = setInterval(function () {
+      detik += 1;
+      teks.textContent = pesan + ' (' + detik + ' detik)';
+    }, 1000);
+
+    // Proses yang menghasilkan unduhan tidak memuat ulang halaman,
+    // jadi indikator ditutup sendiri setelah berkas mulai diunduh.
+    if (unduhan) {
+      const tutupSetelahFokus = function () {
+        setTimeout(tutupMuat, 1200);
+        window.removeEventListener('focus', tutupSetelahFokus);
+      };
+      window.addEventListener('focus', tutupSetelahFokus);
+      setTimeout(tutupMuat, 60000);   // pengaman bila unduhan gagal
+    }
+  }
+
+  function tutupMuat() {
+    if (jam) clearInterval(jam);
+    jam = null;
+    tirai.hidden = true;
+  }
+
+  // Tautan atau tombol yang prosesnya lama
+  document.querySelectorAll('[data-muat]').forEach(function (el) {
+    if (el.tagName === 'FORM') return;
+    el.addEventListener('click', function () {
+      mulai(el.dataset.muat, el.dataset.durasi, el.dataset.unduhan !== undefined);
+    });
+  });
+
+  document.querySelectorAll('form[data-muat]').forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      if (e.submitter && e.submitter.dataset.tanpaMuat !== undefined) return;
+      mulai(f.dataset.muat, f.dataset.durasi, f.dataset.unduhan !== undefined);
+    });
+  });
+
+  window.addEventListener('pageshow', tutupMuat);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupMuat(); });
+
+  // Tutup indikator bila pengguna kembali atau proses dibatalkan
+  function tutupMuat() {
+    if (jam) clearInterval(jam);
+    jam = null;
+    tirai.hidden = true;
+  }
+  window.addEventListener('pageshow', tutupMuat);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') tutupMuat(); });
+})();
+</script>
 </body>
 </html>

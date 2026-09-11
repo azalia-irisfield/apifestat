@@ -34,63 +34,64 @@
 
 <div class="card shadow-sm mb-3">
   <div class="card-body py-3">
-    <form method="get" class="row g-2 align-items-end">
-      <div class="col-md-3">
-        <label class="form-label small mb-1">Cari judul</label>
-        <input type="text" name="q" value="{{ f.q }}" class="form-control form-control-sm">
-      </div>
-      <div class="col-md-2">
-        <label class="form-label small mb-1">Tanggal dari</label>
-        <input type="date" name="dari" value="{{ f.dari }}" class="form-control form-control-sm">
-      </div>
-      <div class="col-md-2">
-        <label class="form-label small mb-1">Sampai</label>
-        <input type="date" name="sampai" value="{{ f.sampai }}" class="form-control form-control-sm">
-      </div>
-      <div class="col-md-2">
-        <label class="form-label small mb-1">Kategori</label>
-          <select name="kategori" class="medan" style="width:110px" title="Kategori PDRB">
-            <option value="">kategori</option>
-            {% for k in pilihan_kategori %}
-                <option value="{{ k.id }}" title="{{ k.nama }}"
-                  {% if k.id in b.id_kategori %}selected{% endif %}>{{ k.kode }}</option>
-            {% endfor %}
-          </select>
-      </div>
-      <div class="col-md-3">
-        <label class="form-label small mb-1">Dampak</label>
-        <select name="dampak" class="form-select form-select-sm">
-          <option value="">Semua</option>
-          {% for kode, label in pilihan_dampak %}
-            <option value="{{ kode }}" {% if f.dampak == kode %}selected{% endif %}>{{ label }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label class="form-label small mb-1">Lingkup</label>
-        <select name="lingkup" class="form-select form-select-sm">
-          <option value="">Semua</option>
-          {% for kode, label in pilihan_lingkup %}
-            <option value="{{ kode }}" {% if f.lingkup == kode %}selected{% endif %}>{{ label }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label class="form-label small mb-1">Status</label>
-        <select name="status" class="form-select form-select-sm">
-          <option value="">Semua</option>
-          {% for kode, label in pilihan_status %}
-            <option value="{{ kode }}" {% if f.status == kode %}selected{% endif %}>{{ label }}</option>
-          {% endfor %}
-        </select>
-      </div>
-      <div class="col-md-3">
-        <button class="btn btn-primary btn-sm">Terapkan Filter</button>
-        {% if ada_filter %}
-          <a href="{% url 'berita:daftar' %}" class="btn btn-outline-secondary btn-sm">Reset</a>
-        {% endif %}
-      </div>
-    </form>
+    <form method="get" class="saring">
+  <div>
+    <label>Cari judul</label>
+    <input type="text" name="q" value="{{ f.q }}" class="medan">
+  </div>
+  <div>
+    <label>Tanggal dari</label>
+    <input type="date" name="dari" value="{{ f.dari }}" class="medan">
+  </div>
+  <div>
+    <label>Sampai</label>
+    <input type="date" name="sampai" value="{{ f.sampai }}" class="medan">
+  </div>
+  <div>
+    <label>Kategori</label>
+    <select name="kategori" class="medan">
+      <option value="">Semua</option>
+      {% for k in pilihan_kategori %}
+        <option value="{{ k.id }}" {% if f.kategori == k.id|stringformat:"s" %}selected{% endif %}>
+          {{ k.kode }} — {{ k.nama|truncatechars:28 }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>Dampak</label>
+    <select name="dampak" class="medan">
+      <option value="">Semua</option>
+      {% for kode, label in pilihan_dampak %}
+        <option value="{{ kode }}" {% if f.dampak == kode %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>Lingkup</label>
+    <select name="lingkup" class="medan">
+      <option value="">Semua</option>
+      {% for kode, label in pilihan_lingkup %}
+        <option value="{{ kode }}" {% if f.lingkup == kode %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label>Status</label>
+    <select name="status" class="medan">
+      <option value="">Semua</option>
+      {% for kode, label in pilihan_status %}
+        <option value="{{ kode }}" {% if f.status == kode %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="tombol-saring">
+    <button class="tbl tbl-utama">Terapkan filter</button>
+    {% if ada_filter %}
+      <a href="{% url 'berita:daftar' %}" class="tbl tbl-garis">Reset</a>
+    {% endif %}
+  </div>
+</form>
   </div>
 </div>
 
@@ -247,7 +248,7 @@ document.getElementById("form-scraping").addEventListener("submit", function (e)
         </div>
 
         <div style="display:flex; gap:8px; margin-top:14px">
-          <button type="button" class="tbl tbl-garis" onclick="salinOdon()">Salin baris</button>
+          <button type="button" id="tbl-salin" class="tbl tbl-garis" onclick="salinOdon()">Salin baris</button>
           <form method="post" id="odon-form" style="display:none">
             {% csrf_token %}
             <input type="hidden" name="baris" id="odon-baris-kirim">
@@ -314,7 +315,46 @@ function perbaruiAlamat() {
 }
 
 function salinOdon() {
-  navigator.clipboard.writeText(document.getElementById('odon-teks').value);
+  const kotak = document.getElementById('odon-teks');
+  const tombol = document.getElementById('tbl-salin');
+
+  function berhasil() {
+    const semula = tombol.textContent;
+    tombol.textContent = 'Tersalin';
+    tombol.classList.add('tbl-hijau');
+    setTimeout(function () {
+      tombol.textContent = semula;
+      tombol.classList.remove('tbl-hijau');
+    }, 1800);
+  }
+
+  // Cara lama: berfungsi juga pada koneksi tanpa HTTPS
+  kotak.removeAttribute('readonly');
+  kotak.focus();
+  kotak.select();
+  kotak.setSelectionRange(0, 999999);   // diperlukan di iOS
+
+  let sukses = false;
+  try {
+    sukses = document.execCommand('copy');
+  } catch (e) {
+    sukses = false;
+  }
+  kotak.setAttribute('readonly', '');
+
+  if (sukses) {
+    berhasil();
+    return;
+  }
+
+  // Cara modern, bila tersedia
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(kotak.value).then(berhasil).catch(function () {
+      tombol.textContent = 'Salin manual dari kotak di atas';
+    });
+  } else {
+    tombol.textContent = 'Salin manual dari kotak di atas';
+  }
 }
 
 function tutupOdon() { document.getElementById('tirai').hidden = true; }

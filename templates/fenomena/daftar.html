@@ -4,7 +4,9 @@
 {% block subjudul %}{{ selesai }} dari {{ total }} komponen lengkap · {{ periode.nama_periode }}{% endblock %}
 {% block aksi %}
   <div style="display:flex; gap:8px; align-items:center">
-    <form method="post" action="{% url 'fenomena:susun_massal' %}" style="display:flex; gap:6px"
+      <form method="post" action="{% url 'fenomena:susun_massal' %}" style="display:flex; gap:6px"
+          data-muat="Menyusun narasi seluruh komponen"
+          data-durasi="Untuk 67 komponen, perkiraan 1–3 menit. Mohon tunggu."
           onsubmit="return confirm('Susun usulan narasi untuk seluruh komponen? Narasi yang sudah terisi tidak diubah.')">
       {% csrf_token %}
       <input type="hidden" name="periode" value="{{ periode.id }}">

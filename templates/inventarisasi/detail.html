@@ -53,8 +53,12 @@
           <a href="{{ opd.url_spreadsheet }}" target="_blank" class="sumber-baris">Buka spreadsheet</a>
         {% endif %}
         {% if opd.id_spreadsheet %}
-          <a href="{% url 'inventarisasi:pratinjau' opd.pk %}" class="tbl tbl-garis tbl-kecil">Pratinjau</a>
-          <a href="{% url 'inventarisasi:tarik' opd.pk %}" class="tbl tbl-hijau tbl-kecil">Tarik dari sheet</a>
+          <a href="{% url 'inventarisasi:pratinjau' opd.pk %}" class="tbl tbl-garis tbl-kecil"
+             data-muat="Membuka pratinjau spreadsheet"
+             data-durasi="Perkiraan 5–15 detik.">Pratinjau</a>
+          <a href="{% url 'inventarisasi:tarik' opd.pk %}" class="tbl tbl-hijau tbl-kecil"
+             data-muat="Menarik data dari spreadsheet {{ opd.singkatan|default:opd.nama }}"
+             data-durasi="Perkiraan 5–20 detik.">Tarik dari sheet</a>
         {% endif %}
       </span>
     </div>

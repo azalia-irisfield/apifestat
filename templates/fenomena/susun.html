@@ -58,11 +58,13 @@
         <label class="form-label" style="margin:0">Narasi fenomena</label>
         <span style="display:flex; gap:6px">
           <button type="submit" name="aksi" value="ganti_{{ jenis }}" class="tbl tbl-garis tbl-kecil"
-                  onclick="return confirm('Susun ulang narasi dari data terbaru? Isi yang sekarang diganti.')">
-            Susun ulang
-          </button>
-          <button type="submit" name="aksi" value="usulan_{{ jenis }}" class="tbl tbl-garis tbl-kecil">
-            Tambahkan di bawah
+                      data-muat="Menyusun ulang narasi" data-durasi="Perkiraan 5–30 detik."
+                      onclick="return confirm('Susun ulang narasi dari data terbaru? Isi yang sekarang diganti.')">
+                Susun ulang
+              </button>
+              <button type="submit" name="aksi" value="usulan_{{ jenis }}" class="tbl tbl-garis tbl-kecil"
+                      data-muat="Menyusun narasi" data-durasi="Perkiraan 5–30 detik.">
+                Tambahkan di bawah
           </button>
         </span>
       </div>
@@ -124,6 +126,7 @@
 document.querySelectorAll('.tab a[data-tab]').forEach(function (t) {
   t.addEventListener('click', function (e) {
     e.preventDefault();
+    e.stopPropagation();
     document.querySelectorAll('.tab a[data-tab]').forEach(x => x.classList.remove('aktif'));
     t.classList.add('aktif');
     document.querySelectorAll('.isi-tab').forEach(function (b) {

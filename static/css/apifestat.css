@@ -242,17 +242,20 @@ tr.rel-kosong  td:first-child { box-shadow: inset 3px 0 0 var(--garis-tegas); }
 
 /* ---------------- Kendali ---------------- */
 .saring {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  align-items: end;
+  gap: 12px;
   padding: 14px 16px;
   background: var(--permukaan);
   border: 1px solid var(--garis);
   border-radius: var(--radius);
   margin-bottom: 16px;
 }
+.saring > div { min-width: 0; }
+.saring .medan { width: 100%; }
 .saring label { font-size: 12px; color: var(--teks-lembut); display: block; margin-bottom: 3px; }
+.saring .tombol-saring { display: flex; gap: 8px; align-items: flex-end; }
 
 .medan, .form-control, .form-select {
   border: 1px solid var(--garis-tegas);
@@ -677,4 +680,25 @@ tr.pemisah td:first-child { box-shadow: none; }
 
 @media (max-width: 560px) {
   .bilah .anak-judul { display: none; }
+}
+
+.kotak-muat {
+  background: var(--permukaan);
+  border-radius: 8px;
+  padding: 28px 34px;
+  text-align: center;
+  min-width: 280px;
+  box-shadow: 0 18px 44px rgba(23, 38, 60, .25);
+}
+.pemutar {
+  width: 30px; height: 30px; margin: 0 auto 14px;
+  border: 3px solid var(--garis);
+  border-top-color: var(--aksen);
+  border-radius: 50%;
+  animation: putar .8s linear infinite;
+}
+@keyframes putar { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .pemutar { animation-duration: 2s; }
 }
