@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Fenomena Pendukung PDRB {{ judul_jenis }} — {{ periode.nama_periode }}</title>
+  <style>
+    @page { size: A4; margin: 1.8cm 1.5cm; }
+    body { font-family: Arial, sans-serif; font-size: 10pt; color: #000; margin: 0; }
+    h1 { font-size: 13pt; text-align: center; margin: 0 0 3px; }
+    h2 { font-size: 11pt; text-align: center; font-weight: normal; margin: 0 0 4px; }
+    .meta { text-align: center; font-size: 9pt; color: #555; margin-bottom: 16px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #888; padding: 5px 7px; vertical-align: top; }
+    th { background: #DCE6F1; font-size: 9pt; text-align: center; }
+    td { font-size: 9pt; }
+    thead { display: table-header-group; }
+    tr { page-break-inside: avoid; }
+    .kode { font-weight: bold; white-space: nowrap; }
+    .angka { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .narasi { white-space: pre-wrap; line-height: 1.45; }
+    .komponen { background: #F2F5F8; font-weight: bold; }
+    .ttd { margin-top: 34px; width: 100%; font-size: 10pt; }
+    .ttd td { border: none; text-align: center; padding: 4px; }
+    .garis-ttd { height: 58px; }
+    .bilah-cetak {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+      background: #17263C; color: #fff; padding: 10px 16px;
+      display: flex; gap: 10px; align-items: center; font-size: 13px;
+    }
+    .bilah-cetak button, .bilah-cetak a {
+      background: #fff; color: #17263C; border: none; border-radius: 4px;
+      padding: 6px 14px; font-size: 13px; cursor: pointer; text-decoration: none;
+    }
+    body { padding-top: 52px; }
+    @media print {
+      .bilah-cetak { display: none; }
+      body { padding-top: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bilah-cetak">
+  <button onclick="window.print()">Simpan sebagai PDF</button>
+  <a href="{% url 'fenomena:daftar' %}?periode={{ periode.id }}">Kembali</a>
+  <span style="opacity:.75">Pada jendela cetak, pilih tujuan <b>Save as PDF</b>.</span>
+</div>
+
+<h1>FENOMENA PENDUKUNG PDRB TRIWULANAN</h1>
+<h2>Menurut {{ judul_jenis }} — {{ periode.nama_periode }}</h2>
+<div class="meta">
+  BPS Kabupaten Malinau · Dicetak {{ tanggal|date:"d F Y" }}
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:70px">Kode</th>
+      <th style="width:150px">Komponen</th>
+      <th style="width:58px">Jenis</th>
+      <th style="width:58px">Angka</th>
+      <th>Fenomena</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for b in baris %}
+      {% for jenis, r in b.rincian.items %}
+        {% if r.narasi %}
+        <tr>
+          {% if forloop.first %}
+            <td class="kode" rowspan="{{ b.rincian|length }}">{{ b.kategori.kode_template|default:b.kategori.kode }}</td>
+            <td class="komponen" rowspan="{{ b.rincian|length }}">{{ b.kategori.nama }}</td>
+          {% endif %}
+          <td>{{ r.get_jenis_display }}</td>
+          <td class="angka">{{ r.angka|default_if_none:"—" }}</td>
+          <td class="narasi">{{ r.narasi }}</td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    {% empty %}
+      <tr><td colspan="5" style="text-align:center; padding:24px">
+        Belum ada fenomena yang disusun untuk periode ini.
+      </td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table class="ttd">
+  <tr>
+    <td style="width:50%">Mengetahui,<br>Ketua Tim Nerwilis</td>
+    <td style="width:50%">Malinau, {{ tanggal|date:"d F Y" }}<br>Penyusun</td>
+  </tr>
+  <tr><td class="garis-ttd"></td><td class="garis-ttd"></td></tr>
+  <tr>
+    <td><u>Ervione Mahala Zulfitri, S.Tr.Stat</u></td>
+    <td><u>Sindu Dinar Bangun Leksono</u></td>
+  </tr>
+</table>
+
+</body>
+</html>

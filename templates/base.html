@@ -27,6 +27,9 @@
     </a>
     <a href="{% url 'inventarisasi:pohon' %}" class="{% if '/inventarisasi/' in request.path %}aktif{% endif %}">Inventarisasi</a>
     <a href="{% url 'fenomena:daftar' %}" class="{% if '/fenomena/' in request.path %}aktif{% endif %}">Fenomena</a>
+    {% if profil.role == "admin" %}
+    <a href="{% url 'log_aktivitas' %}" class="{% if '/log/' in request.path %}aktif{% endif %}">Log Aktivitas</a>
+    {% endif %}
     <a href="/admin/">Pengaturan</a>
   </nav>
 

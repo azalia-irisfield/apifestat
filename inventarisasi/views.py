@@ -6,6 +6,7 @@ from core.models import Kategori, Periode
 from .models import OPD, Indikator, NilaiIndikator
 from .services.hitung import hitung_indikator, susun_narasi
 from .services.sheets import tarik_dari_opd, unduh_sheet
+from core.utils import catat
 
 
 def pohon_komponen(request):
@@ -43,6 +44,8 @@ def detail_komponen(request, pk):
                 indikator=ind, periode=periode, defaults={"nilai": nilai}
             )
         messages.success(request, f"Data {periode.nama_periode} tersimpan.")
+        catat(request, "simpan", "Inventarisasi", komponen.pk,
+              f"{komponen.kode} periode {periode.nama_periode}")
         return redirect(f"{request.path}?periode={periode.id}")
 
     hasil, per_opd = [], {}
@@ -75,6 +78,7 @@ def tarik_sheet(request, pk):
     try:
         hasil = tarik_dari_opd(opd)
         messages.success(request, f"{len(hasil)} nilai ditarik dari {opd.nama}.")
+        catat(request, "tarik_sheet", "OPD", opd.pk, f"{opd.nama}: {len(hasil)} nilai")
     except Exception as exc:
         messages.error(request, f"Gagal menarik data {opd.nama}: {exc}")
     return redirect(request.META.get("HTTP_REFERER") or "inventarisasi:pohon")

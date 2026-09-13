@@ -142,3 +142,23 @@ class KataKunci(models.Model):
 
     def __str__(self):
         return f"{self.kata_kunci} → {self.kategori.kode}"
+
+class LogAktivitas(models.Model):
+    pengguna = models.ForeignKey(
+        Pengguna, on_delete=models.SET_NULL, null=True, blank=True, related_name="aktivitas"
+    )
+    aksi = models.CharField(max_length=30)
+    entitas = models.CharField(max_length=50, blank=True)
+    entitas_id = models.BigIntegerField(null=True, blank=True)
+    keterangan = models.CharField(max_length=255, blank=True)
+    waktu = models.DateTimeField(auto_now_add=True, db_index=True)
+    alamat_ip = models.CharField(max_length=45, blank=True)
+
+    class Meta:
+        db_table = "t_log_aktivitas"
+        verbose_name = "Log Aktivitas"
+        verbose_name_plural = "Log Aktivitas"
+        ordering = ["-waktu"]
+
+    def __str__(self):
+        return f"{self.waktu:%d/%m/%Y %H:%M} - {self.pengguna} - {self.aksi}"

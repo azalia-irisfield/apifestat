@@ -17,6 +17,8 @@
         Timpa semua
       </button>
     </form>
+    <a href="{% url 'fenomena:cetak' %}?periode={{ periode.id }}&jenis={{ jenis }}"
+       class="tbl tbl-garis" target="_blank">Cetak PDF</a>
     <a href="{% url 'fenomena:ekspor' %}" class="tbl tbl-hijau">Ekspor ke template provinsi</a>
   </div>
 {% endblock %}

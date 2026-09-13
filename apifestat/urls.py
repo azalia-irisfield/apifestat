@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from core import views as core_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -23,6 +24,7 @@ urlpatterns = [
     path("", include("dashboard.urls")),
     path("inventarisasi/", include("inventarisasi.urls")),
     path("fenomena/", include("fenomena.urls")),
+    path("log/", core_views.log_aktivitas, name="log_aktivitas"),
 ]
 
 admin.site.site_header = "Administrasi APIFESTAT"

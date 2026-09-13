@@ -1,0 +1,13 @@
+[13/09/2026 10:16:58] === Tugas harian APIFESTAT dimulai ===
+[13/09/2026 10:16:59] Scraping ANTARA KALTARA (batas 25)
+[13/09/2026 10:17:00]   ditemukan 20, disimpan 7, duplikat 6, di luar wilayah 7
+[13/09/2026 10:17:00] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/09/2026 10:17:44]   ditemukan 9, disimpan 1, duplikat 0, di luar wilayah 8
+[13/09/2026 10:17:44] Scraping Berita Borneo - Malinau (batas 25)
+[13/09/2026 10:17:47]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[13/09/2026 10:17:47] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/09/2026 10:18:47]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[13/09/2026 10:18:47] Scraping Tribun Kaltara (batas 10)
+[13/09/2026 10:19:31]   ditemukan 9, disimpan 9, duplikat 0, di luar wilayah 0
+[13/09/2026 10:19:31] Klasifikasi otomatis: 9 berita diproses
+[13/09/2026 10:19:31] === Selesai. 17 berita baru tersimpan ===

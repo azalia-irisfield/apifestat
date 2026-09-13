@@ -9,4 +9,5 @@ urlpatterns = [
     path("susun/<int:pk>/", views.susun_fenomena, name="susun"),
     path("ekspor/", views.ekspor, name="ekspor"),
     path("susun-massal/", views.susun_massal, name="susun_massal"),
+    path("cetak/", views.ekspor_pdf, name="cetak"),
 ]

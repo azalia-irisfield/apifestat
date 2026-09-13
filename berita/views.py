@@ -14,6 +14,7 @@ from .services.odon import (alamat_tempel, baris_berita, baris_tersedia,
                             kirim_ke_sheet, kredensial_tersedia)
 
 from django.http import JsonResponse
+from core.utils import catat
 
 
 def daftar_berita(request):
@@ -97,6 +98,8 @@ def proses_scraping(request):
         )
     else:
         messages.error(request, f"Scraping gagal: {log.pesan}")
+    catat(request, "scraping", "Portal", portal.pk,
+        f"{portal.nama_portal}: {log.jumlah_disimpan} berita disimpan")
     return redirect("berita:daftar")
 
 
@@ -106,6 +109,7 @@ def verifikasi_berita(request, pk):
         form = VerifikasiBeritaForm(request.POST, instance=berita)
         if form.is_valid():
             form.save()
+            catat(request, "verifikasi", "Berita", berita.pk, berita.judul[:80])
             messages.success(request, "Berita berhasil disimpan.")
             return redirect("berita:daftar")
     else:
@@ -137,6 +141,7 @@ def ubah_cepat(request, pk):
         berita.beritakategori_set.all().delete()
 
     messages.success(request, f"Berita “{berita.judul[:50]}…” diperbarui.")
+    catat(request, "ubah", "Berita", berita.pk, f"Ubah cepat: {berita.judul[:80]}")
     return redirect(request.POST.get("next") or "berita:daftar")
 
 def pilih_baris_odon(request, pk):
@@ -179,6 +184,7 @@ def catat_odon(request, pk):
         messages.success(
             request, f"Berita dicatat ke sheet ODON pada baris {nomor}."
         )
+        catat(request, "catat_odon", "Berita", berita.pk, f"Baris {nomor} pada sheet ODON")
     except Exception as exc:
         messages.error(request, f"Gagal menulis ke sheet: {exc}")
 

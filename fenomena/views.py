@@ -10,6 +10,8 @@ from .services.ekspor import isi_template
 from .services.susun import gabung_usulan
 
 from django.urls import reverse
+from core.utils import catat
+from django.utils import timezone
 
 def periode_aktif(request):
     pid = request.POST.get("periode") or request.GET.get("periode", "")
@@ -106,6 +108,8 @@ def susun_fenomena(request, pk):
         fenomena.status = request.POST.get("status", Fenomena.Status.DRAFT)
         fenomena.save()
         messages.success(request, "Fenomena tersimpan.")
+        catat(request, "simpan", "Fenomena", fenomena.pk,
+              f"{kategori.kode} {periode.nama_periode} ({fenomena.status})")
         return redirect(f"{request.path}?periode={periode.id}")
 
     komponen = kategori.keturunan()
@@ -201,4 +205,39 @@ def susun_massal(request):
         f"Penyusunan massal selesai. {dibuat} fenomena baru dibuat, "
         f"{diisi} narasi terisi, {dilewati} dilewati karena sudah ada isinya."
     )
+    catat(request, "susun_massal", "Fenomena", None,
+          f"{jenis} {periode.nama_periode}: {diisi} narasi terisi")
     return redirect(f"{reverse('fenomena:daftar')}?periode={periode.id}&jenis={jenis}")
+
+def ekspor_pdf(request):
+    """Menyiapkan tampilan cetak fenomena untuk disimpan sebagai PDF."""
+    periode = periode_aktif(request)
+    jenis = request.GET.get("jenis", "sektoral")
+
+    kategori = Kategori.objects.filter(
+        jenis=jenis, is_aktif=True, id_template__isnull=False
+    ).order_by("urutan")
+
+    peta = {}
+    for f in Fenomena.objects.filter(
+        periode=periode, kategori__jenis=jenis
+    ).select_related("kategori").prefetch_related("rincian_set"):
+        peta[f.kategori_id] = {r.jenis: r for r in f.rincian_set.all()}
+
+    baris = []
+    for k in kategori:
+        r = peta.get(k.id, {})
+        if not any(x.narasi for x in r.values()):
+            continue
+        baris.append({"kategori": k, "rincian": r})
+
+    catat(request, "ekspor_pdf", "Fenomena", None,
+          f"{jenis} {periode.nama_periode}: {len(baris)} komponen")
+
+    return render(request, "fenomena/cetak.html", {
+        "periode": periode,
+        "jenis": jenis,
+        "judul_jenis": "Lapangan Usaha" if jenis == "sektoral" else "Pengeluaran",
+        "baris": baris,
+        "tanggal": timezone.localdate(),
+    })
