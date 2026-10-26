@@ -11,14 +11,14 @@ from django.core.paginator import Paginator
 
 from .models import SheetODON
 from .services.odon import (alamat_tempel, baris_berita, baris_tersedia,
-                            kirim_ke_sheet, kredensial_tersedia)
+                            kirim_ke_sheet, kredensial_tersedia, kategori_odon)
 
 from django.http import JsonResponse
 from core.utils import catat
 
 
 def daftar_berita(request):
-    qs = Berita.objects.select_related("portal", "periode").prefetch_related("kategori")
+    qs = Berita.objects.select_related("portal", "periode").prefetch_related("kategori__induk__induk")
 
     f = {
         "q": request.GET.get("q", "").strip(),
@@ -59,7 +59,17 @@ def daftar_berita(request):
 
     daftar = list(hal.object_list)
     for b in daftar:
-        b.id_kategori = [k.id for k in b.kategori.all()]
+        # Kode tingkat teratas dari seluruh kategori berita (A.1.a -> A)
+        puncak = []
+        for k in b.kategori.all():
+            while k.induk_id:
+                k = k.induk
+            if k not in puncak:
+                puncak.append(k)
+        b.kode_kategori = ", ".join(k.kode for k in puncak)
+        utama = kategori_odon(b)   # Lapangan Usaha dengan skor tertinggi
+        b.id_utama = next((k.id for k in puncak if k.kode == utama),
+                          puncak[0].id if puncak else None)
 
     konteks = {
         "daftar": daftar,
@@ -130,15 +140,16 @@ def ubah_cepat(request, pk):
         berita.status = Berita.Status.TERVERIFIKASI
     berita.save(update_fields=["dampak", "status", "updated_at"])
 
+    # Kategori yang dipilih di sini menjadi kategori utama; kategori lain yang
+    # sudah ada tetap dipertahankan (ubah/hapus lewat halaman Rinci).
+    arah = BeritaKategori.ARAH_DARI_DAMPAK.get(dampak, "")
     if kategori_id:
         kategori = get_object_or_404(Kategori, pk=kategori_id)
-        arah = BeritaKategori.ARAH_DARI_DAMPAK.get(dampak, "")
-        berita.beritakategori_set.exclude(kategori=kategori).delete()
         BeritaKategori.objects.update_or_create(
-            berita=berita, kategori=kategori, defaults={"arah_dampak": arah}
+            berita=berita, kategori=kategori,
+            defaults={"arah_dampak": arah, "skor_otomatis": None},
         )
-    else:
-        berita.beritakategori_set.all().delete()
+    berita.beritakategori_set.update(arah_dampak=arah)
 
     messages.success(request, f"Berita “{berita.judul[:50]}…” diperbarui.")
     catat(request, "ubah", "Berita", berita.pk, f"Ubah cepat: {berita.judul[:80]}")

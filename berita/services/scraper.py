@@ -9,6 +9,7 @@ from django.utils import timezone
 
 from core.models import KataKunci, Periode
 from berita.models import Berita, BeritaKategori, LogScraping
+from berita.services.ringkasan import buat_ringkasan
 
 import base64
 import requests
@@ -133,7 +134,8 @@ def ambil_dari_rss(portal, batas=20):
             "judul": judul[:300],
             "url": url_bersih[:500],
             "tanggal": tanggal,
-            "ringkasan": ringkasan,
+            "isi": ringkasan,
+            "ringkasan": buat_ringkasan(ringkasan, judul),
             "penerbit": penerbit[:100],
         })
     return hasil
@@ -239,7 +241,8 @@ def ambil_artikel(url):
         "judul": judul[:300],
         "url": url[:500],
         "tanggal": tanggal,
-        "ringkasan": ringkasan[:1500],
+        "isi": ringkasan[:3000],
+        "ringkasan": buat_ringkasan(ringkasan, judul),
         "penerbit": (meta.sitename if meta and meta.sitename else "")[:100],
     }
 
@@ -292,9 +295,16 @@ def jalankan_scraping(portal, batas=20, pengguna=None, halaman_maks=1, tanggal_m
 
         log.jumlah_ditemukan = len(artikel)
         disimpan = duplikat = diabaikan = 0
+        berita_baru, isi_lengkap = [], {}
 
+        # for a in artikel:
+        #     if not sesuai_wilayah(portal, a["judul"], a["ringkasan"]):
+        #         diabaikan += 1
+        #         continue
         for a in artikel:
-            if not sesuai_wilayah(portal, a["judul"], a["ringkasan"]):
+            # Filter dan klasifikasi memakai isi lengkap, bukan ringkasan
+            isi = a.get("isi") or a["ringkasan"]
+            if not sesuai_wilayah(portal, a["judul"], isi):
                 diabaikan += 1
                 continue
 
@@ -318,16 +328,23 @@ def jalankan_scraping(portal, batas=20, pengguna=None, halaman_maks=1, tanggal_m
                 hash_konten=hash_konten,
                 status=Berita.Status.BARU,
                 sumber_input=Berita.SumberInput.SCRAPING,
-                lingkup=tentukan_lingkup(a["judul"], a["ringkasan"]),
+                lingkup=tentukan_lingkup(a["judul"], a["isi"]),
                 dibuat_oleh=pengguna,
                 penerbit=a.get("penerbit", ""),
             )
 
-            for kategori, skor in usulkan_kategori(a["judul"], a["ringkasan"]):
-                BeritaKategori.objects.create(
-                    berita=berita, kategori=kategori, skor_otomatis=skor
-                )
+            for kategori, skor in usulkan_kategori(a["judul"], a["isi"]):
+                berita_baru.append(berita)
+                isi_lengkap[berita.id] = isi
             disimpan += 1
+
+        # Kategori dan dampak ditentukan sekaligus (Gemini, cadangan kata kunci)
+        if berita_baru:
+            from berita.services.klasifikasi import klasifikasi_berita
+            try:
+                klasifikasi_berita(berita_baru, isi_lengkap)
+            except Exception as exc:
+                log.pesan = f"Klasifikasi gagal: {exc}"[:2000]
 
         log.jumlah_disimpan = disimpan
         log.jumlah_duplikat = duplikat

@@ -11,3 +11,2213 @@
 [13/09/2026 10:19:31]   ditemukan 9, disimpan 9, duplikat 0, di luar wilayah 0
 [13/09/2026 10:19:31] Klasifikasi otomatis: 9 berita diproses
 [13/09/2026 10:19:31] === Selesai. 17 berita baru tersimpan ===
+[13/09/2026 11:27:50] === Tugas harian APIFESTAT dimulai ===
+[13/09/2026 11:27:51] Scraping ANTARA KALTARA (batas 25)
+[13/09/2026 11:27:53]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[13/09/2026 11:27:53] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/09/2026 11:27:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/09/2026 11:27:55] Scraping Berita Borneo - Malinau (batas 25)
+[13/09/2026 11:27:56]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[13/09/2026 11:27:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/09/2026 11:29:32]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[13/09/2026 11:29:32] Scraping Tribun Kaltara (batas 10)
+[13/09/2026 11:29:49]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[13/09/2026 11:29:50] Klasifikasi otomatis: 9 berita diproses
+[13/09/2026 11:29:50] === Selesai. 3 berita baru tersimpan ===
+[13/09/2026 12:00:06] === Tugas harian APIFESTAT dimulai ===
+[13/09/2026 12:00:06] Scraping ANTARA KALTARA (batas 25)
+[13/09/2026 12:00:07]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[13/09/2026 12:00:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/09/2026 12:01:05]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[13/09/2026 12:01:05] Scraping Berita Borneo - Malinau (batas 25)
+[13/09/2026 12:01:08]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[13/09/2026 12:01:08] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/09/2026 12:02:10]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[13/09/2026 12:02:10] Scraping Tribun Kaltara (batas 10)
+[13/09/2026 12:02:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/09/2026 12:02:12] Klasifikasi otomatis: 9 berita diproses
+[13/09/2026 12:02:12] === Selesai. 0 berita baru tersimpan ===
+[13/09/2026 20:00:22] === Tugas harian APIFESTAT dimulai ===
+[13/09/2026 20:00:23] Scraping ANTARA KALTARA (batas 25)
+[13/09/2026 20:00:23]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[13/09/2026 20:00:23] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/09/2026 20:00:23]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/09/2026 20:00:23] Scraping Berita Borneo - Malinau (batas 25)
+[13/09/2026 20:00:23]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[13/09/2026 20:00:23] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/09/2026 20:00:23]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/09/2026 20:00:23] Scraping Tribun Kaltara (batas 10)
+[13/09/2026 20:00:23]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/09/2026 20:00:23] Klasifikasi otomatis: 9 berita diproses
+[13/09/2026 20:00:23] === Selesai. 0 berita baru tersimpan ===
+[14/09/2026 06:08:13] === Tugas harian APIFESTAT dimulai ===
+[14/09/2026 06:08:14] Scraping ANTARA KALTARA (batas 25)
+[14/09/2026 06:08:16]   ditemukan 20, disimpan 0, duplikat 7, di luar wilayah 13
+[14/09/2026 06:08:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[14/09/2026 06:09:22]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[14/09/2026 06:09:22] Scraping Berita Borneo - Malinau (batas 25)
+[14/09/2026 06:09:24]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[14/09/2026 06:09:24] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[14/09/2026 06:10:20]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[14/09/2026 06:10:20] Scraping Tribun Kaltara (batas 10)
+[14/09/2026 06:10:48]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[14/09/2026 06:10:48] Klasifikasi otomatis: 9 berita diproses
+[14/09/2026 06:10:48] === Selesai. 5 berita baru tersimpan ===
+[14/09/2026 12:21:05] === Tugas harian APIFESTAT dimulai ===
+[14/09/2026 12:21:05] Scraping ANTARA KALTARA (batas 25)
+[14/09/2026 12:21:05]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[14/09/2026 12:21:05] Scraping ANTARA Kaltara (arsip) (batas 10)
+[14/09/2026 12:21:05]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[14/09/2026 12:21:05] Scraping Berita Borneo - Malinau (batas 25)
+[14/09/2026 12:21:05]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[14/09/2026 12:21:05] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[14/09/2026 12:21:05]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[14/09/2026 12:21:05] Scraping Tribun Kaltara (batas 10)
+[14/09/2026 12:21:05]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[14/09/2026 12:21:06] Klasifikasi otomatis: 9 berita diproses
+[14/09/2026 12:21:06] === Selesai. 0 berita baru tersimpan ===
+[14/09/2026 18:09:25] === Tugas harian APIFESTAT dimulai ===
+[14/09/2026 18:09:25] Scraping ANTARA KALTARA (batas 25)
+[14/09/2026 18:09:26]   ditemukan 20, disimpan 3, duplikat 0, di luar wilayah 17
+[14/09/2026 18:09:26] Scraping ANTARA Kaltara (arsip) (batas 10)
+[14/09/2026 18:10:08]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[14/09/2026 18:10:08] Scraping Berita Borneo - Malinau (batas 25)
+[14/09/2026 18:10:10]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[14/09/2026 18:10:10] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[14/09/2026 18:11:14]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[14/09/2026 18:11:14] Scraping Tribun Kaltara (batas 10)
+[14/09/2026 18:11:45]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[14/09/2026 18:11:46] Klasifikasi otomatis: 10 berita diproses
+[14/09/2026 18:11:46] === Selesai. 9 berita baru tersimpan ===
+[15/09/2026 01:08:06] === Tugas harian APIFESTAT dimulai ===
+[15/09/2026 01:08:07] Scraping ANTARA KALTARA (batas 25)
+[15/09/2026 01:08:07]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[15/09/2026 01:08:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/09/2026 01:08:07]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/09/2026 01:08:07] Scraping Berita Borneo - Malinau (batas 25)
+[15/09/2026 01:08:07]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[15/09/2026 01:08:07] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/09/2026 01:08:07]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/09/2026 01:08:07] Scraping Tribun Kaltara (batas 10)
+[15/09/2026 01:08:07]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/09/2026 01:08:07] Klasifikasi otomatis: 10 berita diproses
+[15/09/2026 01:08:07] === Selesai. 0 berita baru tersimpan ===
+[15/09/2026 11:07:50] === Tugas harian APIFESTAT dimulai ===
+[15/09/2026 11:07:51] Scraping ANTARA KALTARA (batas 25)
+[15/09/2026 11:07:52]   ditemukan 20, disimpan 2, duplikat 3, di luar wilayah 15
+[15/09/2026 11:07:52] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/09/2026 11:08:55]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 11:08:55] Scraping Berita Borneo - Malinau (batas 25)
+[15/09/2026 11:09:10]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[15/09/2026 11:09:10] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/09/2026 11:10:56]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 11:10:56] Scraping Tribun Kaltara (batas 10)
+[15/09/2026 11:11:53]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[15/09/2026 11:11:54] Klasifikasi otomatis: 10 berita diproses
+[15/09/2026 11:11:54] === Selesai. 9 berita baru tersimpan ===
+[15/09/2026 17:07:11] === Tugas harian APIFESTAT dimulai ===
+[15/09/2026 17:07:11] Scraping ANTARA KALTARA (batas 25)
+[15/09/2026 17:07:12]   ditemukan 20, disimpan 0, duplikat 5, di luar wilayah 15
+[15/09/2026 17:07:12] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/09/2026 17:07:52]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 17:07:52] Scraping Berita Borneo - Malinau (batas 25)
+[15/09/2026 17:07:54]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[15/09/2026 17:07:54] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/09/2026 17:08:56]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 17:08:56] Scraping Tribun Kaltara (batas 10)
+[15/09/2026 17:09:21]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[15/09/2026 17:09:22] Klasifikasi otomatis: 10 berita diproses
+[15/09/2026 17:09:22] === Selesai. 5 berita baru tersimpan ===
+[15/09/2026 23:07:03] === Tugas harian APIFESTAT dimulai ===
+[15/09/2026 23:07:04] Scraping ANTARA KALTARA (batas 25)
+[15/09/2026 23:07:04]   ditemukan 20, disimpan 0, duplikat 5, di luar wilayah 15
+[15/09/2026 23:07:04] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/09/2026 23:07:48]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 23:07:48] Scraping Berita Borneo - Malinau (batas 25)
+[15/09/2026 23:07:50]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[15/09/2026 23:07:50] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/09/2026 23:08:43]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/09/2026 23:08:43] Scraping Tribun Kaltara (batas 10)
+[15/09/2026 23:08:55]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[15/09/2026 23:08:55] Klasifikasi otomatis: 10 berita diproses
+[15/09/2026 23:08:55] === Selesai. 2 berita baru tersimpan ===
+[16/09/2026 12:08:42] === Tugas harian APIFESTAT dimulai ===
+[16/09/2026 12:08:42] Scraping ANTARA KALTARA (batas 25)
+[16/09/2026 12:08:44]   ditemukan 20, disimpan 4, duplikat 2, di luar wilayah 14
+[16/09/2026 12:08:44] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/09/2026 12:09:50]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[16/09/2026 12:09:50] Scraping Berita Borneo - Malinau (batas 25)
+[16/09/2026 12:09:52]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[16/09/2026 12:09:52] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/09/2026 12:11:00]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[16/09/2026 12:11:00] Scraping Tribun Kaltara (batas 10)
+[16/09/2026 12:11:26]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[16/09/2026 12:11:27] Klasifikasi otomatis: 11 berita diproses
+[16/09/2026 12:11:27] === Selesai. 8 berita baru tersimpan ===
+[16/09/2026 17:07:02] === Tugas harian APIFESTAT dimulai ===
+[16/09/2026 17:07:02] Scraping ANTARA KALTARA (batas 25)
+[16/09/2026 17:07:04]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[16/09/2026 17:07:04] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/09/2026 17:08:03]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[16/09/2026 17:08:03] Scraping Berita Borneo - Malinau (batas 25)
+[16/09/2026 17:08:05]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[16/09/2026 17:08:05] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/09/2026 17:09:24]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[16/09/2026 17:09:24] Scraping Tribun Kaltara (batas 10)
+[16/09/2026 17:09:52]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[16/09/2026 17:09:53] Klasifikasi otomatis: 11 berita diproses
+[16/09/2026 17:09:53] === Selesai. 5 berita baru tersimpan ===
+[16/09/2026 18:08:23] === Tugas harian APIFESTAT dimulai ===
+[16/09/2026 18:08:24] Scraping ANTARA KALTARA (batas 25)
+[16/09/2026 18:08:25]   gagal: Remote end closed connection without response
+[16/09/2026 18:08:25] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/09/2026 18:09:07]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[16/09/2026 18:09:07] Scraping Berita Borneo - Malinau (batas 25)
+[16/09/2026 18:09:08]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[16/09/2026 18:09:08] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/09/2026 18:10:30]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[16/09/2026 18:10:30] Scraping Tribun Kaltara (batas 10)
+[16/09/2026 18:10:37]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/09/2026 18:10:38] Klasifikasi otomatis: 11 berita diproses
+[16/09/2026 18:10:38] === Selesai. 0 berita baru tersimpan ===
+[17/09/2026 06:15:13] === Tugas harian APIFESTAT dimulai ===
+[17/09/2026 06:15:14] Scraping ANTARA KALTARA (batas 25)
+[17/09/2026 06:15:15]   ditemukan 20, disimpan 0, duplikat 5, di luar wilayah 15
+[17/09/2026 06:15:15] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/09/2026 06:15:51]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 06:15:51] Scraping Berita Borneo - Malinau (batas 25)
+[17/09/2026 06:15:52]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[17/09/2026 06:15:52] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/09/2026 06:16:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 06:16:41] Scraping Tribun Kaltara (batas 10)
+[17/09/2026 06:17:09]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[17/09/2026 06:17:09] Klasifikasi otomatis: 11 berita diproses
+[17/09/2026 06:17:09] === Selesai. 6 berita baru tersimpan ===
+[17/09/2026 12:08:22] === Tugas harian APIFESTAT dimulai ===
+[17/09/2026 12:08:22] Scraping ANTARA KALTARA (batas 25)
+[17/09/2026 12:08:24]   ditemukan 20, disimpan 4, duplikat 4, di luar wilayah 12
+[17/09/2026 12:08:24] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/09/2026 12:09:08]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[17/09/2026 12:09:08] Scraping Berita Borneo - Malinau (batas 25)
+[17/09/2026 12:09:10]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[17/09/2026 12:09:10] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/09/2026 12:10:09]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 12:10:09] Scraping Tribun Kaltara (batas 10)
+[17/09/2026 12:10:49]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[17/09/2026 12:10:52] Klasifikasi otomatis: 13 berita diproses
+[17/09/2026 12:10:52] === Selesai. 7 berita baru tersimpan ===
+[17/09/2026 12:17:32] === Tugas harian APIFESTAT dimulai ===
+[17/09/2026 12:17:32] Scraping ANTARA KALTARA (batas 25)
+[17/09/2026 12:17:33]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[17/09/2026 12:17:33] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/09/2026 12:18:17]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 12:18:17] Scraping Berita Borneo - Malinau (batas 25)
+[17/09/2026 12:18:18]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[17/09/2026 12:18:18] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/09/2026 12:19:19]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 12:19:19] Scraping Tribun Kaltara (batas 10)
+[17/09/2026 12:19:21]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[17/09/2026 12:19:23] Klasifikasi otomatis: 13 berita diproses
+[17/09/2026 12:19:23] === Selesai. 0 berita baru tersimpan ===
+[17/09/2026 21:12:07] === Tugas harian APIFESTAT dimulai ===
+[17/09/2026 21:12:08] Scraping ANTARA KALTARA (batas 25)
+[17/09/2026 21:12:09]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[17/09/2026 21:12:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/09/2026 21:12:58]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[17/09/2026 21:12:58] Scraping Berita Borneo - Malinau (batas 25)
+[17/09/2026 21:13:00]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[17/09/2026 21:13:00] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/09/2026 21:14:09]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[17/09/2026 21:14:09] Scraping Tribun Kaltara (batas 10)
+[17/09/2026 21:14:53]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[17/09/2026 21:14:55] Klasifikasi otomatis: 13 berita diproses
+[17/09/2026 21:14:55] === Selesai. 8 berita baru tersimpan ===
+[18/09/2026 08:08:49] === Tugas harian APIFESTAT dimulai ===
+[18/09/2026 08:08:50] Scraping ANTARA KALTARA (batas 25)
+[18/09/2026 08:08:54]   ditemukan 20, disimpan 2, duplikat 6, di luar wilayah 12
+[18/09/2026 08:08:54] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/09/2026 08:10:15]   ditemukan 10, disimpan 5, duplikat 0, di luar wilayah 5
+[18/09/2026 08:10:15] Scraping Berita Borneo - Malinau (batas 25)
+[18/09/2026 08:10:17]   ditemukan 10, disimpan 0, duplikat 9, di luar wilayah 1
+[18/09/2026 08:10:17] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/09/2026 08:11:37]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[18/09/2026 08:11:37] Scraping Tribun Kaltara (batas 10)
+[18/09/2026 08:11:45]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[18/09/2026 08:11:46] Klasifikasi otomatis: 15 berita diproses
+[18/09/2026 08:11:46] === Selesai. 8 berita baru tersimpan ===
+[18/09/2026 15:51:09] === Tugas harian APIFESTAT dimulai ===
+[18/09/2026 18:11:45] Scraping ANTARA KALTARA (batas 25)
+[18/09/2026 18:11:56]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[18/09/2026 18:11:56] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/09/2026 18:13:54]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[18/09/2026 18:13:54] Scraping Berita Borneo - Malinau (batas 25)
+[18/09/2026 18:13:59]   ditemukan 10, disimpan 1, duplikat 9, di luar wilayah 0
+[18/09/2026 18:13:59] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/09/2026 18:15:04]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[18/09/2026 18:15:04] Scraping Tribun Kaltara (batas 10)
+[18/09/2026 18:15:32]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[18/09/2026 18:15:34] Klasifikasi otomatis: 15 berita diproses
+[18/09/2026 18:15:34] === Selesai. 8 berita baru tersimpan ===
+[18/09/2026 20:11:07] === Tugas harian APIFESTAT dimulai ===
+[18/09/2026 20:11:07] Scraping ANTARA KALTARA (batas 25)
+[18/09/2026 20:11:08]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[18/09/2026 20:11:08] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/09/2026 20:11:59]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[18/09/2026 20:11:59] Scraping Berita Borneo - Malinau (batas 25)
+[18/09/2026 20:12:02]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[18/09/2026 20:12:02] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/09/2026 20:13:15]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[18/09/2026 20:13:15] Scraping Tribun Kaltara (batas 10)
+[18/09/2026 20:13:22]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[18/09/2026 20:13:23] Klasifikasi otomatis: 15 berita diproses
+[18/09/2026 20:13:23] === Selesai. 1 berita baru tersimpan ===
+[19/09/2026 06:40:08] === Tugas harian APIFESTAT dimulai ===
+[19/09/2026 06:40:09] Scraping ANTARA KALTARA (batas 25)
+[19/09/2026 06:40:11]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[19/09/2026 06:40:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/09/2026 06:40:55]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 06:40:55] Scraping Berita Borneo - Malinau (batas 25)
+[19/09/2026 06:40:56]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[19/09/2026 06:40:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/09/2026 06:41:49]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 06:41:49] Scraping Tribun Kaltara (batas 10)
+[19/09/2026 06:42:02]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[19/09/2026 06:42:03] Klasifikasi otomatis: 15 berita diproses
+[19/09/2026 06:42:03] === Selesai. 2 berita baru tersimpan ===
+[19/09/2026 13:55:03] === Tugas harian APIFESTAT dimulai ===
+[19/09/2026 13:55:04] Scraping ANTARA KALTARA (batas 25)
+[19/09/2026 13:55:11]   ditemukan 20, disimpan 2, duplikat 3, di luar wilayah 15
+[19/09/2026 13:55:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/09/2026 13:56:39]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 13:56:39] Scraping Berita Borneo - Malinau (batas 25)
+[19/09/2026 13:56:42]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[19/09/2026 13:56:42] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/09/2026 13:57:51]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 13:57:51] Scraping Tribun Kaltara (batas 10)
+[19/09/2026 13:58:20]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[19/09/2026 13:58:20] Klasifikasi otomatis: 15 berita diproses
+[19/09/2026 13:58:20] === Selesai. 7 berita baru tersimpan ===
+[19/09/2026 18:16:24] === Tugas harian APIFESTAT dimulai ===
+[19/09/2026 18:16:25] Scraping ANTARA KALTARA (batas 25)
+[19/09/2026 18:16:26]   ditemukan 20, disimpan 0, duplikat 5, di luar wilayah 15
+[19/09/2026 18:16:26] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/09/2026 18:17:13]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 18:17:13] Scraping Berita Borneo - Malinau (batas 25)
+[19/09/2026 18:17:14]   ditemukan 10, disimpan 1, duplikat 9, di luar wilayah 0
+[19/09/2026 18:17:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/09/2026 18:18:13]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/09/2026 18:18:13] Scraping Tribun Kaltara (batas 10)
+[19/09/2026 18:18:28]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[19/09/2026 18:18:29] Klasifikasi otomatis: 15 berita diproses
+[19/09/2026 18:18:29] === Selesai. 4 berita baru tersimpan ===
+[20/09/2026 06:44:21] === Tugas harian APIFESTAT dimulai ===
+[20/09/2026 06:44:21] Scraping ANTARA KALTARA (batas 25)
+[20/09/2026 06:44:22]   ditemukan 20, disimpan 1, duplikat 3, di luar wilayah 16
+[20/09/2026 06:44:22] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/09/2026 06:45:28]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[20/09/2026 06:45:28] Scraping Berita Borneo - Malinau (batas 25)
+[20/09/2026 06:45:29]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[20/09/2026 06:45:29] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/09/2026 06:46:40]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[20/09/2026 06:46:40] Scraping Tribun Kaltara (batas 10)
+[20/09/2026 06:46:47]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[20/09/2026 06:46:48] Klasifikasi otomatis: 15 berita diproses
+[20/09/2026 06:46:48] === Selesai. 3 berita baru tersimpan ===
+[20/09/2026 16:32:39] === Tugas harian APIFESTAT dimulai ===
+[20/09/2026 16:32:40] Scraping ANTARA KALTARA (batas 25)
+[20/09/2026 16:32:45]   ditemukan 20, disimpan 0, duplikat 4, di luar wilayah 16
+[20/09/2026 16:32:45] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/09/2026 16:33:44]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[20/09/2026 16:33:44] Scraping Berita Borneo - Malinau (batas 25)
+[20/09/2026 16:33:45]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[20/09/2026 16:33:45] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/09/2026 16:34:54]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[20/09/2026 16:34:54] Scraping Tribun Kaltara (batas 10)
+[20/09/2026 16:35:16]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[20/09/2026 16:35:17] Klasifikasi otomatis: 15 berita diproses
+[20/09/2026 16:35:17] === Selesai. 4 berita baru tersimpan ===
+[20/09/2026 18:46:15] === Tugas harian APIFESTAT dimulai ===
+[20/09/2026 18:46:15] Scraping ANTARA KALTARA (batas 25)
+[20/09/2026 18:46:16]   ditemukan 20, disimpan 0, duplikat 4, di luar wilayah 16
+[20/09/2026 18:46:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/09/2026 18:46:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/09/2026 18:46:17] Scraping Berita Borneo - Malinau (batas 25)
+[20/09/2026 18:46:19]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[20/09/2026 18:46:19] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/09/2026 18:47:22]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[20/09/2026 18:47:22] Scraping Tribun Kaltara (batas 10)
+[20/09/2026 18:47:36]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[20/09/2026 18:47:36] Klasifikasi otomatis: 15 berita diproses
+[20/09/2026 18:47:36] === Selesai. 1 berita baru tersimpan ===
+[21/09/2026 08:48:29] === Tugas harian APIFESTAT dimulai ===
+[21/09/2026 08:48:29] Scraping ANTARA KALTARA (batas 25)
+[21/09/2026 08:48:29]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[21/09/2026 08:48:29] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/09/2026 08:48:29]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:48:29] Scraping Berita Borneo - Malinau (batas 25)
+[21/09/2026 08:48:29]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[21/09/2026 08:48:29] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/09/2026 08:48:29]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:48:29] Scraping Tribun Kaltara (batas 10)
+[21/09/2026 08:48:29]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:48:30] Klasifikasi otomatis: 15 berita diproses
+[21/09/2026 08:48:30] === Selesai. 0 berita baru tersimpan ===
+[21/09/2026 08:51:05] === Tugas harian APIFESTAT dimulai ===
+[21/09/2026 08:51:06] Scraping ANTARA KALTARA (batas 25)
+[21/09/2026 08:51:06]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[21/09/2026 08:51:06] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/09/2026 08:51:06]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:51:06] Scraping Berita Borneo - Malinau (batas 25)
+[21/09/2026 08:51:06]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[21/09/2026 08:51:06] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/09/2026 08:51:06]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:51:06] Scraping Tribun Kaltara (batas 10)
+[21/09/2026 08:51:06]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 08:51:07] Klasifikasi otomatis: 15 berita diproses
+[21/09/2026 08:51:07] === Selesai. 0 berita baru tersimpan ===
+[21/09/2026 19:33:09] === Tugas harian APIFESTAT dimulai ===
+[21/09/2026 19:33:10] Scraping ANTARA KALTARA (batas 25)
+[21/09/2026 19:33:15]   gagal: Remote end closed connection without response
+[21/09/2026 19:33:15] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/09/2026 19:34:11]   ditemukan 10, disimpan 4, duplikat 0, di luar wilayah 6
+[21/09/2026 19:34:11] Scraping Berita Borneo - Malinau (batas 25)
+[21/09/2026 19:34:14]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[21/09/2026 19:34:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/09/2026 19:36:03]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[21/09/2026 19:36:03] Scraping Tribun Kaltara (batas 10)
+[21/09/2026 19:37:04]   ditemukan 10, disimpan 10, duplikat 0, di luar wilayah 0
+[21/09/2026 19:37:04] Klasifikasi otomatis: 15 berita diproses
+[21/09/2026 19:37:04] === Selesai. 14 berita baru tersimpan ===
+[21/09/2026 20:51:08] === Tugas harian APIFESTAT dimulai ===
+[21/09/2026 20:51:08] Scraping ANTARA KALTARA (batas 25)
+[21/09/2026 20:51:10]   ditemukan 20, disimpan 0, duplikat 7, di luar wilayah 13
+[21/09/2026 20:51:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/09/2026 20:51:11]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 20:51:11] Scraping Berita Borneo - Malinau (batas 25)
+[21/09/2026 20:51:32]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[21/09/2026 20:51:32] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/09/2026 20:51:48]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/09/2026 20:51:48] Scraping Tribun Kaltara (batas 10)
+[21/09/2026 20:52:09]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[21/09/2026 20:52:10] Klasifikasi otomatis: 15 berita diproses
+[21/09/2026 20:52:10] === Selesai. 3 berita baru tersimpan ===
+[22/09/2026 05:11:12] === Tugas harian APIFESTAT dimulai ===
+[22/09/2026 05:11:13] Scraping ANTARA KALTARA (batas 25)
+[22/09/2026 05:11:15]   ditemukan 20, disimpan 1, duplikat 6, di luar wilayah 13
+[22/09/2026 05:11:15] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/09/2026 05:12:10]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[22/09/2026 05:12:10] Scraping Berita Borneo - Malinau (batas 25)
+[22/09/2026 05:12:12]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[22/09/2026 05:12:12] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/09/2026 05:13:14]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[22/09/2026 05:13:14] Scraping Tribun Kaltara (batas 10)
+[22/09/2026 05:13:33]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[22/09/2026 05:13:34] Klasifikasi otomatis: 15 berita diproses
+[22/09/2026 05:13:34] === Selesai. 4 berita baru tersimpan ===
+[22/09/2026 06:00:05] === Tugas harian APIFESTAT dimulai ===
+[22/09/2026 06:00:06] Scraping ANTARA KALTARA (batas 25)
+[22/09/2026 06:00:07]   ditemukan 20, disimpan 0, duplikat 7, di luar wilayah 13
+[22/09/2026 06:00:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/09/2026 06:00:56]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[22/09/2026 06:00:56] Scraping Berita Borneo - Malinau (batas 25)
+[22/09/2026 06:00:57]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[22/09/2026 06:00:57] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/09/2026 06:01:48]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[22/09/2026 06:01:48] Scraping Tribun Kaltara (batas 10)
+[22/09/2026 06:01:55]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[22/09/2026 06:01:55] Klasifikasi otomatis: 15 berita diproses
+[22/09/2026 06:01:55] === Selesai. 1 berita baru tersimpan ===
+[22/09/2026 12:00:10] === Tugas harian APIFESTAT dimulai ===
+[22/09/2026 12:00:10] Scraping ANTARA KALTARA (batas 25)
+[22/09/2026 12:00:12]   ditemukan 20, disimpan 1, duplikat 7, di luar wilayah 12
+[22/09/2026 12:00:12] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/09/2026 12:00:57]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[22/09/2026 12:00:57] Scraping Berita Borneo - Malinau (batas 25)
+[22/09/2026 12:00:57]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[22/09/2026 12:00:57] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/09/2026 12:01:42]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[22/09/2026 12:01:42] Scraping Tribun Kaltara (batas 10)
+[22/09/2026 12:01:55]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[22/09/2026 12:01:56] Klasifikasi otomatis: 15 berita diproses
+[22/09/2026 12:01:56] === Selesai. 3 berita baru tersimpan ===
+[22/09/2026 18:00:08] === Tugas harian APIFESTAT dimulai ===
+[22/09/2026 18:00:08] Scraping ANTARA KALTARA (batas 25)
+[22/09/2026 18:00:10]   ditemukan 20, disimpan 4, duplikat 6, di luar wilayah 10
+[22/09/2026 18:00:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/09/2026 18:01:07]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[22/09/2026 18:01:07] Scraping Berita Borneo - Malinau (batas 25)
+[22/09/2026 18:01:08]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[22/09/2026 18:01:08] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/09/2026 18:02:11]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[22/09/2026 18:02:11] Scraping Tribun Kaltara (batas 10)
+[22/09/2026 18:02:29]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[22/09/2026 18:02:30] Klasifikasi otomatis: 17 berita diproses
+[22/09/2026 18:02:30] === Selesai. 7 berita baru tersimpan ===
+[23/09/2026 00:00:06] === Tugas harian APIFESTAT dimulai ===
+[23/09/2026 00:00:06] Scraping ANTARA KALTARA (batas 25)
+[23/09/2026 00:00:10]   ditemukan 20, disimpan 1, duplikat 10, di luar wilayah 9
+[23/09/2026 00:00:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/09/2026 00:01:09]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[23/09/2026 00:01:09] Scraping Berita Borneo - Malinau (batas 25)
+[23/09/2026 00:01:11]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[23/09/2026 00:01:11] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/09/2026 00:02:19]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/09/2026 00:02:19] Scraping Tribun Kaltara (batas 10)
+[23/09/2026 00:02:49]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[23/09/2026 00:02:49] Klasifikasi otomatis: 17 berita diproses
+[23/09/2026 00:02:49] === Selesai. 7 berita baru tersimpan ===
+[23/09/2026 06:00:09] === Tugas harian APIFESTAT dimulai ===
+[23/09/2026 06:00:09] Scraping ANTARA KALTARA (batas 25)
+[23/09/2026 06:00:09]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[23/09/2026 06:00:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/09/2026 06:00:47]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[23/09/2026 06:00:47] Scraping Berita Borneo - Malinau (batas 25)
+[23/09/2026 06:00:48]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[23/09/2026 06:00:48] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/09/2026 06:02:06]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/09/2026 06:02:06] Scraping Tribun Kaltara (batas 10)
+[23/09/2026 06:02:12]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[23/09/2026 06:02:13] Klasifikasi otomatis: 17 berita diproses
+[23/09/2026 06:02:13] === Selesai. 1 berita baru tersimpan ===
+[23/09/2026 12:00:13] === Tugas harian APIFESTAT dimulai ===
+[23/09/2026 12:00:13] Scraping ANTARA KALTARA (batas 25)
+[23/09/2026 12:00:14]   ditemukan 20, disimpan 1, duplikat 11, di luar wilayah 8
+[23/09/2026 12:00:14] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/09/2026 12:00:53]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[23/09/2026 12:00:53] Scraping Berita Borneo - Malinau (batas 25)
+[23/09/2026 12:00:53]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[23/09/2026 12:00:53] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/09/2026 12:01:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/09/2026 12:01:41] Scraping Tribun Kaltara (batas 10)
+[23/09/2026 12:02:00]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[23/09/2026 12:02:00] Klasifikasi otomatis: 17 berita diproses
+[23/09/2026 12:02:00] === Selesai. 4 berita baru tersimpan ===
+[23/09/2026 19:00:45] === Tugas harian APIFESTAT dimulai ===
+[23/09/2026 19:00:46] Scraping ANTARA KALTARA (batas 25)
+[23/09/2026 19:00:47]   ditemukan 20, disimpan 3, duplikat 10, di luar wilayah 7
+[23/09/2026 19:00:47] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/09/2026 19:02:12]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[23/09/2026 19:02:12] Scraping Berita Borneo - Malinau (batas 25)
+[23/09/2026 19:02:14]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[23/09/2026 19:02:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/09/2026 19:04:53]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/09/2026 19:04:53] Scraping Tribun Kaltara (batas 10)
+[23/09/2026 19:05:47]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[23/09/2026 19:05:48] Klasifikasi otomatis: 18 berita diproses
+[23/09/2026 19:05:48] === Selesai. 10 berita baru tersimpan ===
+[24/09/2026 00:00:07] === Tugas harian APIFESTAT dimulai ===
+[24/09/2026 00:00:07] Scraping ANTARA KALTARA (batas 25)
+[24/09/2026 00:00:08]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[24/09/2026 00:00:08] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/09/2026 00:01:03]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 00:01:03] Scraping Berita Borneo - Malinau (batas 25)
+[24/09/2026 00:01:04]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[24/09/2026 00:01:04] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/09/2026 00:02:00]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 00:02:00] Scraping Tribun Kaltara (batas 10)
+[24/09/2026 00:02:14]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[24/09/2026 00:02:15] Klasifikasi otomatis: 18 berita diproses
+[24/09/2026 00:02:15] === Selesai. 2 berita baru tersimpan ===
+[24/09/2026 07:35:18] === Tugas harian APIFESTAT dimulai ===
+[24/09/2026 07:35:18] Scraping ANTARA KALTARA (batas 25)
+[24/09/2026 07:35:19]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[24/09/2026 07:35:19] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/09/2026 07:36:01]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 07:36:01] Scraping Berita Borneo - Malinau (batas 25)
+[24/09/2026 07:36:03]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[24/09/2026 07:36:03] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/09/2026 07:36:57]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 07:36:57] Scraping Tribun Kaltara (batas 10)
+[24/09/2026 07:37:00]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/09/2026 07:37:01] Klasifikasi otomatis: 18 berita diproses
+[24/09/2026 07:37:01] === Selesai. 0 berita baru tersimpan ===
+[24/09/2026 07:37:34] === Tugas harian APIFESTAT dimulai ===
+[24/09/2026 07:37:34] Scraping ANTARA KALTARA (batas 25)
+[24/09/2026 07:37:36]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[24/09/2026 07:37:36] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/09/2026 07:38:52]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[24/09/2026 07:38:52] Scraping Berita Borneo - Malinau (batas 25)
+[24/09/2026 07:38:56]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[24/09/2026 07:38:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/09/2026 07:40:14]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 07:40:14] Scraping Tribun Kaltara (batas 10)
+[24/09/2026 07:40:19]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/09/2026 07:40:23] Klasifikasi otomatis: 18 berita diproses
+[24/09/2026 07:40:23] === Selesai. 0 berita baru tersimpan ===
+[24/09/2026 13:37:21] === Tugas harian APIFESTAT dimulai ===
+[24/09/2026 13:37:21] Scraping ANTARA KALTARA (batas 25)
+[24/09/2026 13:37:22]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[24/09/2026 13:37:22] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/09/2026 13:38:13]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[24/09/2026 13:38:13] Scraping Berita Borneo - Malinau (batas 25)
+[24/09/2026 13:38:16]   ditemukan 10, disimpan 2, duplikat 8, di luar wilayah 0
+[24/09/2026 13:38:16] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/09/2026 13:39:14]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 13:39:14] Scraping Tribun Kaltara (batas 10)
+[24/09/2026 13:39:28]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[24/09/2026 13:39:28] Klasifikasi otomatis: 19 berita diproses
+[24/09/2026 13:39:28] === Selesai. 5 berita baru tersimpan ===
+[24/09/2026 20:06:17] === Tugas harian APIFESTAT dimulai ===
+[24/09/2026 20:06:17] Scraping ANTARA KALTARA (batas 25)
+[24/09/2026 20:06:25]   ditemukan 20, disimpan 0, duplikat 10, di luar wilayah 10
+[24/09/2026 20:06:25] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/09/2026 20:06:28]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/09/2026 20:06:28] Scraping Berita Borneo - Malinau (batas 25)
+[24/09/2026 20:06:32]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[24/09/2026 20:06:32] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/09/2026 20:07:34]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[24/09/2026 20:07:34] Scraping Tribun Kaltara (batas 10)
+[24/09/2026 20:08:04]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[24/09/2026 20:08:05] Klasifikasi otomatis: 19 berita diproses
+[24/09/2026 20:08:05] === Selesai. 5 berita baru tersimpan ===
+[25/09/2026 07:40:00] === Tugas harian APIFESTAT dimulai ===
+[25/09/2026 07:40:01] Scraping ANTARA KALTARA (batas 25)
+[25/09/2026 07:40:03]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[25/09/2026 07:40:03] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/09/2026 07:41:10]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[25/09/2026 07:41:10] Scraping Berita Borneo - Malinau (batas 25)
+[25/09/2026 07:41:14]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[25/09/2026 07:41:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/09/2026 07:42:16]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/09/2026 07:42:16] Scraping Tribun Kaltara (batas 10)
+[25/09/2026 07:44:00]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[25/09/2026 07:44:01] Klasifikasi otomatis: 20 berita diproses
+[25/09/2026 07:44:01] === Selesai. 6 berita baru tersimpan ===
+[25/09/2026 13:35:42] === Tugas harian APIFESTAT dimulai ===
+[25/09/2026 13:35:42] Scraping ANTARA KALTARA (batas 25)
+[25/09/2026 13:35:43]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[25/09/2026 13:35:43] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/09/2026 13:36:24]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/09/2026 13:36:24] Scraping Berita Borneo - Malinau (batas 25)
+[25/09/2026 13:36:26]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[25/09/2026 13:36:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/09/2026 13:37:21]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/09/2026 13:37:21] Scraping Tribun Kaltara (batas 10)
+[25/09/2026 13:37:38]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[25/09/2026 13:37:39] Klasifikasi otomatis: 20 berita diproses
+[25/09/2026 13:37:39] === Selesai. 3 berita baru tersimpan ===
+[25/09/2026 20:15:29] === Tugas harian APIFESTAT dimulai ===
+[25/09/2026 20:15:30] Scraping ANTARA KALTARA (batas 25)
+[25/09/2026 20:15:32]   ditemukan 20, disimpan 7, duplikat 3, di luar wilayah 10
+[25/09/2026 20:15:32] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/09/2026 20:16:51]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/09/2026 20:16:51] Scraping Berita Borneo - Malinau (batas 25)
+[25/09/2026 20:16:54]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[25/09/2026 20:16:54] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/09/2026 20:17:51]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/09/2026 20:17:51] Scraping Tribun Kaltara (batas 10)
+[25/09/2026 20:18:12]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[25/09/2026 20:18:13] Klasifikasi otomatis: 22 berita diproses
+[25/09/2026 20:18:13] === Selesai. 11 berita baru tersimpan ===
+[26/09/2026 07:45:36] === Tugas harian APIFESTAT dimulai ===
+[26/09/2026 07:45:36] Scraping ANTARA KALTARA (batas 25)
+[26/09/2026 07:45:37]   ditemukan 20, disimpan 2, duplikat 7, di luar wilayah 11
+[26/09/2026 07:45:37] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/09/2026 07:46:21]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[26/09/2026 07:46:21] Scraping Berita Borneo - Malinau (batas 25)
+[26/09/2026 07:46:23]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[26/09/2026 07:46:23] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/09/2026 07:47:18]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 07:47:18] Scraping Tribun Kaltara (batas 10)
+[26/09/2026 07:47:31]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[26/09/2026 07:47:35] Klasifikasi otomatis: 22 berita diproses
+[26/09/2026 07:47:35] === Selesai. 4 berita baru tersimpan ===
+[26/09/2026 07:47:52] === Tugas harian APIFESTAT dimulai ===
+[26/09/2026 07:47:52] Scraping ANTARA KALTARA (batas 25)
+[26/09/2026 07:47:53]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/09/2026 07:47:53] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/09/2026 07:48:37]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 07:48:37] Scraping Berita Borneo - Malinau (batas 25)
+[26/09/2026 07:48:38]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[26/09/2026 07:48:38] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/09/2026 07:49:22]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 07:49:22] Scraping Tribun Kaltara (batas 10)
+[26/09/2026 07:49:23]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/09/2026 07:49:24] Klasifikasi otomatis: 22 berita diproses
+[26/09/2026 07:49:24] === Selesai. 0 berita baru tersimpan ===
+[26/09/2026 13:47:51] === Tugas harian APIFESTAT dimulai ===
+[26/09/2026 13:47:52] Scraping ANTARA KALTARA (batas 25)
+[26/09/2026 13:47:52]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/09/2026 13:47:52] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/09/2026 13:48:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 13:48:41] Scraping Berita Borneo - Malinau (batas 25)
+[26/09/2026 13:48:42]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[26/09/2026 13:48:42] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/09/2026 13:49:29]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 13:49:29] Scraping Tribun Kaltara (batas 10)
+[26/09/2026 13:49:44]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[26/09/2026 13:49:45] Klasifikasi otomatis: 22 berita diproses
+[26/09/2026 13:49:45] === Selesai. 3 berita baru tersimpan ===
+[26/09/2026 19:47:54] === Tugas harian APIFESTAT dimulai ===
+[26/09/2026 19:47:54] Scraping ANTARA KALTARA (batas 25)
+[26/09/2026 19:47:55]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/09/2026 19:47:55] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/09/2026 19:48:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 19:48:41] Scraping Berita Borneo - Malinau (batas 25)
+[26/09/2026 19:48:43]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[26/09/2026 19:48:43] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/09/2026 19:49:36]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/09/2026 19:49:36] Scraping Tribun Kaltara (batas 10)
+[26/09/2026 19:50:05]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[26/09/2026 19:50:05] Klasifikasi otomatis: 22 berita diproses
+[26/09/2026 19:50:05] === Selesai. 6 berita baru tersimpan ===
+[27/09/2026 02:36:56] === Tugas harian APIFESTAT dimulai ===
+[27/09/2026 02:36:56] Scraping ANTARA KALTARA (batas 25)
+[27/09/2026 02:36:57]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[27/09/2026 02:36:57] Scraping ANTARA Kaltara (arsip) (batas 10)
+[27/09/2026 02:37:40]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[27/09/2026 02:37:40] Scraping Berita Borneo - Malinau (batas 25)
+[27/09/2026 02:37:41]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[27/09/2026 02:37:41] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[27/09/2026 02:38:29]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[27/09/2026 02:38:29] Scraping Tribun Kaltara (batas 10)
+[27/09/2026 02:38:40]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[27/09/2026 02:38:41] Klasifikasi otomatis: 22 berita diproses
+[27/09/2026 02:38:41] === Selesai. 2 berita baru tersimpan ===
+[27/09/2026 06:00:06] === Tugas harian APIFESTAT dimulai ===
+[27/09/2026 06:00:06] Scraping ANTARA KALTARA (batas 25)
+[27/09/2026 06:00:07]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[27/09/2026 06:00:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[27/09/2026 06:00:52]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[27/09/2026 06:00:52] Scraping Berita Borneo - Malinau (batas 25)
+[27/09/2026 06:00:53]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[27/09/2026 06:00:53] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[27/09/2026 06:01:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[27/09/2026 06:01:41] Scraping Tribun Kaltara (batas 10)
+[27/09/2026 06:01:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[27/09/2026 06:01:44] Klasifikasi otomatis: 22 berita diproses
+[27/09/2026 06:01:44] === Selesai. 0 berita baru tersimpan ===
+[27/09/2026 07:47:51] === Tugas harian APIFESTAT dimulai ===
+[27/09/2026 07:47:51] Scraping ANTARA KALTARA (batas 25)
+[27/09/2026 07:47:52]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[27/09/2026 07:47:52] Scraping ANTARA Kaltara (arsip) (batas 10)
+[27/09/2026 07:48:43]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[27/09/2026 07:48:43] Scraping Berita Borneo - Malinau (batas 25)
+[27/09/2026 07:48:44]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[27/09/2026 07:48:44] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[27/09/2026 07:49:38]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[27/09/2026 07:49:38] Scraping Tribun Kaltara (batas 10)
+[27/09/2026 07:49:45]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[27/09/2026 07:49:46] Klasifikasi otomatis: 22 berita diproses
+[27/09/2026 07:49:46] === Selesai. 1 berita baru tersimpan ===
+[27/09/2026 22:44:33] === Tugas harian APIFESTAT dimulai ===
+[27/09/2026 22:44:33] Scraping ANTARA KALTARA (batas 25)
+[27/09/2026 22:44:34]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[27/09/2026 22:44:34] Scraping ANTARA Kaltara (arsip) (batas 10)
+[27/09/2026 22:44:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[27/09/2026 22:44:34] Scraping Berita Borneo - Malinau (batas 25)
+[27/09/2026 22:44:34]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[27/09/2026 22:44:34] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[27/09/2026 22:44:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[27/09/2026 22:44:34] Scraping Tribun Kaltara (batas 10)
+[27/09/2026 22:44:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[27/09/2026 22:44:35] Klasifikasi otomatis: 22 berita diproses
+[27/09/2026 22:44:35] === Selesai. 0 berita baru tersimpan ===
+[28/09/2026 21:06:25] === Tugas harian APIFESTAT dimulai ===
+[28/09/2026 21:06:26] Scraping ANTARA KALTARA (batas 25)
+[28/09/2026 21:06:27]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[28/09/2026 21:06:27] Scraping ANTARA Kaltara (arsip) (batas 10)
+[28/09/2026 21:06:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[28/09/2026 21:06:27] Scraping Berita Borneo - Malinau (batas 25)
+[28/09/2026 21:06:27]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[28/09/2026 21:06:27] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[28/09/2026 21:06:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[28/09/2026 21:06:27] Scraping Tribun Kaltara (batas 10)
+[28/09/2026 21:06:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[28/09/2026 21:06:28] Klasifikasi otomatis: 22 berita diproses
+[28/09/2026 21:06:28] === Selesai. 0 berita baru tersimpan ===
+[29/09/2026 08:41:33] === Tugas harian APIFESTAT dimulai ===
+[29/09/2026 08:41:33] Scraping ANTARA KALTARA (batas 25)
+[29/09/2026 08:41:35]   ditemukan 20, disimpan 12, duplikat 1, di luar wilayah 7
+[29/09/2026 08:41:35] Scraping ANTARA Kaltara (arsip) (batas 10)
+[29/09/2026 08:42:24]   ditemukan 8, disimpan 1, duplikat 0, di luar wilayah 7
+[29/09/2026 08:42:24] Scraping Berita Borneo - Malinau (batas 25)
+[29/09/2026 08:42:26]   ditemukan 10, disimpan 1, duplikat 9, di luar wilayah 0
+[29/09/2026 08:42:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[29/09/2026 08:43:29]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[29/09/2026 08:43:29] Scraping Tribun Kaltara (batas 10)
+[29/09/2026 08:44:44]   ditemukan 10, disimpan 10, duplikat 0, di luar wilayah 0
+[29/09/2026 08:44:45] Klasifikasi otomatis: 24 berita diproses
+[29/09/2026 08:44:45] === Selesai. 24 berita baru tersimpan ===
+[29/09/2026 09:06:22] === Tugas harian APIFESTAT dimulai ===
+[29/09/2026 09:06:22] Scraping ANTARA KALTARA (batas 25)
+[29/09/2026 09:06:23]   ditemukan 20, disimpan 0, duplikat 13, di luar wilayah 7
+[29/09/2026 09:06:23] Scraping ANTARA Kaltara (arsip) (batas 10)
+[29/09/2026 09:07:07]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[29/09/2026 09:07:07] Scraping Berita Borneo - Malinau (batas 25)
+[29/09/2026 09:07:09]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[29/09/2026 09:07:09] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[29/09/2026 09:08:04]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[29/09/2026 09:08:04] Scraping Tribun Kaltara (batas 10)
+[29/09/2026 09:08:16]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[29/09/2026 09:08:17] Klasifikasi otomatis: 24 berita diproses
+[29/09/2026 09:08:17] === Selesai. 2 berita baru tersimpan ===
+[29/09/2026 20:12:47] === Tugas harian APIFESTAT dimulai ===
+[29/09/2026 20:12:47] Scraping ANTARA KALTARA (batas 25)
+[29/09/2026 20:12:50]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[29/09/2026 20:12:50] Scraping ANTARA Kaltara (arsip) (batas 10)
+[29/09/2026 20:14:23]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[29/09/2026 20:14:24] Scraping Berita Borneo - Malinau (batas 25)
+[29/09/2026 20:14:31]   ditemukan 10, disimpan 3, duplikat 7, di luar wilayah 0
+[29/09/2026 20:14:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[29/09/2026 20:16:52]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[29/09/2026 20:16:52] Scraping Tribun Kaltara (batas 10)
+[29/09/2026 20:19:10]   ditemukan 8, disimpan 8, duplikat 0, di luar wilayah 0
+[29/09/2026 20:19:11] Klasifikasi otomatis: 24 berita diproses
+[29/09/2026 20:19:11] === Selesai. 11 berita baru tersimpan ===
+[29/09/2026 20:41:21] === Tugas harian APIFESTAT dimulai ===
+[29/09/2026 20:41:21] Scraping ANTARA KALTARA (batas 25)
+[29/09/2026 20:41:22]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[29/09/2026 20:41:22] Scraping ANTARA Kaltara (arsip) (batas 10)
+[29/09/2026 20:42:06]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[29/09/2026 20:42:06] Scraping Berita Borneo - Malinau (batas 25)
+[29/09/2026 20:42:08]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[29/09/2026 20:42:08] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[30/09/2026 06:23:34]   ditemukan 2, disimpan 0, duplikat 0, di luar wilayah 2
+[30/09/2026 06:23:34] Scraping Tribun Kaltara (batas 10)
+[30/09/2026 06:23:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 06:23:35] Klasifikasi otomatis: 24 berita diproses
+[30/09/2026 06:23:35] === Selesai. 0 berita baru tersimpan ===
+[30/09/2026 06:24:47] === Tugas harian APIFESTAT dimulai ===
+[30/09/2026 06:24:47] Scraping ANTARA KALTARA (batas 25)
+[30/09/2026 06:24:47]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 06:24:47] Scraping ANTARA Kaltara (arsip) (batas 10)
+[30/09/2026 06:24:47]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 06:24:47] Scraping Berita Borneo - Malinau (batas 25)
+[30/09/2026 06:24:47]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 06:24:47] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[30/09/2026 06:24:47]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 06:24:47] Scraping Tribun Kaltara (batas 10)
+[30/09/2026 06:24:47]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 06:24:48] Klasifikasi otomatis: 24 berita diproses
+[30/09/2026 06:24:48] === Selesai. 0 berita baru tersimpan ===
+[30/09/2026 08:41:21] === Tugas harian APIFESTAT dimulai ===
+[30/09/2026 08:41:21] Scraping ANTARA KALTARA (batas 25)
+[30/09/2026 08:41:21]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 08:41:21] Scraping ANTARA Kaltara (arsip) (batas 10)
+[30/09/2026 08:41:21]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 08:41:21] Scraping Berita Borneo - Malinau (batas 25)
+[30/09/2026 08:41:21]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 08:41:21] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[30/09/2026 08:41:21]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 08:41:21] Scraping Tribun Kaltara (batas 10)
+[30/09/2026 08:41:21]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 08:41:22] Klasifikasi otomatis: 24 berita diproses
+[30/09/2026 08:41:22] === Selesai. 0 berita baru tersimpan ===
+[30/09/2026 12:24:43] === Tugas harian APIFESTAT dimulai ===
+[30/09/2026 12:24:43] Scraping ANTARA KALTARA (batas 25)
+[30/09/2026 12:24:43]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 12:24:43] Scraping ANTARA Kaltara (arsip) (batas 10)
+[30/09/2026 12:24:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 12:24:43] Scraping Berita Borneo - Malinau (batas 25)
+[30/09/2026 12:24:43]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[30/09/2026 12:24:43] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[30/09/2026 12:24:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 12:24:43] Scraping Tribun Kaltara (batas 10)
+[30/09/2026 12:24:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[30/09/2026 12:24:45] Klasifikasi otomatis: 24 berita diproses
+[30/09/2026 12:24:45] === Selesai. 0 berita baru tersimpan ===
+[30/09/2026 18:00:08] === Tugas harian APIFESTAT dimulai ===
+[30/09/2026 18:00:10] Scraping ANTARA KALTARA (batas 25)
+[30/09/2026 18:00:11]   ditemukan 20, disimpan 2, duplikat 7, di luar wilayah 11
+[30/09/2026 18:00:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[30/09/2026 18:01:01]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[30/09/2026 18:01:01] Scraping Berita Borneo - Malinau (batas 25)
+[30/09/2026 18:01:03]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[30/09/2026 18:01:03] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[30/09/2026 18:01:56]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[30/09/2026 18:01:56] Scraping Tribun Kaltara (batas 10)
+[30/09/2026 18:02:36]   ditemukan 8, disimpan 8, duplikat 0, di luar wilayah 0
+[30/09/2026 18:02:37] Klasifikasi otomatis: 24 berita diproses
+[30/09/2026 18:02:37] === Selesai. 12 berita baru tersimpan ===
+[01/10/2026 00:14:04] === Tugas harian APIFESTAT dimulai ===
+[01/10/2026 00:14:04] Scraping ANTARA KALTARA (batas 25)
+[01/10/2026 00:14:04]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[01/10/2026 00:14:04] Scraping ANTARA Kaltara (arsip) (batas 10)
+[01/10/2026 00:14:46]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[01/10/2026 00:14:46] Scraping Berita Borneo - Malinau (batas 25)
+[01/10/2026 00:14:47]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[01/10/2026 00:14:47] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[01/10/2026 00:15:32]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[01/10/2026 00:15:32] Scraping Tribun Kaltara (batas 10)
+[01/10/2026 00:16:00]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[01/10/2026 00:16:01] Klasifikasi otomatis: 24 berita diproses
+[01/10/2026 00:16:01] === Selesai. 6 berita baru tersimpan ===
+[01/10/2026 07:24:13] === Tugas harian APIFESTAT dimulai ===
+[01/10/2026 07:24:13] Scraping ANTARA KALTARA (batas 25)
+[01/10/2026 07:24:13]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[01/10/2026 07:24:13] Scraping ANTARA Kaltara (arsip) (batas 10)
+[01/10/2026 07:24:13]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[01/10/2026 07:24:13] Scraping Berita Borneo - Malinau (batas 25)
+[01/10/2026 07:24:13]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[01/10/2026 07:24:13] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[01/10/2026 07:24:13]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[01/10/2026 07:24:13] Scraping Tribun Kaltara (batas 10)
+[01/10/2026 07:24:13]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[01/10/2026 07:24:14] Klasifikasi otomatis: 24 berita diproses
+[01/10/2026 07:24:14] === Selesai. 0 berita baru tersimpan ===
+[01/10/2026 13:34:54] === Tugas harian APIFESTAT dimulai ===
+[01/10/2026 13:34:56] Scraping ANTARA KALTARA (batas 25)
+[01/10/2026 13:34:57]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[01/10/2026 13:34:57] Scraping ANTARA Kaltara (arsip) (batas 10)
+[01/10/2026 13:35:40]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[01/10/2026 13:35:40] Scraping Berita Borneo - Malinau (batas 25)
+[01/10/2026 13:35:42]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[01/10/2026 13:35:42] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[01/10/2026 13:36:28]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[01/10/2026 13:36:28] Scraping Tribun Kaltara (batas 10)
+[01/10/2026 13:36:53]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[01/10/2026 13:36:54] Klasifikasi otomatis: 25 berita diproses
+[01/10/2026 13:36:54] === Selesai. 5 berita baru tersimpan ===
+[01/10/2026 19:44:47] === Tugas harian APIFESTAT dimulai ===
+[01/10/2026 19:44:48] Scraping ANTARA KALTARA (batas 25)
+[01/10/2026 19:44:49]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[01/10/2026 19:44:49] Scraping ANTARA Kaltara (arsip) (batas 10)
+[01/10/2026 19:44:57]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[01/10/2026 19:44:57] Scraping Berita Borneo - Malinau (batas 25)
+[01/10/2026 19:44:59]   ditemukan 10, disimpan 4, duplikat 6, di luar wilayah 0
+[01/10/2026 19:44:59] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[01/10/2026 19:46:08]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[01/10/2026 19:46:08] Scraping Tribun Kaltara (batas 10)
+[01/10/2026 19:46:28]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[01/10/2026 19:46:29] Klasifikasi otomatis: 25 berita diproses
+[01/10/2026 19:46:29] === Selesai. 9 berita baru tersimpan ===
+[02/10/2026 01:24:11] === Tugas harian APIFESTAT dimulai ===
+[02/10/2026 01:24:11] Scraping ANTARA KALTARA (batas 25)
+[02/10/2026 01:24:11]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[02/10/2026 01:24:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[02/10/2026 01:24:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[02/10/2026 01:24:12] Scraping Berita Borneo - Malinau (batas 25)
+[02/10/2026 01:24:14]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[02/10/2026 01:24:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[02/10/2026 01:25:00]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 01:25:00] Scraping Tribun Kaltara (batas 10)
+[02/10/2026 01:25:26]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[02/10/2026 01:25:27] Klasifikasi otomatis: 25 berita diproses
+[02/10/2026 01:25:27] === Selesai. 5 berita baru tersimpan ===
+[02/10/2026 06:38:12] === Tugas harian APIFESTAT dimulai ===
+[02/10/2026 06:38:13] Scraping ANTARA KALTARA (batas 25)
+[02/10/2026 06:38:13]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[02/10/2026 06:38:13] Scraping ANTARA Kaltara (arsip) (batas 10)
+[02/10/2026 06:38:58]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 06:38:58] Scraping Berita Borneo - Malinau (batas 25)
+[02/10/2026 06:38:59]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[02/10/2026 06:38:59] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[02/10/2026 06:39:46]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 06:39:46] Scraping Tribun Kaltara (batas 10)
+[02/10/2026 06:39:48]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[02/10/2026 06:39:49] Klasifikasi otomatis: 25 berita diproses
+[02/10/2026 06:39:49] === Selesai. 0 berita baru tersimpan ===
+[02/10/2026 12:38:11] === Tugas harian APIFESTAT dimulai ===
+[02/10/2026 12:38:11] Scraping ANTARA KALTARA (batas 25)
+[02/10/2026 12:38:12]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[02/10/2026 12:38:12] Scraping ANTARA Kaltara (arsip) (batas 10)
+[02/10/2026 12:38:54]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 12:38:54] Scraping Berita Borneo - Malinau (batas 25)
+[02/10/2026 12:38:55]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[02/10/2026 12:38:55] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[02/10/2026 12:39:41]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 12:39:41] Scraping Tribun Kaltara (batas 10)
+[02/10/2026 12:39:53]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[02/10/2026 12:39:54] Klasifikasi otomatis: 25 berita diproses
+[02/10/2026 12:39:54] === Selesai. 2 berita baru tersimpan ===
+[02/10/2026 18:38:26] === Tugas harian APIFESTAT dimulai ===
+[02/10/2026 18:38:27] Scraping ANTARA KALTARA (batas 25)
+[02/10/2026 18:38:29]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[02/10/2026 18:38:29] Scraping ANTARA Kaltara (arsip) (batas 10)
+[02/10/2026 18:39:21]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 18:39:21] Scraping Berita Borneo - Malinau (batas 25)
+[02/10/2026 18:39:24]   ditemukan 10, disimpan 2, duplikat 8, di luar wilayah 0
+[02/10/2026 18:39:24] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[02/10/2026 18:40:23]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[02/10/2026 18:40:23] Scraping Tribun Kaltara (batas 10)
+[02/10/2026 18:40:39]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[02/10/2026 18:40:40] Klasifikasi otomatis: 25 berita diproses
+[02/10/2026 18:40:40] === Selesai. 5 berita baru tersimpan ===
+[03/10/2026 01:22:04] === Tugas harian APIFESTAT dimulai ===
+[03/10/2026 01:22:05] Scraping ANTARA KALTARA (batas 25)
+[03/10/2026 01:22:07]   gagal: Feed tidak dapat dibaca: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[03/10/2026 01:22:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[03/10/2026 01:22:10]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[03/10/2026 01:22:10] Scraping Berita Borneo - Malinau (batas 25)
+[03/10/2026 01:22:11]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[03/10/2026 01:22:11] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[03/10/2026 01:22:55]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 01:22:55] Scraping Tribun Kaltara (batas 10)
+[03/10/2026 01:23:05]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[03/10/2026 01:23:06] Klasifikasi otomatis: 25 berita diproses
+[03/10/2026 01:23:06] === Selesai. 2 berita baru tersimpan ===
+[03/10/2026 07:03:28] === Tugas harian APIFESTAT dimulai ===
+[03/10/2026 07:03:28] Scraping ANTARA KALTARA (batas 25)
+[03/10/2026 07:03:29]   ditemukan 20, disimpan 3, duplikat 3, di luar wilayah 14
+[03/10/2026 07:03:29] Scraping ANTARA Kaltara (arsip) (batas 10)
+[03/10/2026 07:04:29]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[03/10/2026 07:04:29] Scraping Berita Borneo - Malinau (batas 25)
+[03/10/2026 07:04:31]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[03/10/2026 07:04:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[03/10/2026 07:05:25]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 07:05:25] Scraping Tribun Kaltara (batas 10)
+[03/10/2026 07:05:33]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[03/10/2026 07:05:35] Klasifikasi otomatis: 25 berita diproses
+[03/10/2026 07:05:35] === Selesai. 5 berita baru tersimpan ===
+[03/10/2026 07:06:21] === Tugas harian APIFESTAT dimulai ===
+[03/10/2026 07:06:21] Scraping ANTARA KALTARA (batas 25)
+[03/10/2026 07:06:23]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[03/10/2026 07:06:23] Scraping ANTARA Kaltara (arsip) (batas 10)
+[03/10/2026 07:07:25]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 07:07:25] Scraping Berita Borneo - Malinau (batas 25)
+[03/10/2026 07:07:28]   ditemukan 10, disimpan 0, duplikat 10, di luar wilayah 0
+[03/10/2026 07:07:28] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[03/10/2026 07:08:17]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 07:08:17] Scraping Tribun Kaltara (batas 10)
+[03/10/2026 07:08:18]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[03/10/2026 07:08:20] Klasifikasi otomatis: 25 berita diproses
+[03/10/2026 07:08:20] === Selesai. 0 berita baru tersimpan ===
+[03/10/2026 15:07:58] === Tugas harian APIFESTAT dimulai ===
+[03/10/2026 15:07:58] Scraping ANTARA KALTARA (batas 25)
+[03/10/2026 15:07:59]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[03/10/2026 15:07:59] Scraping ANTARA Kaltara (arsip) (batas 10)
+[03/10/2026 15:08:53]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 15:08:53] Scraping Berita Borneo - Malinau (batas 25)
+[03/10/2026 15:09:26]   gagal: Feed tidak dapat dibaca: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[03/10/2026 15:09:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[03/10/2026 15:09:42]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[03/10/2026 15:09:42] Scraping Tribun Kaltara (batas 10)
+[03/10/2026 15:10:13]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[03/10/2026 15:10:15] Klasifikasi otomatis: 25 berita diproses
+[03/10/2026 15:10:15] === Selesai. 6 berita baru tersimpan ===
+[03/10/2026 19:06:09] === Tugas harian APIFESTAT dimulai ===
+[03/10/2026 19:06:09] Scraping ANTARA KALTARA (batas 25)
+[03/10/2026 19:06:11]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[03/10/2026 19:06:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[03/10/2026 19:07:25]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[03/10/2026 19:07:25] Scraping Berita Borneo - Malinau (batas 25)
+[03/10/2026 19:07:26]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[03/10/2026 19:07:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[03/10/2026 19:07:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[03/10/2026 19:07:27] Scraping Tribun Kaltara (batas 10)
+[03/10/2026 19:07:41]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[03/10/2026 19:07:44] Klasifikasi otomatis: 25 berita diproses
+[03/10/2026 19:07:44] === Selesai. 2 berita baru tersimpan ===
+[04/10/2026 01:21:35] === Tugas harian APIFESTAT dimulai ===
+[04/10/2026 01:21:35] Scraping ANTARA KALTARA (batas 25)
+[04/10/2026 01:21:36]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[04/10/2026 01:21:36] Scraping ANTARA Kaltara (arsip) (batas 10)
+[04/10/2026 01:22:20]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[04/10/2026 01:22:20] Scraping Berita Borneo - Malinau (batas 25)
+[04/10/2026 01:22:20]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[04/10/2026 01:22:20] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[04/10/2026 01:22:21]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 01:22:21] Scraping Tribun Kaltara (batas 10)
+[04/10/2026 01:22:22]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 01:22:23] Klasifikasi otomatis: 25 berita diproses
+[04/10/2026 01:22:23] === Selesai. 0 berita baru tersimpan ===
+[04/10/2026 06:17:28] === Tugas harian APIFESTAT dimulai ===
+[04/10/2026 06:17:28] Scraping ANTARA KALTARA (batas 25)
+[04/10/2026 06:17:29]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[04/10/2026 06:17:29] Scraping ANTARA Kaltara (arsip) (batas 10)
+[04/10/2026 06:18:13]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[04/10/2026 06:18:13] Scraping Berita Borneo - Malinau (batas 25)
+[04/10/2026 06:18:14]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[04/10/2026 06:18:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[04/10/2026 06:18:19]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 06:18:19] Scraping Tribun Kaltara (batas 10)
+[04/10/2026 06:18:24]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 06:18:26] Klasifikasi otomatis: 25 berita diproses
+[04/10/2026 06:18:26] === Selesai. 0 berita baru tersimpan ===
+[04/10/2026 07:07:33] === Tugas harian APIFESTAT dimulai ===
+[04/10/2026 07:07:33] Scraping ANTARA KALTARA (batas 25)
+[04/10/2026 07:07:35]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[04/10/2026 07:07:35] Scraping ANTARA Kaltara (arsip) (batas 10)
+[04/10/2026 07:08:35]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[04/10/2026 07:08:35] Scraping Berita Borneo - Malinau (batas 25)
+[04/10/2026 07:08:38]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[04/10/2026 07:08:38] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[04/10/2026 07:08:41]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 07:08:41] Scraping Tribun Kaltara (batas 10)
+[04/10/2026 07:08:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 07:08:45] Klasifikasi otomatis: 25 berita diproses
+[04/10/2026 07:08:45] === Selesai. 0 berita baru tersimpan ===
+[04/10/2026 12:17:25] === Tugas harian APIFESTAT dimulai ===
+[04/10/2026 12:17:25] Scraping ANTARA KALTARA (batas 25)
+[04/10/2026 12:17:26]   ditemukan 20, disimpan 1, duplikat 5, di luar wilayah 14
+[04/10/2026 12:17:26] Scraping ANTARA Kaltara (arsip) (batas 10)
+[04/10/2026 12:18:16]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[04/10/2026 12:18:16] Scraping Berita Borneo - Malinau (batas 25)
+[04/10/2026 12:18:16]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[04/10/2026 12:18:16] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[04/10/2026 12:18:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 12:18:17] Scraping Tribun Kaltara (batas 10)
+[04/10/2026 12:18:48]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[04/10/2026 12:18:49] Klasifikasi otomatis: 26 berita diproses
+[04/10/2026 12:18:49] === Selesai. 7 berita baru tersimpan ===
+[04/10/2026 19:02:21] === Tugas harian APIFESTAT dimulai ===
+[04/10/2026 19:02:22] Scraping ANTARA KALTARA (batas 25)
+[04/10/2026 19:02:24]   ditemukan 20, disimpan 4, duplikat 5, di luar wilayah 11
+[04/10/2026 19:02:24] Scraping ANTARA Kaltara (arsip) (batas 10)
+[04/10/2026 19:03:13]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[04/10/2026 19:03:13] Scraping Berita Borneo - Malinau (batas 25)
+[04/10/2026 19:03:14]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[04/10/2026 19:03:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[04/10/2026 19:03:15]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[04/10/2026 19:03:15] Scraping Tribun Kaltara (batas 10)
+[04/10/2026 19:03:32]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[04/10/2026 19:03:34] Klasifikasi otomatis: 28 berita diproses
+[04/10/2026 19:03:34] === Selesai. 7 berita baru tersimpan ===
+[05/10/2026 00:17:29] === Tugas harian APIFESTAT dimulai ===
+[05/10/2026 00:17:30] Scraping ANTARA KALTARA (batas 25)
+[05/10/2026 00:17:31]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[05/10/2026 00:17:31] Scraping ANTARA Kaltara (arsip) (batas 10)
+[05/10/2026 00:18:16]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[05/10/2026 00:18:16] Scraping Berita Borneo - Malinau (batas 25)
+[05/10/2026 00:18:17]   gagal: Feed tidak dapat dibaca: <unknown>:101:6: mismatched tag
+[05/10/2026 00:18:17] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[05/10/2026 00:18:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 00:18:17] Scraping Tribun Kaltara (batas 10)
+[05/10/2026 00:18:33]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[05/10/2026 00:18:34] Klasifikasi otomatis: 28 berita diproses
+[05/10/2026 00:18:34] === Selesai. 3 berita baru tersimpan ===
+[05/10/2026 06:40:30] === Tugas harian APIFESTAT dimulai ===
+[05/10/2026 06:40:30] Scraping ANTARA KALTARA (batas 25)
+[05/10/2026 06:40:32]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[05/10/2026 06:40:32] Scraping ANTARA Kaltara (arsip) (batas 10)
+[05/10/2026 06:41:16]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[05/10/2026 06:41:16] Scraping Berita Borneo - Malinau (batas 25)
+[05/10/2026 06:41:24]   gagal: Feed tidak dapat dibaca: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[05/10/2026 06:41:24] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[05/10/2026 06:41:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 06:41:27] Scraping Tribun Kaltara (batas 10)
+[05/10/2026 06:41:38]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[05/10/2026 06:41:39] Klasifikasi otomatis: 28 berita diproses
+[05/10/2026 06:41:39] === Selesai. 2 berita baru tersimpan ===
+[05/10/2026 06:42:37] === Tugas harian APIFESTAT dimulai ===
+[05/10/2026 06:42:37] Scraping ANTARA KALTARA (batas 25)
+[05/10/2026 06:42:38]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[05/10/2026 06:42:38] Scraping ANTARA Kaltara (arsip) (batas 10)
+[05/10/2026 06:43:20]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[05/10/2026 06:43:20] Scraping Berita Borneo - Malinau (batas 25)
+[05/10/2026 06:43:22]   gagal: Feed tidak dapat dibaca: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+[05/10/2026 06:43:22] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[05/10/2026 06:43:24]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 06:43:24] Scraping Tribun Kaltara (batas 10)
+[05/10/2026 06:43:26]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 06:43:27] Klasifikasi otomatis: 28 berita diproses
+[05/10/2026 06:43:27] === Selesai. 0 berita baru tersimpan ===
+[05/10/2026 12:42:37] === Tugas harian APIFESTAT dimulai ===
+[05/10/2026 12:42:38] Scraping ANTARA KALTARA (batas 25)
+[05/10/2026 12:42:39]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[05/10/2026 12:42:39] Scraping ANTARA Kaltara (arsip) (batas 10)
+[05/10/2026 12:43:23]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[05/10/2026 12:43:23] Scraping Berita Borneo - Malinau (batas 25)
+[05/10/2026 12:43:34]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[05/10/2026 12:43:34] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[05/10/2026 12:43:45]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 12:43:45] Scraping Tribun Kaltara (batas 10)
+[05/10/2026 12:43:57]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[05/10/2026 12:43:58] Klasifikasi otomatis: 28 berita diproses
+[05/10/2026 12:43:58] === Selesai. 4 berita baru tersimpan ===
+[05/10/2026 19:38:39] === Tugas harian APIFESTAT dimulai ===
+[05/10/2026 19:38:39] Scraping ANTARA KALTARA (batas 25)
+[05/10/2026 19:38:40]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[05/10/2026 19:38:40] Scraping ANTARA Kaltara (arsip) (batas 10)
+[05/10/2026 19:39:28]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[05/10/2026 19:39:28] Scraping Berita Borneo - Malinau (batas 25)
+[05/10/2026 19:39:28]   gagal: Feed tidak dapat dibaca: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>
+[05/10/2026 19:39:28] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[05/10/2026 19:39:28]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[05/10/2026 19:39:28] Scraping Tribun Kaltara (batas 10)
+[05/10/2026 19:39:48]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[05/10/2026 19:39:49] Klasifikasi otomatis: 28 berita diproses
+[05/10/2026 19:39:49] === Selesai. 4 berita baru tersimpan ===
+[06/10/2026 01:43:32] === Tugas harian APIFESTAT dimulai ===
+[06/10/2026 01:43:32] Scraping ANTARA KALTARA (batas 25)
+[06/10/2026 01:43:33]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[06/10/2026 01:43:33] Scraping ANTARA Kaltara (arsip) (batas 10)
+[06/10/2026 01:44:20]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[06/10/2026 01:44:20] Scraping Berita Borneo - Malinau (batas 25)
+[06/10/2026 01:44:23]   gagal: Feed tidak dapat dibaca: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>
+[06/10/2026 01:44:23] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[06/10/2026 01:44:35]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[06/10/2026 01:44:35] Scraping Tribun Kaltara (batas 10)
+[06/10/2026 01:45:18]   ditemukan 8, disimpan 8, duplikat 0, di luar wilayah 0
+[06/10/2026 01:45:20] Klasifikasi otomatis: 28 berita diproses
+[06/10/2026 01:45:20] === Selesai. 8 berita baru tersimpan ===
+[06/10/2026 06:00:06] === Tugas harian APIFESTAT dimulai ===
+[06/10/2026 06:00:06] Scraping ANTARA KALTARA (batas 25)
+[06/10/2026 06:00:07]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[06/10/2026 06:00:07] Scraping ANTARA Kaltara (arsip) (batas 10)
+[06/10/2026 06:00:49]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[06/10/2026 06:00:49] Scraping Berita Borneo - Malinau (batas 25)
+[06/10/2026 06:00:50]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[06/10/2026 06:00:50] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[06/10/2026 06:00:52]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[06/10/2026 06:00:52] Scraping Tribun Kaltara (batas 10)
+[06/10/2026 06:00:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[06/10/2026 06:00:56] Klasifikasi otomatis: 28 berita diproses
+[06/10/2026 06:00:56] === Selesai. 0 berita baru tersimpan ===
+[06/10/2026 12:00:27] === Tugas harian APIFESTAT dimulai ===
+[06/10/2026 12:00:31] Scraping ANTARA KALTARA (batas 25)
+[06/10/2026 12:00:34]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[06/10/2026 12:00:34] Scraping ANTARA Kaltara (arsip) (batas 10)
+[06/10/2026 12:01:30]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[06/10/2026 12:01:30] Scraping Berita Borneo - Malinau (batas 25)
+[06/10/2026 12:01:32]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[06/10/2026 12:01:32] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[06/10/2026 12:01:35]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[06/10/2026 12:01:35] Scraping Tribun Kaltara (batas 10)
+[06/10/2026 12:01:48]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[06/10/2026 12:01:49] Klasifikasi otomatis: 28 berita diproses
+[06/10/2026 12:01:49] === Selesai. 2 berita baru tersimpan ===
+[06/10/2026 18:00:13] === Tugas harian APIFESTAT dimulai ===
+[06/10/2026 18:00:13] Scraping ANTARA KALTARA (batas 25)
+[06/10/2026 18:00:16]   ditemukan 20, disimpan 8, duplikat 4, di luar wilayah 8
+[06/10/2026 18:00:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[06/10/2026 18:01:11]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[06/10/2026 18:01:11] Scraping Berita Borneo - Malinau (batas 25)
+[06/10/2026 18:01:31]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[06/10/2026 18:01:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[06/10/2026 18:22:03]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[06/10/2026 18:22:06] Scraping Tribun Kaltara (batas 10)
+[06/10/2026 18:22:53]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[06/10/2026 18:22:55] Klasifikasi otomatis: 29 berita diproses
+[06/10/2026 18:22:55] === Selesai. 15 berita baru tersimpan ===
+[07/10/2026 07:36:20] === Tugas harian APIFESTAT dimulai ===
+[07/10/2026 07:36:22] Scraping ANTARA KALTARA (batas 25)
+[07/10/2026 07:36:28]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[07/10/2026 07:36:28] Scraping ANTARA Kaltara (arsip) (batas 10)
+[07/10/2026 07:37:44]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[07/10/2026 07:37:44] Scraping Berita Borneo - Malinau (batas 25)
+[07/10/2026 07:37:48]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[07/10/2026 07:37:48] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[07/10/2026 07:37:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[07/10/2026 07:37:55] Scraping Tribun Kaltara (batas 10)
+[07/10/2026 07:38:44]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[07/10/2026 07:38:54] Klasifikasi otomatis: 29 berita diproses
+[07/10/2026 07:38:54] === Selesai. 5 berita baru tersimpan ===
+[07/10/2026 13:34:47] === Tugas harian APIFESTAT dimulai ===
+[07/10/2026 13:34:47] Scraping ANTARA KALTARA (batas 25)
+[07/10/2026 13:34:48]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[07/10/2026 13:34:48] Scraping ANTARA Kaltara (arsip) (batas 10)
+[07/10/2026 13:35:32]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[07/10/2026 13:35:32] Scraping Berita Borneo - Malinau (batas 25)
+[07/10/2026 13:37:01]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[07/10/2026 13:37:01] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[07/10/2026 13:37:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[07/10/2026 13:37:17] Scraping Tribun Kaltara (batas 10)
+[07/10/2026 13:37:29]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[07/10/2026 13:37:30] Klasifikasi otomatis: 29 berita diproses
+[07/10/2026 13:37:30] === Selesai. 2 berita baru tersimpan ===
+[07/10/2026 19:56:45] === Tugas harian APIFESTAT dimulai ===
+[07/10/2026 19:56:46] Scraping ANTARA KALTARA (batas 25)
+[07/10/2026 19:56:50]   gagal: Remote end closed connection without response
+[07/10/2026 19:56:50] Scraping ANTARA Kaltara (arsip) (batas 10)
+[07/10/2026 19:56:59]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[07/10/2026 19:56:59] Scraping Berita Borneo - Malinau (batas 25)
+[07/10/2026 19:57:09]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[07/10/2026 19:57:09] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[07/10/2026 19:57:19]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[07/10/2026 19:57:19] Scraping Tribun Kaltara (batas 10)
+[07/10/2026 19:57:43]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[07/10/2026 19:57:44] Klasifikasi otomatis: 29 berita diproses
+[07/10/2026 19:57:44] === Selesai. 4 berita baru tersimpan ===
+[08/10/2026 01:34:38] === Tugas harian APIFESTAT dimulai ===
+[08/10/2026 01:34:38] Scraping ANTARA KALTARA (batas 25)
+[08/10/2026 01:34:42]   ditemukan 20, disimpan 3, duplikat 9, di luar wilayah 8
+[08/10/2026 01:34:42] Scraping ANTARA Kaltara (arsip) (batas 10)
+[08/10/2026 01:34:48]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 01:34:48] Scraping Berita Borneo - Malinau (batas 25)
+[08/10/2026 01:34:51]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[08/10/2026 01:34:51] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[08/10/2026 01:34:54]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 01:34:54] Scraping Tribun Kaltara (batas 10)
+[08/10/2026 01:35:05]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[08/10/2026 01:35:06] Klasifikasi otomatis: 31 berita diproses
+[08/10/2026 01:35:06] === Selesai. 5 berita baru tersimpan ===
+[08/10/2026 07:32:46] === Tugas harian APIFESTAT dimulai ===
+[08/10/2026 07:32:46] Scraping ANTARA KALTARA (batas 25)
+[08/10/2026 07:32:47]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[08/10/2026 07:32:47] Scraping ANTARA Kaltara (arsip) (batas 10)
+[08/10/2026 07:33:29]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[08/10/2026 07:33:29] Scraping Berita Borneo - Malinau (batas 25)
+[08/10/2026 07:33:31]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[08/10/2026 07:33:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[08/10/2026 07:33:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 07:33:43] Scraping Tribun Kaltara (batas 10)
+[08/10/2026 07:33:55]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[08/10/2026 07:34:04] Klasifikasi otomatis: 31 berita diproses
+[08/10/2026 07:34:04] === Selesai. 1 berita baru tersimpan ===
+[08/10/2026 07:34:43] === Tugas harian APIFESTAT dimulai ===
+[08/10/2026 07:34:43] Scraping ANTARA KALTARA (batas 25)
+[08/10/2026 07:34:46]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[08/10/2026 07:34:46] Scraping ANTARA Kaltara (arsip) (batas 10)
+[08/10/2026 07:35:34]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[08/10/2026 07:35:34] Scraping Berita Borneo - Malinau (batas 25)
+[08/10/2026 07:35:37]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[08/10/2026 07:35:37] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[08/10/2026 07:35:41]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 07:35:41] Scraping Tribun Kaltara (batas 10)
+[08/10/2026 07:35:42]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 07:35:45] Klasifikasi otomatis: 31 berita diproses
+[08/10/2026 07:35:45] === Selesai. 0 berita baru tersimpan ===
+[08/10/2026 13:32:46] === Tugas harian APIFESTAT dimulai ===
+[08/10/2026 13:32:46] Scraping ANTARA KALTARA (batas 25)
+[08/10/2026 13:32:47]   ditemukan 20, disimpan 1, duplikat 12, di luar wilayah 7
+[08/10/2026 13:32:47] Scraping ANTARA Kaltara (arsip) (batas 10)
+[08/10/2026 13:33:25]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[08/10/2026 13:33:25] Scraping Berita Borneo - Malinau (batas 25)
+[08/10/2026 13:33:28]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[08/10/2026 13:33:28] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[08/10/2026 13:33:32]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 13:33:32] Scraping Tribun Kaltara (batas 10)
+[08/10/2026 13:33:46]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[08/10/2026 13:33:47] Klasifikasi otomatis: 31 berita diproses
+[08/10/2026 13:33:47] === Selesai. 3 berita baru tersimpan ===
+[08/10/2026 19:32:47] === Tugas harian APIFESTAT dimulai ===
+[08/10/2026 19:32:47] Scraping ANTARA KALTARA (batas 25)
+[08/10/2026 19:32:49]   ditemukan 20, disimpan 2, duplikat 12, di luar wilayah 6
+[08/10/2026 19:32:49] Scraping ANTARA Kaltara (arsip) (batas 10)
+[08/10/2026 19:33:38]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[08/10/2026 19:33:38] Scraping Berita Borneo - Malinau (batas 25)
+[08/10/2026 19:33:41]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[08/10/2026 19:33:41] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[08/10/2026 19:33:44]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[08/10/2026 19:33:44] Scraping Tribun Kaltara (batas 10)
+[08/10/2026 19:34:11]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[08/10/2026 19:34:13] Klasifikasi otomatis: 31 berita diproses
+[08/10/2026 19:34:13] === Selesai. 9 berita baru tersimpan ===
+[09/10/2026 01:32:42] === Tugas harian APIFESTAT dimulai ===
+[09/10/2026 01:32:43] Scraping ANTARA KALTARA (batas 25)
+[09/10/2026 01:32:43]   ditemukan 20, disimpan 0, duplikat 14, di luar wilayah 6
+[09/10/2026 01:32:43] Scraping ANTARA Kaltara (arsip) (batas 10)
+[09/10/2026 01:34:00]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[09/10/2026 01:34:00] Scraping Berita Borneo - Malinau (batas 25)
+[09/10/2026 01:34:04]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[09/10/2026 01:34:04] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[09/10/2026 01:34:06]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[09/10/2026 01:34:06] Scraping Tribun Kaltara (batas 10)
+[09/10/2026 01:34:34]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[09/10/2026 01:34:35] Klasifikasi otomatis: 31 berita diproses
+[09/10/2026 01:34:35] === Selesai. 5 berita baru tersimpan ===
+[09/10/2026 07:32:47] === Tugas harian APIFESTAT dimulai ===
+[09/10/2026 07:32:48] Scraping ANTARA KALTARA (batas 25)
+[09/10/2026 07:32:49]   ditemukan 20, disimpan 2, duplikat 13, di luar wilayah 5
+[09/10/2026 07:32:49] Scraping ANTARA Kaltara (arsip) (batas 10)
+[09/10/2026 07:33:27]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[09/10/2026 07:33:27] Scraping Berita Borneo - Malinau (batas 25)
+[09/10/2026 07:33:29]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[09/10/2026 07:33:29] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[09/10/2026 07:33:32]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[09/10/2026 07:33:32] Scraping Tribun Kaltara (batas 10)
+[09/10/2026 07:33:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[09/10/2026 07:33:36] Klasifikasi otomatis: 31 berita diproses
+[09/10/2026 07:33:36] === Selesai. 2 berita baru tersimpan ===
+[09/10/2026 12:01:51] === Tugas harian APIFESTAT dimulai ===
+[09/10/2026 12:01:51] Scraping ANTARA KALTARA (batas 25)
+[09/10/2026 12:01:52]   ditemukan 20, disimpan 2, duplikat 13, di luar wilayah 5
+[09/10/2026 12:01:52] Scraping ANTARA Kaltara (arsip) (batas 10)
+[09/10/2026 12:02:28]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[09/10/2026 12:02:28] Scraping Berita Borneo - Malinau (batas 25)
+[09/10/2026 12:02:31]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[09/10/2026 12:02:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[09/10/2026 12:02:35]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[09/10/2026 12:02:35] Scraping Tribun Kaltara (batas 10)
+[09/10/2026 12:02:58]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[09/10/2026 12:03:00] Klasifikasi otomatis: 31 berita diproses
+[09/10/2026 12:03:00] === Selesai. 6 berita baru tersimpan ===
+[09/10/2026 18:02:12] === Tugas harian APIFESTAT dimulai ===
+[09/10/2026 18:02:14] Scraping ANTARA KALTARA (batas 25)
+[09/10/2026 18:02:20]   ditemukan 20, disimpan 1, duplikat 14, di luar wilayah 5
+[09/10/2026 18:02:20] Scraping ANTARA Kaltara (arsip) (batas 10)
+[09/10/2026 18:03:05]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[09/10/2026 18:03:05] Scraping Berita Borneo - Malinau (batas 25)
+[09/10/2026 18:03:09]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[09/10/2026 18:03:09] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[09/10/2026 18:03:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[09/10/2026 18:03:12] Scraping Tribun Kaltara (batas 10)
+[09/10/2026 18:03:28]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[09/10/2026 18:03:31] Klasifikasi otomatis: 31 berita diproses
+[09/10/2026 18:03:31] === Selesai. 3 berita baru tersimpan ===
+[10/10/2026 00:01:53] === Tugas harian APIFESTAT dimulai ===
+[10/10/2026 00:01:53] Scraping ANTARA KALTARA (batas 25)
+[10/10/2026 00:02:08]   gagal: Feed tidak dapat dibaca: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+[10/10/2026 00:02:08] Scraping ANTARA Kaltara (arsip) (batas 10)
+[10/10/2026 00:02:23]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 00:02:23] Scraping Berita Borneo - Malinau (batas 25)
+[10/10/2026 00:02:29]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[10/10/2026 00:02:29] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[10/10/2026 00:02:31]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 00:02:31] Scraping Tribun Kaltara (batas 10)
+[10/10/2026 00:02:48]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[10/10/2026 00:02:50] Klasifikasi otomatis: 31 berita diproses
+[10/10/2026 00:02:50] === Selesai. 3 berita baru tersimpan ===
+[10/10/2026 06:00:07] === Tugas harian APIFESTAT dimulai ===
+[10/10/2026 06:00:08] Scraping ANTARA KALTARA (batas 25)
+[10/10/2026 06:00:09]   ditemukan 20, disimpan 0, duplikat 15, di luar wilayah 5
+[10/10/2026 06:00:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[10/10/2026 06:01:06]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[10/10/2026 06:01:06] Scraping Berita Borneo - Malinau (batas 25)
+[10/10/2026 06:02:01]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[10/10/2026 06:02:01] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[10/10/2026 06:02:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 06:02:17] Scraping Tribun Kaltara (batas 10)
+[10/10/2026 06:02:34]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[10/10/2026 06:02:35] Klasifikasi otomatis: 31 berita diproses
+[10/10/2026 06:02:35] === Selesai. 3 berita baru tersimpan ===
+[10/10/2026 18:00:12] === Tugas harian APIFESTAT dimulai ===
+[10/10/2026 18:00:12] Scraping ANTARA KALTARA (batas 25)
+[10/10/2026 18:00:12]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[10/10/2026 18:00:12] Scraping ANTARA Kaltara (arsip) (batas 10)
+[10/10/2026 18:00:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 18:00:12] Scraping Berita Borneo - Malinau (batas 25)
+[10/10/2026 18:00:12]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[10/10/2026 18:00:12] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[10/10/2026 18:00:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 18:00:12] Scraping Tribun Kaltara (batas 10)
+[10/10/2026 18:00:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[10/10/2026 18:00:14] Klasifikasi otomatis: 31 berita diproses
+[10/10/2026 18:00:14] === Selesai. 0 berita baru tersimpan ===
+[11/10/2026 00:00:08] === Tugas harian APIFESTAT dimulai ===
+[11/10/2026 00:00:08] Scraping ANTARA KALTARA (batas 25)
+[11/10/2026 00:00:09]   ditemukan 20, disimpan 4, duplikat 8, di luar wilayah 8
+[11/10/2026 00:00:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[11/10/2026 00:00:55]   ditemukan 10, disimpan 3, duplikat 0, di luar wilayah 7
+[11/10/2026 00:00:55] Scraping Berita Borneo - Malinau (batas 25)
+[11/10/2026 00:01:05]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[11/10/2026 00:01:05] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[11/10/2026 00:01:22]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[11/10/2026 00:01:22] Scraping Tribun Kaltara (batas 10)
+[11/10/2026 00:01:38]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[11/10/2026 00:01:39] Klasifikasi otomatis: 31 berita diproses
+[11/10/2026 00:01:39] === Selesai. 7 berita baru tersimpan ===
+[11/10/2026 06:00:10] === Tugas harian APIFESTAT dimulai ===
+[11/10/2026 06:00:11] Scraping ANTARA KALTARA (batas 25)
+[11/10/2026 06:00:16]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[11/10/2026 06:00:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[11/10/2026 06:01:25]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[11/10/2026 06:01:25] Scraping Berita Borneo - Malinau (batas 25)
+[11/10/2026 06:01:42]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[11/10/2026 06:01:42] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[11/10/2026 06:01:59]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[11/10/2026 06:01:59] Scraping Tribun Kaltara (batas 10)
+[11/10/2026 06:03:01]   ditemukan 8, disimpan 8, duplikat 0, di luar wilayah 0
+[11/10/2026 06:03:03] Klasifikasi otomatis: 31 berita diproses
+[11/10/2026 06:03:03] === Selesai. 8 berita baru tersimpan ===
+[11/10/2026 12:00:09] === Tugas harian APIFESTAT dimulai ===
+[11/10/2026 12:00:10] Scraping ANTARA KALTARA (batas 25)
+[11/10/2026 12:00:10]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[11/10/2026 12:00:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[11/10/2026 12:00:48]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[11/10/2026 12:00:48] Scraping Berita Borneo - Malinau (batas 25)
+[11/10/2026 12:01:26]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[11/10/2026 12:01:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[11/10/2026 12:01:42]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[11/10/2026 12:01:42] Scraping Tribun Kaltara (batas 10)
+[11/10/2026 12:01:55]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[11/10/2026 12:01:56] Klasifikasi otomatis: 31 berita diproses
+[11/10/2026 12:01:56] === Selesai. 2 berita baru tersimpan ===
+[11/10/2026 18:01:55] === Tugas harian APIFESTAT dimulai ===
+[11/10/2026 18:01:56] Scraping ANTARA KALTARA (batas 25)
+[11/10/2026 18:01:58]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[11/10/2026 18:01:58] Scraping ANTARA Kaltara (arsip) (batas 10)
+[11/10/2026 18:02:41]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[11/10/2026 18:02:41] Scraping Berita Borneo - Malinau (batas 25)
+[11/10/2026 18:02:56]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[11/10/2026 18:02:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[11/10/2026 18:03:08]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[11/10/2026 18:03:08] Scraping Tribun Kaltara (batas 10)
+[11/10/2026 18:04:05]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[11/10/2026 18:04:09] Klasifikasi otomatis: 31 berita diproses
+[11/10/2026 18:04:09] === Selesai. 6 berita baru tersimpan ===
+[12/10/2026 00:00:05] === Tugas harian APIFESTAT dimulai ===
+[12/10/2026 00:00:05] Scraping ANTARA KALTARA (batas 25)
+[12/10/2026 00:00:06]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[12/10/2026 00:00:06] Scraping ANTARA Kaltara (arsip) (batas 10)
+[12/10/2026 00:00:47]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[12/10/2026 00:00:47] Scraping Berita Borneo - Malinau (batas 25)
+[12/10/2026 00:01:23]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[12/10/2026 00:01:23] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[12/10/2026 00:01:39]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[12/10/2026 00:01:39] Scraping Tribun Kaltara (batas 10)
+[12/10/2026 00:01:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[12/10/2026 00:01:56] Klasifikasi otomatis: 31 berita diproses
+[12/10/2026 00:01:56] === Selesai. 0 berita baru tersimpan ===
+[12/10/2026 07:21:36] === Tugas harian APIFESTAT dimulai ===
+[12/10/2026 07:21:37] Scraping ANTARA KALTARA (batas 25)
+[12/10/2026 07:21:39]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[12/10/2026 07:21:39] Scraping ANTARA Kaltara (arsip) (batas 10)
+[12/10/2026 07:22:11]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[12/10/2026 07:22:11] Scraping Berita Borneo - Malinau (batas 25)
+[12/10/2026 07:30:23]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[12/10/2026 07:30:23] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[12/10/2026 07:30:39]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[12/10/2026 07:30:39] Scraping Tribun Kaltara (batas 10)
+[12/10/2026 07:31:04]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[12/10/2026 07:31:06] Klasifikasi otomatis: 31 berita diproses
+[12/10/2026 07:31:06] === Selesai. 4 berita baru tersimpan ===
+[12/10/2026 13:24:09] === Tugas harian APIFESTAT dimulai ===
+[12/10/2026 13:24:09] Scraping ANTARA KALTARA (batas 25)
+[12/10/2026 13:24:10]   ditemukan 20, disimpan 0, duplikat 12, di luar wilayah 8
+[12/10/2026 13:24:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[12/10/2026 13:24:47]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[12/10/2026 13:24:47] Scraping Berita Borneo - Malinau (batas 25)
+[12/10/2026 13:26:56]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[12/10/2026 13:26:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[12/10/2026 13:27:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[12/10/2026 13:27:12] Scraping Tribun Kaltara (batas 10)
+[12/10/2026 13:27:25]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[12/10/2026 13:27:27] Klasifikasi otomatis: 31 berita diproses
+[12/10/2026 13:27:27] === Selesai. 2 berita baru tersimpan ===
+[12/10/2026 19:24:31] === Tugas harian APIFESTAT dimulai ===
+[12/10/2026 19:24:32] Scraping ANTARA KALTARA (batas 25)
+[12/10/2026 19:24:36]   ditemukan 20, disimpan 1, duplikat 9, di luar wilayah 10
+[12/10/2026 19:24:36] Scraping ANTARA Kaltara (arsip) (batas 10)
+[12/10/2026 19:25:57]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[12/10/2026 19:25:57] Scraping Berita Borneo - Malinau (batas 25)
+[12/10/2026 19:26:31]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[12/10/2026 19:26:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[12/10/2026 19:26:50]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[12/10/2026 19:26:50] Scraping Tribun Kaltara (batas 10)
+[12/10/2026 19:27:40]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[12/10/2026 19:27:44] Klasifikasi otomatis: 31 berita diproses
+[12/10/2026 19:27:44] === Selesai. 9 berita baru tersimpan ===
+[13/10/2026 07:29:56] === Tugas harian APIFESTAT dimulai ===
+[13/10/2026 07:29:56] Scraping ANTARA KALTARA (batas 25)
+[13/10/2026 07:29:56]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[13/10/2026 07:29:56] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/10/2026 07:29:56]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/10/2026 07:29:56] Scraping Berita Borneo - Malinau (batas 25)
+[13/10/2026 07:29:56]   gagal: Feed tidak dapat dibaca: <urlopen error [Errno 11001] getaddrinfo failed>
+[13/10/2026 07:29:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/10/2026 07:29:56]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/10/2026 07:29:56] Scraping Tribun Kaltara (batas 10)
+[13/10/2026 07:29:56]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/10/2026 07:29:57] Klasifikasi otomatis: 31 berita diproses
+[13/10/2026 07:29:57] === Selesai. 0 berita baru tersimpan ===
+[13/10/2026 12:02:00] === Tugas harian APIFESTAT dimulai ===
+[13/10/2026 12:02:00] Scraping ANTARA KALTARA (batas 25)
+[13/10/2026 12:02:01]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[13/10/2026 12:02:01] Scraping ANTARA Kaltara (arsip) (batas 10)
+[13/10/2026 12:02:40]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[13/10/2026 12:02:40] Scraping Berita Borneo - Malinau (batas 25)
+[13/10/2026 12:32:55]   gagal: Feed tidak dapat dibaca: <unknown>:7:2: mismatched tag
+[13/10/2026 12:32:55] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[13/10/2026 12:33:15]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[13/10/2026 12:33:15] Scraping Tribun Kaltara (batas 10)
+[13/10/2026 12:33:53]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[13/10/2026 12:33:55] Klasifikasi otomatis: 31 berita diproses
+[13/10/2026 12:33:55] === Selesai. 7 berita baru tersimpan ===
+[14/10/2026 12:54:59] === Tugas harian APIFESTAT dimulai ===
+[14/10/2026 12:54:59] Scraping ANTARA KALTARA (batas 25)
+[14/10/2026 12:55:00]   ditemukan 20, disimpan 3, duplikat 3, di luar wilayah 14
+[14/10/2026 12:55:00] Scraping ANTARA Kaltara (arsip) (batas 10)
+[14/10/2026 12:56:08]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[14/10/2026 12:56:08] Scraping Berita Borneo - Malinau (batas 25)
+[14/10/2026 13:26:20]   gagal: Feed tidak dapat dibaca: <unknown>:7:2: mismatched tag
+[14/10/2026 13:26:20] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[14/10/2026 13:26:38]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[14/10/2026 13:26:38] Scraping Tribun Kaltara (batas 10)
+[14/10/2026 13:27:23]   ditemukan 9, disimpan 9, duplikat 0, di luar wilayah 0
+[14/10/2026 13:27:24] Klasifikasi otomatis: 34 berita diproses
+[14/10/2026 13:27:24] === Selesai. 12 berita baru tersimpan ===
+[15/10/2026 01:50:21] === Tugas harian APIFESTAT dimulai ===
+[15/10/2026 01:50:21] Scraping ANTARA KALTARA (batas 25)
+[15/10/2026 01:50:21]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[15/10/2026 01:50:21] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/10/2026 01:50:59]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[15/10/2026 01:50:59] Scraping Berita Borneo - Malinau (batas 25)
+[15/10/2026 01:51:09]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[15/10/2026 01:51:09] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/10/2026 01:51:15]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 01:51:15] Scraping Tribun Kaltara (batas 10)
+[15/10/2026 01:51:17]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 01:51:18] Klasifikasi otomatis: 34 berita diproses
+[15/10/2026 01:51:18] === Selesai. 0 berita baru tersimpan ===
+[15/10/2026 06:13:21] === Tugas harian APIFESTAT dimulai ===
+[15/10/2026 06:13:21] Scraping ANTARA KALTARA (batas 25)
+[15/10/2026 06:13:22]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[15/10/2026 06:13:22] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/10/2026 06:14:02]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/10/2026 06:14:02] Scraping Berita Borneo - Malinau (batas 25)
+[15/10/2026 06:14:15]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[15/10/2026 06:14:15] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/10/2026 06:14:25]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 06:14:25] Scraping Tribun Kaltara (batas 10)
+[15/10/2026 06:14:26]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 06:14:28] Klasifikasi otomatis: 34 berita diproses
+[15/10/2026 06:14:28] === Selesai. 0 berita baru tersimpan ===
+[15/10/2026 06:26:02] === Tugas harian APIFESTAT dimulai ===
+[15/10/2026 06:26:02] Scraping ANTARA KALTARA (batas 25)
+[15/10/2026 06:26:03]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[15/10/2026 06:26:03] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/10/2026 06:26:44]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[15/10/2026 06:26:44] Scraping Berita Borneo - Malinau (batas 25)
+[15/10/2026 06:26:48]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[15/10/2026 06:26:48] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/10/2026 06:26:53]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 06:26:53] Scraping Tribun Kaltara (batas 10)
+[15/10/2026 06:26:54]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 06:26:56] Klasifikasi otomatis: 34 berita diproses
+[15/10/2026 06:26:56] === Selesai. 0 berita baru tersimpan ===
+[15/10/2026 12:13:32] === Tugas harian APIFESTAT dimulai ===
+[15/10/2026 12:13:32] Scraping ANTARA KALTARA (batas 25)
+[15/10/2026 12:13:34]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[15/10/2026 12:13:34] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/10/2026 12:13:36]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 12:13:36] Scraping Berita Borneo - Malinau (batas 25)
+[15/10/2026 12:13:56]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[15/10/2026 12:13:56] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/10/2026 12:14:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 12:14:12] Scraping Tribun Kaltara (batas 10)
+[15/10/2026 12:14:54]   ditemukan 8, disimpan 8, duplikat 0, di luar wilayah 0
+[15/10/2026 12:14:56] Klasifikasi otomatis: 34 berita diproses
+[15/10/2026 12:14:56] === Selesai. 8 berita baru tersimpan ===
+[15/10/2026 18:13:34] === Tugas harian APIFESTAT dimulai ===
+[15/10/2026 18:13:35] Scraping ANTARA KALTARA (batas 25)
+[15/10/2026 18:13:37]   ditemukan 20, disimpan 0, duplikat 6, di luar wilayah 14
+[15/10/2026 18:13:37] Scraping ANTARA Kaltara (arsip) (batas 10)
+[15/10/2026 18:13:38]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 18:13:38] Scraping Berita Borneo - Malinau (batas 25)
+[15/10/2026 18:13:42]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[15/10/2026 18:13:42] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[15/10/2026 18:13:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[15/10/2026 18:13:55] Scraping Tribun Kaltara (batas 10)
+[15/10/2026 18:14:25]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[15/10/2026 18:14:27] Klasifikasi otomatis: 34 berita diproses
+[15/10/2026 18:14:27] === Selesai. 6 berita baru tersimpan ===
+[16/10/2026 00:50:44] === Tugas harian APIFESTAT dimulai ===
+[16/10/2026 00:50:44] Scraping ANTARA KALTARA (batas 25)
+[16/10/2026 00:50:45]   ditemukan 20, disimpan 1, duplikat 6, di luar wilayah 13
+[16/10/2026 00:50:45] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/10/2026 00:51:26]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[16/10/2026 00:51:26] Scraping Berita Borneo - Malinau (batas 25)
+[16/10/2026 00:51:31]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[16/10/2026 00:51:31] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/10/2026 00:51:37]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 00:51:37] Scraping Tribun Kaltara (batas 10)
+[16/10/2026 00:51:38]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 00:51:39] Klasifikasi otomatis: 34 berita diproses
+[16/10/2026 00:51:39] === Selesai. 1 berita baru tersimpan ===
+[16/10/2026 06:36:49] === Tugas harian APIFESTAT dimulai ===
+[16/10/2026 06:36:49] Scraping ANTARA KALTARA (batas 25)
+[16/10/2026 06:36:50]   ditemukan 20, disimpan 0, duplikat 7, di luar wilayah 13
+[16/10/2026 06:36:50] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/10/2026 06:37:40]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[16/10/2026 06:37:40] Scraping Berita Borneo - Malinau (batas 25)
+[16/10/2026 06:37:45]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[16/10/2026 06:37:45] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/10/2026 06:37:52]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 06:37:52] Scraping Tribun Kaltara (batas 10)
+[16/10/2026 06:37:53]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 06:37:55] Klasifikasi otomatis: 34 berita diproses
+[16/10/2026 06:37:55] === Selesai. 0 berita baru tersimpan ===
+[16/10/2026 06:39:25] === Tugas harian APIFESTAT dimulai ===
+[16/10/2026 06:39:25] Scraping ANTARA KALTARA (batas 25)
+[16/10/2026 06:39:26]   ditemukan 20, disimpan 0, duplikat 7, di luar wilayah 13
+[16/10/2026 06:39:26] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/10/2026 06:40:08]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[16/10/2026 06:40:08] Scraping Berita Borneo - Malinau (batas 25)
+[16/10/2026 06:40:14]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[16/10/2026 06:40:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/10/2026 06:40:24]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 06:40:24] Scraping Tribun Kaltara (batas 10)
+[16/10/2026 06:40:26]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 06:40:28] Klasifikasi otomatis: 34 berita diproses
+[16/10/2026 06:40:28] === Selesai. 0 berita baru tersimpan ===
+[16/10/2026 12:00:09] === Tugas harian APIFESTAT dimulai ===
+[16/10/2026 12:00:10] Scraping ANTARA KALTARA (batas 25)
+[16/10/2026 12:00:11]   ditemukan 20, disimpan 3, duplikat 7, di luar wilayah 10
+[16/10/2026 12:00:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/10/2026 12:00:44]   ditemukan 7, disimpan 1, duplikat 0, di luar wilayah 6
+[16/10/2026 12:00:44] Scraping Berita Borneo - Malinau (batas 25)
+[16/10/2026 12:01:00]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[16/10/2026 12:01:00] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/10/2026 12:01:16]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 12:01:16] Scraping Tribun Kaltara (batas 10)
+[16/10/2026 12:01:50]   ditemukan 7, disimpan 7, duplikat 0, di luar wilayah 0
+[16/10/2026 12:01:52] Klasifikasi otomatis: 35 berita diproses
+[16/10/2026 12:01:52] === Selesai. 11 berita baru tersimpan ===
+[16/10/2026 18:00:09] === Tugas harian APIFESTAT dimulai ===
+[16/10/2026 18:00:10] Scraping ANTARA KALTARA (batas 25)
+[16/10/2026 18:00:10]   ditemukan 20, disimpan 1, duplikat 9, di luar wilayah 10
+[16/10/2026 18:00:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[16/10/2026 18:00:40]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[16/10/2026 18:00:40] Scraping Berita Borneo - Malinau (batas 25)
+[16/10/2026 18:00:46]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[16/10/2026 18:00:46] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[16/10/2026 18:00:49]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[16/10/2026 18:00:49] Scraping Tribun Kaltara (batas 10)
+[16/10/2026 18:01:10]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[16/10/2026 18:01:11] Klasifikasi otomatis: 36 berita diproses
+[16/10/2026 18:01:11] === Selesai. 5 berita baru tersimpan ===
+[17/10/2026 00:00:33] === Tugas harian APIFESTAT dimulai ===
+[17/10/2026 00:00:33] Scraping ANTARA KALTARA (batas 25)
+[17/10/2026 00:00:34]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[17/10/2026 00:00:34] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/10/2026 00:01:29]   ditemukan 8, disimpan 1, duplikat 0, di luar wilayah 7
+[17/10/2026 00:01:29] Scraping Berita Borneo - Malinau (batas 25)
+[17/10/2026 00:02:14]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[17/10/2026 00:02:14] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/10/2026 00:02:26]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[17/10/2026 00:02:26] Scraping Tribun Kaltara (batas 10)
+[17/10/2026 00:02:47]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[17/10/2026 00:02:50] Klasifikasi otomatis: 36 berita diproses
+[17/10/2026 00:02:50] === Selesai. 4 berita baru tersimpan ===
+[17/10/2026 06:00:19] === Tugas harian APIFESTAT dimulai ===
+[17/10/2026 06:00:19] Scraping ANTARA KALTARA (batas 25)
+[17/10/2026 06:00:21]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[17/10/2026 06:00:21] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/10/2026 06:01:04]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[17/10/2026 06:01:04] Scraping Berita Borneo - Malinau (batas 25)
+[17/10/2026 06:01:41]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[17/10/2026 06:01:41] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/10/2026 06:01:57]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[17/10/2026 06:01:57] Scraping Tribun Kaltara (batas 10)
+[17/10/2026 06:02:03]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[17/10/2026 06:02:04] Klasifikasi otomatis: 36 berita diproses
+[17/10/2026 06:02:04] === Selesai. 1 berita baru tersimpan ===
+[17/10/2026 12:00:10] === Tugas harian APIFESTAT dimulai ===
+[17/10/2026 12:00:10] Scraping ANTARA KALTARA (batas 25)
+[17/10/2026 12:00:11]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[17/10/2026 12:00:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/10/2026 12:00:48]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[17/10/2026 12:00:48] Scraping Berita Borneo - Malinau (batas 25)
+[17/10/2026 12:00:51]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[17/10/2026 12:00:51] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/10/2026 12:00:58]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[17/10/2026 12:00:58] Scraping Tribun Kaltara (batas 10)
+[17/10/2026 12:01:04]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[17/10/2026 12:01:06] Klasifikasi otomatis: 36 berita diproses
+[17/10/2026 12:01:06] === Selesai. 2 berita baru tersimpan ===
+[17/10/2026 18:00:12] === Tugas harian APIFESTAT dimulai ===
+[17/10/2026 18:00:12] Scraping ANTARA KALTARA (batas 25)
+[17/10/2026 18:00:13]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[17/10/2026 18:00:13] Scraping ANTARA Kaltara (arsip) (batas 10)
+[17/10/2026 18:00:56]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[17/10/2026 18:00:56] Scraping Berita Borneo - Malinau (batas 25)
+[17/10/2026 18:01:44]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[17/10/2026 18:01:44] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[17/10/2026 18:02:00]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[17/10/2026 18:02:00] Scraping Tribun Kaltara (batas 10)
+[17/10/2026 18:02:17]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[17/10/2026 18:02:18] Klasifikasi otomatis: 36 berita diproses
+[17/10/2026 18:02:18] === Selesai. 3 berita baru tersimpan ===
+[18/10/2026 00:00:11] === Tugas harian APIFESTAT dimulai ===
+[18/10/2026 00:00:12] Scraping ANTARA KALTARA (batas 25)
+[18/10/2026 00:00:13]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[18/10/2026 00:00:13] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/10/2026 00:00:54]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[18/10/2026 00:00:54] Scraping Berita Borneo - Malinau (batas 25)
+[18/10/2026 00:01:46]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[18/10/2026 00:01:46] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/10/2026 00:02:02]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 00:02:02] Scraping Tribun Kaltara (batas 10)
+[18/10/2026 00:02:19]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[18/10/2026 00:02:20] Klasifikasi otomatis: 36 berita diproses
+[18/10/2026 00:02:20] === Selesai. 3 berita baru tersimpan ===
+[18/10/2026 06:16:44] === Tugas harian APIFESTAT dimulai ===
+[18/10/2026 06:16:44] Scraping ANTARA KALTARA (batas 25)
+[18/10/2026 06:16:46]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[18/10/2026 06:16:46] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/10/2026 06:17:33]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[18/10/2026 06:17:33] Scraping Berita Borneo - Malinau (batas 25)
+[18/10/2026 06:17:36]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[18/10/2026 06:17:36] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/10/2026 06:17:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 06:17:43] Scraping Tribun Kaltara (batas 10)
+[18/10/2026 06:17:50]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[18/10/2026 06:17:51] Klasifikasi otomatis: 36 berita diproses
+[18/10/2026 06:17:51] === Selesai. 1 berita baru tersimpan ===
+[18/10/2026 06:19:14] === Tugas harian APIFESTAT dimulai ===
+[18/10/2026 06:19:14] Scraping ANTARA KALTARA (batas 25)
+[18/10/2026 06:19:15]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[18/10/2026 06:19:15] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/10/2026 06:19:58]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[18/10/2026 06:19:58] Scraping Berita Borneo - Malinau (batas 25)
+[18/10/2026 06:20:03]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[18/10/2026 06:20:03] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/10/2026 06:20:06]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 06:20:06] Scraping Tribun Kaltara (batas 10)
+[18/10/2026 06:20:08]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 06:20:10] Klasifikasi otomatis: 36 berita diproses
+[18/10/2026 06:20:10] === Selesai. 0 berita baru tersimpan ===
+[18/10/2026 13:41:27] === Tugas harian APIFESTAT dimulai ===
+[18/10/2026 13:41:27] Scraping ANTARA KALTARA (batas 25)
+[18/10/2026 13:41:27]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[18/10/2026 13:41:27] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/10/2026 13:42:08]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[18/10/2026 13:42:08] Scraping Berita Borneo - Malinau (batas 25)
+[18/10/2026 13:42:21]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[18/10/2026 13:42:21] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/10/2026 13:42:28]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 13:42:28] Scraping Tribun Kaltara (batas 10)
+[18/10/2026 13:42:42]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[18/10/2026 13:42:43] Klasifikasi otomatis: 36 berita diproses
+[18/10/2026 13:42:43] === Selesai. 3 berita baru tersimpan ===
+[18/10/2026 18:19:17] === Tugas harian APIFESTAT dimulai ===
+[18/10/2026 18:19:17] Scraping ANTARA KALTARA (batas 25)
+[18/10/2026 18:19:19]   ditemukan 20, disimpan 2, duplikat 8, di luar wilayah 10
+[18/10/2026 18:19:19] Scraping ANTARA Kaltara (arsip) (batas 10)
+[18/10/2026 18:20:10]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[18/10/2026 18:20:10] Scraping Berita Borneo - Malinau (batas 25)
+[18/10/2026 18:20:17]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[18/10/2026 18:20:17] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[18/10/2026 18:20:22]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[18/10/2026 18:20:22] Scraping Tribun Kaltara (batas 10)
+[18/10/2026 18:20:43]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[18/10/2026 18:20:45] Klasifikasi otomatis: 36 berita diproses
+[18/10/2026 18:20:45] === Selesai. 6 berita baru tersimpan ===
+[19/10/2026 00:19:18] === Tugas harian APIFESTAT dimulai ===
+[19/10/2026 00:19:18] Scraping ANTARA KALTARA (batas 25)
+[19/10/2026 00:19:19]   ditemukan 20, disimpan 0, duplikat 10, di luar wilayah 10
+[19/10/2026 00:19:19] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/10/2026 00:20:08]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[19/10/2026 00:20:08] Scraping Berita Borneo - Malinau (batas 25)
+[19/10/2026 00:20:21]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[19/10/2026 00:20:21] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/10/2026 00:20:29]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 00:20:29] Scraping Tribun Kaltara (batas 10)
+[19/10/2026 00:20:49]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[19/10/2026 00:20:51] Klasifikasi otomatis: 36 berita diproses
+[19/10/2026 00:20:51] === Selesai. 4 berita baru tersimpan ===
+[19/10/2026 07:01:21] === Tugas harian APIFESTAT dimulai ===
+[19/10/2026 07:01:21] Scraping ANTARA KALTARA (batas 25)
+[19/10/2026 07:01:22]   ditemukan 20, disimpan 0, duplikat 10, di luar wilayah 10
+[19/10/2026 07:01:22] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/10/2026 07:02:21]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[19/10/2026 07:02:21] Scraping Berita Borneo - Malinau (batas 25)
+[19/10/2026 07:03:17]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[19/10/2026 07:03:17] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/10/2026 07:03:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 07:03:34] Scraping Tribun Kaltara (batas 10)
+[19/10/2026 07:03:36]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 07:03:38] Klasifikasi otomatis: 36 berita diproses
+[19/10/2026 07:03:38] === Selesai. 0 berita baru tersimpan ===
+[19/10/2026 07:04:06] === Tugas harian APIFESTAT dimulai ===
+[19/10/2026 07:04:07] Scraping ANTARA KALTARA (batas 25)
+[19/10/2026 07:04:08]   ditemukan 20, disimpan 0, duplikat 10, di luar wilayah 10
+[19/10/2026 07:04:08] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/10/2026 07:04:53]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[19/10/2026 07:04:53] Scraping Berita Borneo - Malinau (batas 25)
+[19/10/2026 07:05:26]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[19/10/2026 07:05:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/10/2026 07:05:39]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 07:05:39] Scraping Tribun Kaltara (batas 10)
+[19/10/2026 07:05:43]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 07:05:45] Klasifikasi otomatis: 36 berita diproses
+[19/10/2026 07:05:45] === Selesai. 0 berita baru tersimpan ===
+[19/10/2026 13:04:07] === Tugas harian APIFESTAT dimulai ===
+[19/10/2026 13:04:08] Scraping ANTARA KALTARA (batas 25)
+[19/10/2026 13:04:09]   ditemukan 20, disimpan 4, duplikat 7, di luar wilayah 9
+[19/10/2026 13:04:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/10/2026 13:04:46]   ditemukan 7, disimpan 1, duplikat 0, di luar wilayah 6
+[19/10/2026 13:04:46] Scraping Berita Borneo - Malinau (batas 25)
+[19/10/2026 13:16:25]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[19/10/2026 13:16:25] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/10/2026 13:16:50]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 13:16:50] Scraping Tribun Kaltara (batas 10)
+[19/10/2026 13:17:17]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[19/10/2026 13:17:19] Klasifikasi otomatis: 36 berita diproses
+[19/10/2026 13:17:19] === Selesai. 8 berita baru tersimpan ===
+[19/10/2026 19:11:22] === Tugas harian APIFESTAT dimulai ===
+[19/10/2026 19:11:23] Scraping ANTARA KALTARA (batas 25)
+[19/10/2026 19:11:28]   gagal: Remote end closed connection without response
+[19/10/2026 19:11:28] Scraping ANTARA Kaltara (arsip) (batas 10)
+[19/10/2026 19:12:02]   ditemukan 5, disimpan 1, duplikat 0, di luar wilayah 4
+[19/10/2026 19:12:02] Scraping Berita Borneo - Malinau (batas 25)
+[19/10/2026 19:12:05]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[19/10/2026 19:12:05] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[19/10/2026 19:12:09]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[19/10/2026 19:12:09] Scraping Tribun Kaltara (batas 10)
+[19/10/2026 19:12:39]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[19/10/2026 19:12:40] Klasifikasi otomatis: 36 berita diproses
+[19/10/2026 19:12:40] === Selesai. 7 berita baru tersimpan ===
+[20/10/2026 01:50:31] === Tugas harian APIFESTAT dimulai ===
+[20/10/2026 01:50:31] Scraping ANTARA KALTARA (batas 25)
+[20/10/2026 01:50:32]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[20/10/2026 01:50:32] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/10/2026 01:50:55]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[20/10/2026 01:50:55] Scraping Berita Borneo - Malinau (batas 25)
+[20/10/2026 01:51:01]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[20/10/2026 01:51:01] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/10/2026 01:51:08]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/10/2026 01:51:08] Scraping Tribun Kaltara (batas 10)
+[20/10/2026 01:51:33]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[20/10/2026 01:51:35] Klasifikasi otomatis: 36 berita diproses
+[20/10/2026 01:51:35] === Selesai. 5 berita baru tersimpan ===
+[20/10/2026 06:09:45] === Tugas harian APIFESTAT dimulai ===
+[20/10/2026 06:09:45] Scraping ANTARA KALTARA (batas 25)
+[20/10/2026 06:09:46]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[20/10/2026 06:09:46] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/10/2026 06:10:12]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[20/10/2026 06:10:12] Scraping Berita Borneo - Malinau (batas 25)
+[20/10/2026 06:10:20]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[20/10/2026 06:10:20] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/10/2026 06:10:28]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/10/2026 06:10:28] Scraping Tribun Kaltara (batas 10)
+[20/10/2026 06:10:29]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/10/2026 06:10:31] Klasifikasi otomatis: 36 berita diproses
+[20/10/2026 06:10:31] === Selesai. 0 berita baru tersimpan ===
+[20/10/2026 12:09:42] === Tugas harian APIFESTAT dimulai ===
+[20/10/2026 12:09:42] Scraping ANTARA KALTARA (batas 25)
+[20/10/2026 12:09:43]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[20/10/2026 12:09:43] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/10/2026 12:10:12]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[20/10/2026 12:10:12] Scraping Berita Borneo - Malinau (batas 25)
+[20/10/2026 12:10:15]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[20/10/2026 12:10:15] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/10/2026 12:10:19]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/10/2026 12:10:19] Scraping Tribun Kaltara (batas 10)
+[20/10/2026 12:10:31]   ditemukan 2, disimpan 2, duplikat 0, di luar wilayah 0
+[20/10/2026 12:10:33] Klasifikasi otomatis: 36 berita diproses
+[20/10/2026 12:10:33] === Selesai. 2 berita baru tersimpan ===
+[20/10/2026 18:18:56] === Tugas harian APIFESTAT dimulai ===
+[20/10/2026 18:18:57] Scraping ANTARA KALTARA (batas 25)
+[20/10/2026 18:19:12]   ditemukan 20, disimpan 3, duplikat 9, di luar wilayah 8
+[20/10/2026 18:19:12] Scraping ANTARA Kaltara (arsip) (batas 10)
+[20/10/2026 18:19:49]   ditemukan 5, disimpan 0, duplikat 0, di luar wilayah 5
+[20/10/2026 18:19:49] Scraping Berita Borneo - Malinau (batas 25)
+[20/10/2026 18:19:54]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[20/10/2026 18:19:54] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[20/10/2026 18:19:57]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[20/10/2026 18:19:57] Scraping Tribun Kaltara (batas 10)
+[20/10/2026 18:20:18]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[20/10/2026 18:20:20] Klasifikasi otomatis: 36 berita diproses
+[20/10/2026 18:20:20] === Selesai. 7 berita baru tersimpan ===
+[21/10/2026 06:38:14] === Tugas harian APIFESTAT dimulai ===
+[21/10/2026 06:38:15] Scraping ANTARA KALTARA (batas 25)
+[21/10/2026 06:38:16]   ditemukan 20, disimpan 0, duplikat 11, di luar wilayah 9
+[21/10/2026 06:38:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/10/2026 06:38:54]   ditemukan 7, disimpan 1, duplikat 0, di luar wilayah 6
+[21/10/2026 06:38:54] Scraping Berita Borneo - Malinau (batas 25)
+[21/10/2026 06:38:57]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[21/10/2026 06:38:57] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/10/2026 06:39:01]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/10/2026 06:39:01] Scraping Tribun Kaltara (batas 10)
+[21/10/2026 06:39:23]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[21/10/2026 06:39:25] Klasifikasi otomatis: 36 berita diproses
+[21/10/2026 06:39:25] === Selesai. 5 berita baru tersimpan ===
+[21/10/2026 12:38:54] === Tugas harian APIFESTAT dimulai ===
+[21/10/2026 12:38:54] Scraping ANTARA KALTARA (batas 25)
+[21/10/2026 12:38:55]   ditemukan 20, disimpan 1, duplikat 10, di luar wilayah 9
+[21/10/2026 12:38:55] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/10/2026 12:39:20]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[21/10/2026 12:39:20] Scraping Berita Borneo - Malinau (batas 25)
+[21/10/2026 12:39:26]   gagal: Feed tidak dapat dibaca: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'beritaborneo.com'. (_ssl.c:1010)>
+[21/10/2026 12:39:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/10/2026 12:39:27]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/10/2026 12:39:27] Scraping Tribun Kaltara (batas 10)
+[21/10/2026 12:39:52]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[21/10/2026 12:39:54] Klasifikasi otomatis: 36 berita diproses
+[21/10/2026 12:39:54] === Selesai. 6 berita baru tersimpan ===
+[21/10/2026 19:18:09] === Tugas harian APIFESTAT dimulai ===
+[21/10/2026 19:18:09] Scraping ANTARA KALTARA (batas 25)
+[21/10/2026 19:18:11]   ditemukan 20, disimpan 7, duplikat 8, di luar wilayah 5
+[21/10/2026 19:18:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[21/10/2026 19:18:43]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[21/10/2026 19:18:43] Scraping Berita Borneo - Malinau (batas 25)
+[21/10/2026 19:18:50]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[21/10/2026 19:18:50] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[21/10/2026 19:18:55]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[21/10/2026 19:18:55] Scraping Tribun Kaltara (batas 10)
+[21/10/2026 19:19:12]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[21/10/2026 19:19:14] Klasifikasi otomatis: 40 berita diproses
+[21/10/2026 19:19:14] === Selesai. 10 berita baru tersimpan ===
+[22/10/2026 04:30:29] === Tugas harian APIFESTAT dimulai ===
+[22/10/2026 04:30:30] Scraping ANTARA KALTARA (batas 25)
+[22/10/2026 04:30:34]   ditemukan 20, disimpan 0, duplikat 15, di luar wilayah 5
+[22/10/2026 04:30:34] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/10/2026 04:31:29]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[22/10/2026 04:31:29] Scraping Berita Borneo - Malinau (batas 25)
+[22/10/2026 04:31:35]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[22/10/2026 04:31:35] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/10/2026 04:31:42]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[22/10/2026 04:31:42] Scraping Tribun Kaltara (batas 10)
+[22/10/2026 04:32:25]   ditemukan 5, disimpan 5, duplikat 0, di luar wilayah 0
+[22/10/2026 04:32:28] Klasifikasi otomatis: 40 berita diproses
+[22/10/2026 04:32:28] === Selesai. 5 berita baru tersimpan ===
+[22/10/2026 06:14:23] === Tugas harian APIFESTAT dimulai ===
+[22/10/2026 06:14:24] Scraping ANTARA KALTARA (batas 25)
+[22/10/2026 06:14:24]   ditemukan 20, disimpan 0, duplikat 15, di luar wilayah 5
+[22/10/2026 06:14:24] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/10/2026 06:14:56]   ditemukan 6, disimpan 0, duplikat 0, di luar wilayah 6
+[22/10/2026 06:14:56] Scraping Berita Borneo - Malinau (batas 25)
+[22/10/2026 06:15:00]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[22/10/2026 06:15:00] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/10/2026 06:15:02]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[22/10/2026 06:15:02] Scraping Tribun Kaltara (batas 10)
+[22/10/2026 06:15:03]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[22/10/2026 06:15:06] Klasifikasi otomatis: 40 berita diproses
+[22/10/2026 06:15:06] === Selesai. 0 berita baru tersimpan ===
+[22/10/2026 12:14:31] === Tugas harian APIFESTAT dimulai ===
+[22/10/2026 12:14:32] Scraping ANTARA KALTARA (batas 25)
+[22/10/2026 12:14:32]   ditemukan 20, disimpan 0, duplikat 15, di luar wilayah 5
+[22/10/2026 12:14:32] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/10/2026 12:15:02]   ditemukan 5, disimpan 0, duplikat 0, di luar wilayah 5
+[22/10/2026 12:15:02] Scraping Berita Borneo - Malinau (batas 25)
+[22/10/2026 12:15:07]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[22/10/2026 12:15:07] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/10/2026 12:15:12]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[22/10/2026 12:15:12] Scraping Tribun Kaltara (batas 10)
+[22/10/2026 12:15:34]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[22/10/2026 12:15:35] Klasifikasi otomatis: 40 berita diproses
+[22/10/2026 12:15:35] === Selesai. 4 berita baru tersimpan ===
+[22/10/2026 18:38:43] === Tugas harian APIFESTAT dimulai ===
+[22/10/2026 18:38:43] Scraping ANTARA KALTARA (batas 25)
+[22/10/2026 18:38:44]   ditemukan 20, disimpan 2, duplikat 10, di luar wilayah 8
+[22/10/2026 18:38:44] Scraping ANTARA Kaltara (arsip) (batas 10)
+[22/10/2026 18:39:34]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[22/10/2026 18:39:34] Scraping Berita Borneo - Malinau (batas 25)
+[22/10/2026 18:39:37]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[22/10/2026 18:39:37] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[22/10/2026 18:39:41]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[22/10/2026 18:39:41] Scraping Tribun Kaltara (batas 10)
+[22/10/2026 18:40:12]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[22/10/2026 18:40:14] Klasifikasi otomatis: 40 berita diproses
+[22/10/2026 18:40:14] === Selesai. 10 berita baru tersimpan ===
+[23/10/2026 00:14:30] === Tugas harian APIFESTAT dimulai ===
+[23/10/2026 00:14:30] Scraping ANTARA KALTARA (batas 25)
+[23/10/2026 00:14:31]   ditemukan 20, disimpan 2, duplikat 7, di luar wilayah 11
+[23/10/2026 00:14:31] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/10/2026 00:15:20]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/10/2026 00:15:20] Scraping Berita Borneo - Malinau (batas 25)
+[23/10/2026 00:15:32]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[23/10/2026 00:15:32] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/10/2026 00:15:48]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 00:15:48] Scraping Tribun Kaltara (batas 10)
+[23/10/2026 00:16:08]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[23/10/2026 00:16:09] Klasifikasi otomatis: 40 berita diproses
+[23/10/2026 00:16:09] === Selesai. 6 berita baru tersimpan ===
+[23/10/2026 06:24:09] === Tugas harian APIFESTAT dimulai ===
+[23/10/2026 06:24:09] Scraping ANTARA KALTARA (batas 25)
+[23/10/2026 06:24:10]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[23/10/2026 06:24:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/10/2026 06:24:59]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/10/2026 06:24:59] Scraping Berita Borneo - Malinau (batas 25)
+[23/10/2026 06:25:01]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[23/10/2026 06:25:01] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/10/2026 06:25:05]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 06:25:05] Scraping Tribun Kaltara (batas 10)
+[23/10/2026 06:25:10]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 06:25:12] Klasifikasi otomatis: 40 berita diproses
+[23/10/2026 06:25:12] === Selesai. 0 berita baru tersimpan ===
+[23/10/2026 06:26:52] === Tugas harian APIFESTAT dimulai ===
+[23/10/2026 06:26:52] Scraping ANTARA KALTARA (batas 25)
+[23/10/2026 06:26:52]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[23/10/2026 06:26:52] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/10/2026 06:27:33]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/10/2026 06:27:33] Scraping Berita Borneo - Malinau (batas 25)
+[23/10/2026 06:27:35]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[23/10/2026 06:27:35] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/10/2026 06:27:39]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 06:27:39] Scraping Tribun Kaltara (batas 10)
+[23/10/2026 06:27:41]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 06:27:42] Klasifikasi otomatis: 40 berita diproses
+[23/10/2026 06:27:42] === Selesai. 0 berita baru tersimpan ===
+[23/10/2026 12:00:10] === Tugas harian APIFESTAT dimulai ===
+[23/10/2026 12:00:10] Scraping ANTARA KALTARA (batas 25)
+[23/10/2026 12:00:11]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[23/10/2026 12:00:11] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/10/2026 12:01:04]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/10/2026 12:01:04] Scraping Berita Borneo - Malinau (batas 25)
+[23/10/2026 12:02:04]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[23/10/2026 12:02:04] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/10/2026 12:02:20]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 12:02:20] Scraping Tribun Kaltara (batas 10)
+[23/10/2026 12:02:36]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[23/10/2026 12:02:38] Klasifikasi otomatis: 40 berita diproses
+[23/10/2026 12:02:38] === Selesai. 4 berita baru tersimpan ===
+[23/10/2026 18:38:54] === Tugas harian APIFESTAT dimulai ===
+[23/10/2026 18:38:56] Scraping ANTARA KALTARA (batas 25)
+[23/10/2026 18:39:00]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[23/10/2026 18:39:00] Scraping ANTARA Kaltara (arsip) (batas 10)
+[23/10/2026 18:40:20]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[23/10/2026 18:40:20] Scraping Berita Borneo - Malinau (batas 25)
+[23/10/2026 18:40:30]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[23/10/2026 18:40:30] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[23/10/2026 18:40:40]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[23/10/2026 18:40:40] Scraping Tribun Kaltara (batas 10)
+[23/10/2026 18:41:02]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[23/10/2026 18:41:04] Klasifikasi otomatis: 40 berita diproses
+[23/10/2026 18:41:04] === Selesai. 5 berita baru tersimpan ===
+[24/10/2026 00:15:56] === Tugas harian APIFESTAT dimulai ===
+[24/10/2026 00:15:56] Scraping ANTARA KALTARA (batas 25)
+[24/10/2026 00:15:58]   ditemukan 20, disimpan 6, duplikat 3, di luar wilayah 11
+[24/10/2026 00:15:58] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/10/2026 00:16:34]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[24/10/2026 00:16:34] Scraping Berita Borneo - Malinau (batas 25)
+[24/10/2026 00:16:41]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[24/10/2026 00:16:41] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/10/2026 00:16:46]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 00:16:46] Scraping Tribun Kaltara (batas 10)
+[24/10/2026 00:16:51]   ditemukan 1, disimpan 1, duplikat 0, di luar wilayah 0
+[24/10/2026 00:16:52] Klasifikasi otomatis: 41 berita diproses
+[24/10/2026 00:16:52] === Selesai. 7 berita baru tersimpan ===
+[24/10/2026 06:22:24] === Tugas harian APIFESTAT dimulai ===
+[24/10/2026 06:22:24] Scraping ANTARA KALTARA (batas 25)
+[24/10/2026 06:22:25]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[24/10/2026 06:22:25] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/10/2026 06:22:56]   ditemukan 8, disimpan 0, duplikat 0, di luar wilayah 8
+[24/10/2026 06:22:56] Scraping Berita Borneo - Malinau (batas 25)
+[24/10/2026 06:22:57]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[24/10/2026 06:22:57] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/10/2026 06:22:59]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 06:22:59] Scraping Tribun Kaltara (batas 10)
+[24/10/2026 06:23:01]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 06:23:02] Klasifikasi otomatis: 41 berita diproses
+[24/10/2026 06:23:02] === Selesai. 0 berita baru tersimpan ===
+[24/10/2026 06:25:16] === Tugas harian APIFESTAT dimulai ===
+[24/10/2026 06:25:16] Scraping ANTARA KALTARA (batas 25)
+[24/10/2026 06:25:16]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[24/10/2026 06:25:16] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/10/2026 06:25:57]   ditemukan 7, disimpan 0, duplikat 0, di luar wilayah 7
+[24/10/2026 06:25:57] Scraping Berita Borneo - Malinau (batas 25)
+[24/10/2026 06:25:58]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[24/10/2026 06:25:58] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/10/2026 06:26:00]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 06:26:00] Scraping Tribun Kaltara (batas 10)
+[24/10/2026 06:26:02]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 06:26:03] Klasifikasi otomatis: 41 berita diproses
+[24/10/2026 06:26:03] === Selesai. 0 berita baru tersimpan ===
+[24/10/2026 12:25:27] === Tugas harian APIFESTAT dimulai ===
+[24/10/2026 12:25:27] Scraping ANTARA KALTARA (batas 25)
+[24/10/2026 12:25:29]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[24/10/2026 12:25:29] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/10/2026 12:25:31]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 12:25:31] Scraping Berita Borneo - Malinau (batas 25)
+[24/10/2026 12:25:33]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[24/10/2026 12:25:33] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/10/2026 12:25:35]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 12:25:35] Scraping Tribun Kaltara (batas 10)
+[24/10/2026 12:26:12]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[24/10/2026 12:26:15] Klasifikasi otomatis: 41 berita diproses
+[24/10/2026 12:26:15] === Selesai. 6 berita baru tersimpan ===
+[24/10/2026 18:25:20] === Tugas harian APIFESTAT dimulai ===
+[24/10/2026 18:25:20] Scraping ANTARA KALTARA (batas 25)
+[24/10/2026 18:25:21]   ditemukan 20, disimpan 0, duplikat 8, di luar wilayah 12
+[24/10/2026 18:25:21] Scraping ANTARA Kaltara (arsip) (batas 10)
+[24/10/2026 18:25:58]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[24/10/2026 18:25:58] Scraping Berita Borneo - Malinau (batas 25)
+[24/10/2026 18:26:00]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[24/10/2026 18:26:00] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[24/10/2026 18:26:02]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[24/10/2026 18:26:02] Scraping Tribun Kaltara (batas 10)
+[24/10/2026 18:26:35]   ditemukan 6, disimpan 6, duplikat 0, di luar wilayah 0
+[24/10/2026 18:26:37] Klasifikasi otomatis: 41 berita diproses
+[24/10/2026 18:26:37] === Selesai. 6 berita baru tersimpan ===
+[25/10/2026 00:25:18] === Tugas harian APIFESTAT dimulai ===
+[25/10/2026 00:25:19] Scraping ANTARA KALTARA (batas 25)
+[25/10/2026 00:25:19]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[25/10/2026 00:25:19] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/10/2026 00:26:06]   ditemukan 10, disimpan 1, duplikat 0, di luar wilayah 9
+[25/10/2026 00:26:06] Scraping Berita Borneo - Malinau (batas 25)
+[25/10/2026 00:26:07]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[25/10/2026 00:26:07] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/10/2026 00:26:09]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 00:26:09] Scraping Tribun Kaltara (batas 10)
+[25/10/2026 00:26:11]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 00:26:13] Klasifikasi otomatis: 41 berita diproses
+[25/10/2026 00:26:13] === Selesai. 2 berita baru tersimpan ===
+[25/10/2026 06:36:07] === Tugas harian APIFESTAT dimulai ===
+[25/10/2026 06:36:08] Scraping ANTARA KALTARA (batas 25)
+[25/10/2026 06:36:09]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[25/10/2026 06:36:09] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/10/2026 06:37:22]   ditemukan 9, disimpan 0, duplikat 0, di luar wilayah 9
+[25/10/2026 06:37:22] Scraping Berita Borneo - Malinau (batas 25)
+[25/10/2026 06:37:28]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[25/10/2026 06:37:28] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/10/2026 06:37:36]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 06:37:36] Scraping Tribun Kaltara (batas 10)
+[25/10/2026 06:37:46]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 06:37:58] Klasifikasi otomatis: 41 berita diproses
+[25/10/2026 06:37:58] === Selesai. 0 berita baru tersimpan ===
+[25/10/2026 06:38:45] === Tugas harian APIFESTAT dimulai ===
+[25/10/2026 06:38:45] Scraping ANTARA KALTARA (batas 25)
+[25/10/2026 06:38:45]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[25/10/2026 06:38:45] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/10/2026 06:39:32]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/10/2026 06:39:32] Scraping Berita Borneo - Malinau (batas 25)
+[25/10/2026 06:39:34]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[25/10/2026 06:39:34] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/10/2026 06:39:36]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 06:39:36] Scraping Tribun Kaltara (batas 10)
+[25/10/2026 06:39:37]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 06:39:40] Klasifikasi otomatis: 41 berita diproses
+[25/10/2026 06:39:40] === Selesai. 0 berita baru tersimpan ===
+[25/10/2026 12:38:45] === Tugas harian APIFESTAT dimulai ===
+[25/10/2026 12:38:46] Scraping ANTARA KALTARA (batas 25)
+[25/10/2026 12:38:47]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[25/10/2026 12:38:47] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/10/2026 12:39:34]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/10/2026 12:39:34] Scraping Berita Borneo - Malinau (batas 25)
+[25/10/2026 12:39:36]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[25/10/2026 12:39:36] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/10/2026 12:39:38]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 12:39:38] Scraping Tribun Kaltara (batas 10)
+[25/10/2026 12:39:57]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[25/10/2026 12:39:59] Klasifikasi otomatis: 41 berita diproses
+[25/10/2026 12:39:59] === Selesai. 4 berita baru tersimpan ===
+[25/10/2026 18:38:52] === Tugas harian APIFESTAT dimulai ===
+[25/10/2026 18:38:52] Scraping ANTARA KALTARA (batas 25)
+[25/10/2026 18:38:55]   ditemukan 20, disimpan 1, duplikat 8, di luar wilayah 11
+[25/10/2026 18:38:55] Scraping ANTARA Kaltara (arsip) (batas 10)
+[25/10/2026 18:40:02]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[25/10/2026 18:40:02] Scraping Berita Borneo - Malinau (batas 25)
+[25/10/2026 18:40:06]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[25/10/2026 18:40:06] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[25/10/2026 18:40:10]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[25/10/2026 18:40:10] Scraping Tribun Kaltara (batas 10)
+[25/10/2026 18:40:40]   ditemukan 4, disimpan 4, duplikat 0, di luar wilayah 0
+[25/10/2026 18:40:47] Klasifikasi otomatis: 41 berita diproses
+[25/10/2026 18:40:47] === Selesai. 5 berita baru tersimpan ===
+[26/10/2026 02:21:44] === Tugas harian APIFESTAT dimulai ===
+[26/10/2026 02:21:44] Scraping ANTARA KALTARA (batas 25)
+[26/10/2026 02:21:44]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/10/2026 02:21:44] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/10/2026 02:22:25]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/10/2026 02:22:25] Scraping Berita Borneo - Malinau (batas 25)
+[26/10/2026 02:22:26]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[26/10/2026 02:22:26] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/10/2026 02:22:28]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 02:22:28] Scraping Tribun Kaltara (batas 10)
+[26/10/2026 02:22:42]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[26/10/2026 02:22:43] Klasifikasi otomatis: 41 berita diproses
+[26/10/2026 02:22:43] === Selesai. 3 berita baru tersimpan ===
+[26/10/2026 06:31:09] === Tugas harian APIFESTAT dimulai ===
+[26/10/2026 06:31:09] Scraping ANTARA KALTARA (batas 25)
+[26/10/2026 06:31:10]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/10/2026 06:31:10] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/10/2026 06:31:59]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/10/2026 06:31:59] Scraping Berita Borneo - Malinau (batas 25)
+[26/10/2026 06:32:01]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[26/10/2026 06:32:01] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/10/2026 06:32:03]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 06:32:03] Scraping Tribun Kaltara (batas 10)
+[26/10/2026 06:32:05]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 06:32:07] Klasifikasi otomatis: 41 berita diproses
+[26/10/2026 06:32:07] === Selesai. 0 berita baru tersimpan ===
+[26/10/2026 06:38:46] === Tugas harian APIFESTAT dimulai ===
+[26/10/2026 06:38:46] Scraping ANTARA KALTARA (batas 25)
+[26/10/2026 06:38:46]   ditemukan 20, disimpan 0, duplikat 9, di luar wilayah 11
+[26/10/2026 06:38:46] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/10/2026 06:39:28]   ditemukan 10, disimpan 0, duplikat 0, di luar wilayah 10
+[26/10/2026 06:39:28] Scraping Berita Borneo - Malinau (batas 25)
+[26/10/2026 06:39:30]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[26/10/2026 06:39:30] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/10/2026 06:39:32]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 06:39:32] Scraping Tribun Kaltara (batas 10)
+[26/10/2026 06:39:34]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 06:39:35] Klasifikasi otomatis: 41 berita diproses
+[26/10/2026 06:39:35] === Selesai. 0 berita baru tersimpan ===
+[26/10/2026 12:31:20] === Tugas harian APIFESTAT dimulai ===
+[26/10/2026 12:31:21] Scraping ANTARA KALTARA (batas 25)
+[26/10/2026 12:31:21]   ditemukan 20, disimpan 3, duplikat 3, di luar wilayah 14
+[26/10/2026 12:31:21] Scraping ANTARA Kaltara (arsip) (batas 10)
+[26/10/2026 12:32:04]   ditemukan 10, disimpan 2, duplikat 0, di luar wilayah 8
+[26/10/2026 12:32:04] Scraping Berita Borneo - Malinau (batas 25)
+[26/10/2026 12:32:05]   gagal: Feed tidak dapat dibaca: <unknown>:3:61: duplicate attribute
+[26/10/2026 12:32:05] Scraping Berita Borneo Malinau (Arsip) (batas 10)
+[26/10/2026 12:32:07]   ditemukan 0, disimpan 0, duplikat 0, di luar wilayah 0
+[26/10/2026 12:32:07] Scraping Tribun Kaltara (batas 10)
+[26/10/2026 12:32:23]   ditemukan 3, disimpan 3, duplikat 0, di luar wilayah 0
+[26/10/2026 12:32:24] Klasifikasi otomatis: 42 berita diproses
+[26/10/2026 12:32:24] === Selesai. 8 berita baru tersimpan ===

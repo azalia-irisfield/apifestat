@@ -85,6 +85,11 @@ class Berita(models.Model):
     )
     ringkasan = models.TextField(blank=True)
     dampak = models.CharField(max_length=25, choices=Dampak.choices, blank=True, db_index=True)
+    relevansi = models.PositiveSmallIntegerField(
+           null=True, blank=True,
+           help_text="Nilai Gemini 0-3: seberapa layak berita menjadi fenomena PDRB "
+                     "(0 = bukan berita ekonomi, 3 = fenomena kuat)"
+       )
     status = models.CharField(max_length=20, choices=Status.choices, default=Status.BARU, db_index=True)
     hash_konten = models.CharField(max_length=64, db_index=True, blank=True)
     sumber_input = models.CharField(max_length=15, choices=SumberInput.choices, default=SumberInput.SCRAPING)
